@@ -1,0 +1,18 @@
+{
+  "appSelected": {
+    "appId": "5765880207853095595",
+    "appName": "memo",
+    "deviceTypes": [
+      {
+        "deviceType": 4
+      }
+    ],
+    "enableSites": "CN",
+    "installationFree": 0,
+    "packageType": 7,
+    "projectId": "388421841221808407",
+    "projectName": "boogiepop.memo",
+    "siteId": "CN"
+  },
+  "teamId": "30086000543197969"
+}
