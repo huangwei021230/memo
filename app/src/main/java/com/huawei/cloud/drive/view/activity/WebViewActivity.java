@@ -45,7 +45,6 @@ import androidx.annotation.NonNull;
 import com.huawei.cloud.drive.hms.HmsProxyImpl;
 import com.huawei.cloud.drive.log.Logger;
 import com.huawei.cloud.drive.utils.ViewUtil;
-import com.huawei.cloud.drive.R;
 
 import org.json.JSONException;
 import org.json.JSONObject;
@@ -53,6 +52,8 @@ import org.json.JSONObject;
 import java.lang.ref.WeakReference;
 import java.text.SimpleDateFormat;
 import java.util.Date;
+
+import boogiepop.memo.R;
 
 public class WebViewActivity extends HiDiskBaseActivity {
     private static final String TAG = "WebViewActivity";

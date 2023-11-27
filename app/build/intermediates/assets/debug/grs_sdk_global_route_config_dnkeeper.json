@@ -1,0 +1,18 @@
+{
+  "applications": [],
+  "services": [
+    {
+      "name": "com.huawei.dnkeeper",
+      "routeBy": "unconditional",
+      "servings": [
+        {
+          "addresses": {
+            "ROOT": "https://dnkeeper.hicloud.com"
+          }
+        }
+      ],
+      "countryOrAreaGroups": []
+    }
+  ],
+  "countryOrAreaGroups": []
+}

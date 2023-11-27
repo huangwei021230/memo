@@ -1,1 +1,18 @@
+pluginManagement {
+    repositories {
+        gradlePluginPortal()
+        google()
+        mavenCentral()
+        // 配置HMS Core SDK的Maven仓地址。
+        maven { url 'https://developer.huawei.com/repo/' }
+    }
+}
+dependencyResolutionManagement {
+    repositories {
+        google()
+        mavenCentral()
+        // 配置HMS Core SDK的Maven仓地址。
+        maven { url 'https://developer.huawei.com/repo/' }
+    }
+}
 include ':app'

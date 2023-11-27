@@ -30,10 +30,6 @@ import android.net.Uri;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Message;
-
-import androidx.annotation.NonNull;
-import androidx.annotation.Nullable;
-
 import android.text.TextUtils;
 import android.util.Log;
 import android.view.LayoutInflater;
@@ -42,12 +38,21 @@ import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.Toast;
 
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
+
 import com.huawei.cloud.base.http.FileContent;
 import com.huawei.cloud.base.media.MediaHttpDownloader;
 import com.huawei.cloud.base.media.MediaHttpDownloaderProgressListener;
 import com.huawei.cloud.base.util.DateTime;
 import com.huawei.cloud.base.util.StringUtils;
 import com.huawei.cloud.base.util.base64.Base64;
+import com.huawei.cloud.drive.hms.CredentialManager;
+import com.huawei.cloud.drive.hms.HmsProxyImpl;
+import com.huawei.cloud.drive.log.Logger;
+import com.huawei.cloud.drive.task.task.DriveTask;
+import com.huawei.cloud.drive.task.task.TaskManager;
+import com.huawei.cloud.drive.utils.thumbnail.ThumbnailUtilsImage;
 import com.huawei.cloud.drive.view.activity.WebViewActivity;
 import com.huawei.cloud.services.drive.Drive;
 import com.huawei.cloud.services.drive.model.About;
@@ -64,14 +69,6 @@ import com.huawei.cloud.services.drive.model.Reply;
 import com.huawei.cloud.services.drive.model.ReplyList;
 import com.huawei.cloud.services.drive.model.StartCursor;
 
-import com.huawei.cloud.drive.hms.CredentialManager;
-import com.huawei.cloud.drive.utils.thumbnail.ThumbnailUtilsImage;
-import com.huawei.cloud.drive.hms.HmsProxyImpl;
-import com.huawei.cloud.drive.log.Logger;
-import com.huawei.cloud.drive.task.task.DriveTask;
-import com.huawei.cloud.drive.task.task.TaskManager;
-import com.huawei.cloud.drive.R;
-
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.io.IOException;
@@ -83,6 +80,8 @@ import java.util.Date;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+
+import boogiepop.memo.R;
 
 /**
  * Interface Fragment, test for Drive interfaces

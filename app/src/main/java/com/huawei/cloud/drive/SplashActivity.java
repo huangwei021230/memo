@@ -23,12 +23,13 @@ import android.content.pm.PackageManager;
 import android.os.Build;
 import android.os.Bundle;
 import android.os.Environment;
-import androidx.annotation.Nullable;
 import android.text.TextUtils;
 import android.util.Log;
 import android.view.View;
 import android.widget.TextView;
 import android.widget.Toast;
+
+import androidx.annotation.Nullable;
 
 import com.huawei.cloud.base.auth.DriveCredential;
 import com.huawei.cloud.client.exception.DriveCode;
@@ -37,11 +38,12 @@ import com.huawei.cloud.drive.hms.HmsProxyImpl;
 import com.huawei.cloud.drive.log.Logger;
 import com.huawei.cloud.drive.task.task.DriveTask;
 import com.huawei.cloud.drive.task.task.TaskManager;
-import com.huawei.cloud.drive.R;
 import com.huawei.hmf.tasks.Task;
 import com.huawei.hms.common.ApiException;
 import com.huawei.hms.support.hwid.HuaweiIdAuthManager;
 import com.huawei.hms.support.hwid.result.AuthHuaweiId;
+
+import boogiepop.memo.R;
 
 /**
  * Splash Activity

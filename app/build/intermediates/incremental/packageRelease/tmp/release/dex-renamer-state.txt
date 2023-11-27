@@ -1,0 +1,4 @@
+#Sat Nov 25 22:36:58 CST 2023
+base.0=/Users/huangwei021230/code/ipads/HMS-core-Cloud/client/hms-drive-clientdemo/app/build/intermediates/dex/release/mergeDexRelease/classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

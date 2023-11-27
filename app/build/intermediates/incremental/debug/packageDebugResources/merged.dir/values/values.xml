@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="emui10_textColorSecondary">#99000000</color>
+    <color name="emui_color_bg">#FFFFFFFF</color>
+    <color name="emui_functional_blue">#007dff</color>
+    <color name="green_color">#47CC47</color>
+    <color name="hidisk_action_bar_bg_gray">#f2f2f2f2</color>
+    <color name="hidisk_action_bar_bg_white">#ffffffff</color>
+    <color name="hidisk_image_corner_color">#1A000000</color>
+    <color name="hidisk_navigation_bar_bg_gray">#f2f2f2f2</color>
+    <color name="hwbutton_color_fg_inverse_dark_disable">#616161</color>
+    <color name="hwbutton_color_fg_inverse_disable">#FFFFFF</color>
+    <color name="hwbutton_color_fg_inverse_translucent_disable">#61FFFFFF</color>
+    <color name="hwbutton_functional_blue_dark_disable">#610D9FFB</color>
+    <color name="hwbutton_functional_blue_disable">#61007DFF</color>
+    <color name="hwbutton_functional_blue_translucent_disable">#610D9FFB</color>
+    <color name="red_color">#CD3333</color>
+    <dimen name="corner_bg_size">8dp</dimen>
+    <dimen name="download_bar_height">48dp</dimen>
+    <dimen name="download_bar_item_icon_size">24dp</dimen>
+    <dimen name="download_bar_item_min_text">9dp</dimen>
+    <dimen name="download_bar_item_text">10dp</dimen>
+    <dimen name="emui10_btn_add_width">50dp</dimen>
+    <dimen name="emui10_btn_send_width">80dp</dimen>
+    <dimen name="emui10_elementsMarginHorizontalM">8dp</dimen>
+    <dimen name="emui10_elementsMarginHorizontalS">4dp</dimen>
+    <dimen name="emui10_elementsMarginVerticalM">8dp</dimen>
+    <dimen name="emui10_hotizontal_seprate_line_height">0.5dp</dimen>
+    <dimen name="emui10_list_min_height_40">40dp</dimen>
+    <dimen name="emui10_list_min_height_64">64dp</dimen>
+    <dimen name="emui10_margin_end_24">24dp</dimen>
+    <dimen name="emui10_margin_start_24">24dp</dimen>
+    <dimen name="emui10_title_14">14sp</dimen>
+    <dimen name="emui10_title_18">18sp</dimen>
+    <dimen name="emui10_title_9">9sp</dimen>
+    <dimen name="emui10_welcome_img_height">260dp</dimen>
+    <dimen name="hwbutton_emui_min_height">32dp</dimen>
+    <dimen name="login_button_width">200dp</dimen>
+    <dimen name="margin_l">16dp</dimen>
+    <dimen name="margin_m">8dp</dimen>
+    <dimen name="margin_s">4dp</dimen>
+    <dimen name="margin_xl">24dp</dimen>
+    <dimen name="margin_xs">2dp</dimen>
+    <dimen name="padding_l">16dp</dimen>
+    <dimen name="padding_m">8dp</dimen>
+    <dimen name="padding_s">4dp</dimen>
+    <dimen name="padding_xl">24dp</dimen>
+    <dimen name="padding_xs">2dp</dimen>
+    <dimen name="radius_l">8dp</dimen>
+    <dimen name="radius_m">4dp</dimen>
+    <dimen name="radius_s">2dp</dimen>
+    <dimen name="weight_height">0dp</dimen>
+    <plurals name="recycle_permanently_remove_select_file">
+        <item priority="LT" quantity="one">"Slette %d fil permanent?"</item>
+        <item priority="LT" quantity="other">"Slette %d filer permanent?"</item>
+    </plurals>
+    <string name="about">About</string>
+    <string name="about_get">About.Get</string>
+    <string name="about_title">About</string>
+    <string name="agc_0692DAD5D21427E7CCE627E8DC1ED71FDB307EBDC4DFB3A554BC60FCCE38E034" translatable="false">00CDAB61A578E175382193E670505EFAAAFD1334C97617519E6824E35FBF1FAE7C82C3A050DE709C4791CA2F7BFF73A633DB689CB0AD7B63B8D2E9EA21D3476939</string>
+    <string name="agc_109B7B0344C0EDE50A1F3332C0015C78281E801719F522B4F20FDF815A5BCC3F" translatable="false">002E035D1EAA8D4D37FC62E0617F5358F40ED3268AA43193B70374A27980AD100ACE4C5A3D19D60E171850F4BF5E65908F9239CCB2916AAFB922EDB1AE203ECB5543266CC485DFAD80D2479785B5B58268FC89462B3C497D9FF15B882F15087945</string>
+    <string name="agc_1DAF2070F644F3B6CEA88178D5DA98CE4A7A380B545F415B1A228519B1E134C8" translatable="false">006DD81D68194FEE719C1E8FE3D34EF21B924F28A57F6A5C6489988246661AE029F85CF05202979AABB816763731F133EE</string>
+    <string name="agc_1F79ACBA9BD8A7666759524C3052C88689CBB5873811854517CBBE65DC268EAA" translatable="false">48E7B536634636AC15A8F6BA1B087255</string>
+    <string name="agc_2CF9BE2236D08368B0649449A8546AA52B2038D467F630312C146F9EA821AC2E" translatable="false">003D8E307F6A0E3E39753F699A49368D34A7908E612887EA8A92B97732EB7157BD</string>
+    <string name="agc_3C5E7223FA10AEB1FFA081C86F85F3C23A0526877FBC6A3A77C4D36A7BA9AAB3" translatable="false">00291A25EA71E6DE2C335461D5720BDC2991DC7C480773F1B617D5469EDAEA8504D2EB268D33A68534FF2C1FCD5A8194C2</string>
+    <string name="agc_42CFA4FE0F87541B3B3F9793F5D829BE381703BB99853CCC25D018996F251536" translatable="false">009E9C8814474DCC1C0E1104C59795B98F42256C89BC974636364656043FD54074</string>
+    <string name="agc_432BA784B7D2E3A6C73AB69659D3300DC6258E318543A10B50EA4B770C67DAB3" translatable="false">00624F234B041B266ADA393C25279EAA1D22C322FECB0CE63D8CF8E9580B1DAC38B340078FBB72CADA04D92B89A7C7BDED671F2F8A8818414F392439D44DC68703</string>
+    <string name="agc_4E59F3D37D339A997CACA4A0C457DAA94A1F044555D950F1F9835B0B6F600D38" translatable="false">0047695373E369589B2A35435ED3D88BB88B3AF4DC7CD5F05A21FAEED77E07E4D1</string>
+    <string name="agc_52C6C717F2BEA9936D7DEDC27E412B9E7AC9A6642A6D0AEE353B2B14737100F5" translatable="false">00969D8108F5360A44195948C6BF41792AA69D005FF5E7CE4C6CADD650202EB4FD22655498296DE45EE85C34C3989B250D</string>
+    <string name="agc_55A14C88686718883C90D427958F540EC05210E430ED915D772D8F34C350D08B" translatable="false">0026172A97616AFC0B49524EDC3DDE3EA99EA097AF74910DD16372B988D990DD5BCC137BA462F9A6680B54BDCC45065352C62D5A1A259E493D87923A53A0D91FCB</string>
+    <string name="agc_56BB9FCDF7DAFDC12F18BE8BF765769B14E090D615353A1FF24238CC17EF2F2F" translatable="false">00A134FADA7BB0EAC48A03B06A83219793CD5B024A7491C5D90F10D4B2263E07DF67A25CFDF1DDAD1F2C5028271E314DC3B622BC2556408E035B549EF035C27861</string>
+    <string name="agc_5B5AF298A58B98DB86A04DB0E3B1924F7EAC7A14CA781F042E5F999BD413CC9E" translatable="false">00F9907E5B847AF56E172F74F3C625BB0251DC31B6193D26DD8011D35F65D63005A03F845B52150AE1AB1BA448AEB572F1</string>
+    <string name="agc_63F3255D837430EC4C799B2B5A8091A554A101C6FAC114907463E723AF33B544" translatable="false">00D3614F389518B052302F04FC0BA7FF7AFA3DD13ACD80B7634B4580EF630EEC6BBDABE718CFFDBE5CF72083E5E1AC4F0FC6041713BCA4C9C9F6DA2A5EF9592952E85D98677244F1B220599A90D823A2571D670D50E7448E91B3F032072E659C481FBDA3860886AC5C5378C5514F4659E81E254505C44494AAA1500E63F09A07387907C5F51F40A1FB9EC8673BD250C72DDF9446F85FFBA33E15A46941CDA283383A6B2592C709788B3EBBED860433A76B52B50C3D86AFB431784BE3C6407A6551054DD4421646BE161A1D989C1B5CFD46</string>
+    <string name="agc_66412D70318648FA3BDD00A3CB2E73EE439F788EBA8010232B3B145A1ADE18F4" translatable="false">00D8A292CA2090195EA285F1300863C6C89BC8FAE2E388A9933ACF48329352640F</string>
+    <string name="agc_69589FA8E5257AA8E3C477503B5586F4B4981C77F69B612318E3FC7AF1B00890" translatable="false">002CE20D8B535FF2C80F5B1FEA6C1DF6D711D6E92B734A39C133C64637FFA4D4C9</string>
+    <string name="agc_6D239E4C2FF1354F6DBB62ED715B0B2A4058A2C1B368EB9F5FAF8B457ED28FA6" translatable="false">009919DDFA3AF26D6D40271746176FEABEE0ACC34D1F3888B272FB9EBAB97E6A12432A65FF968ECE20BC854C65E0D1DC8B67B73BDD7C1FB646F6EEBE90AFD71185</string>
+    <string name="agc_6DC2F1E7B3508CE97B8A34B184EAD19FADAAC83160422DE0BA2F78B0438C6A98" translatable="false">00847AE56CB97F33D6B14CE530E4750D61E76BD94C0EB35B39CDBD44F745C21C359A37C55A6DAB1C5B07E3C54E0B0E5CBB</string>
+    <string name="agc_7AE336DAB422A03E8E8A5A88C60ACA96939FAAC47AFC07F2870F0CAD9FB9C952" translatable="false">0060B0B694E2B4CAFBC1E85CA9E0B7AA390D26898761167BF8B7AAA6371A9D586D0A5955610C4841849589BE8AF4917A23A16A43E5D51D579E24778AAC3A8B6312</string>
+    <string name="agc_82EF8D63B2BE36159522C21C4D086D73D713FEEEE73A9F1FAF569DFCE12A4EAD" translatable="false">002134920670B2302E01306B38224E5FECC47B2E9D5307FCE4E387B41745A3947A1D79B36611E0993C718E8D2DDFAD9C92C8F3EF36D8E08394AF077D4FCAA2D180</string>
+    <string name="agc_840FE2348B9312C51373EFB2E2F030D10C43688DDE98467C8DD63AC7DC1855AB" translatable="false">0033A2A85354B6511D1012FAA54BCC93082F2504276A90DECB17422A202634C2A6</string>
+    <string name="agc_864E57EAF6D5DB70BE861700AFF6C17A93A9D202732BCB4048B0CDBB6EBF578F" translatable="false">0000AE22D73E02E137B496085DDC2F3C4ACEE07450B71ACC8614A3A0B2F70067C84B1729300C6BD5B0BF8F7FE11162FFE675063D9DDC411B9920298D11BFF56EE5</string>
+    <string name="agc_8CBEB54DD45F5D2D07C517A93D2C07AC37E088876F07FDDF2D74CEFF5500AE68" translatable="false">0015CFF0CCFF591A52D3985DAA0DA0906B82BCC07D359E6BACE933A072D32C4FDD065A15A443A7FEFA6A21616D01F9D667</string>
+    <string name="agc_943F28EFD067BBA193A2BABED8B2DCC2AB346B483A7A7FFE4EEF97B6A6E8E95B" translatable="false">0097AFAEC7595AD9A4265D5C0B851A57390EC4B9E4822322C6DB09347206D245497AA3FA0A767DAE26DA2C7638F6FFB67B</string>
+    <string name="agc_A957AA80726AF0C438189B1E3703E5FF6FE072D7AEA1E90C98FC5AD863C11F19" translatable="false">00C34844E0D38A436AC9B56BE6974FD6C173D6FFAFEDE16952091242BA0B11AAE053B39116B205D308C3051E6FC41DD7F9F30F6A382612EF374A5BBE0B3CB87DAE</string>
+    <string name="agc_B1D468BFE76734080F76B2B7AFCD4E74561AE0CB6D3E48BC35857EFB95EA0BA0" translatable="false">003C89859376E6C3F3FCD5EF8D225FF9995E2E6E89B1D137DE790828296588C0B6902023C84A8C2EE0D799BB812B9063BD</string>
+    <string name="agc_B306EDA810E24A85B9E96B29457CBA22E7AB7624F9F2D241D325EAA1B74DAB4B" translatable="false">00CD49E4A8D082112091AEE6DF690CD158469D5F7CB297A37E22FF079A37B5D912D8802F0C6926CA35A89048AB46EC07C8D04C2BE49056807989D0294336C6E4C32D4D3217384BFE557C3554A68FE71D8F42A26D083BCD3F3F7CE62A2D9E421960C47934356373B9680728E3CDFA1E7E9EC00BB2023B11ADF51005F386C8AB35BD</string>
+    <string name="agc_B9EAB77AB7FDFB9A9577EEAC5B15C13D00CD198883FD8D2BCF6CD048B1DB8EAC" translatable="false">1142C3A73132BE5A53D759125C4E4586</string>
+    <string name="agc_C3DED0D7C90067F30C634C6CDEFFC61344FA2694CC52ECE824A3F70C8CDFA666" translatable="false">001A2CFA855DAB5B3EF2B3C6523CCD7CD8872030F8B60699B2DD93B5A5CC0E7F6F28D32E8FE20F50E36F0A52566D7B37F9</string>
+    <string name="agc_C4330BAE8FC09BD4A959CF04DAEE8EFE115C9EDA57BA69F3289EE86FD4D9202E" translatable="false">000FA5369ED6ABAB3FB693E764017CC104EC626FB7532B23B208A8A47574E5FDBB7539255EAC9558608233180341A255C28D89954864B29EA4E2F1BB60AAB92678</string>
+    <string name="agc_D96112F0F656550C8068DE16CF313478D253DDAF4E18EEE01F6D94CA6DD5013F" translatable="false">4A229497531392CCEC72835FA66DD4D6</string>
+    <string name="agc_EB3381D0A0BF05A68A3A3BB3A0A5F32CA98503EC69D0CA217FC3A1403801B633" translatable="false">004BC15BB8E408C7F01FE74FA81015837B1102682AB0D960B422469BA463A9551F</string>
+    <string name="agc_F56D9E20C47154729D3F411FD73FA2BDDF0330EB0A9873ACC352CC371FC5A767" translatable="false">C6C1C0490CED2B5337B379F159FCC06B</string>
+    <string name="agc_F8EBEB2E04C248348C1BA7F1864FC2965663846860E09D6B39E6EA5DE4E88862" translatable="false">0062540CCA10F9D57C58CEBD48D5270EE294B5DCE80F3C4974842AD540C028E4A2E5646E7F589AD85B2443FEF9455739760C0D2B8DB1F29C24BE5948B9B73D1B5D</string>
+    <string name="app_name">Huawei Drive</string>
+    <string name="backup">AppDataBackUp</string>
+    <string name="categoryfile" priority="translator">Request</string>
+    <string name="changes">Changes</string>
+    <string name="changes_getstartcursor">Changes.GetStartCursor</string>
+    <string name="changes_list">Changes.List</string>
+    <string name="changes_subscribe">Changes.Subscribe</string>
+    <string name="channels">Channels</string>
+    <string name="channels_stop">Channels.Stop</string>
+    <string name="cloud_space_full" priority="translator">Cloud space is full, save failed, please upgrade cloud space first and try again</string>
+    <string name="comments">Comments</string>
+    <string name="comments_create">comments.create</string>
+    <string name="comments_delete">comments.delete</string>
+    <string name="comments_get">comments.get</string>
+    <string name="comments_list">comments.list</string>
+    <string name="comments_update">comments.update</string>
+    <string name="databackup">DataBackUp</string>
+    <string name="datarestore">DataRestore</string>
+    <string name="details_file_name" priority="translator">"File name:"</string>
+    <string name="details_folder_name" priority="translator">"Folder name:"</string>
+    <string name="details_panel_title" priority="translator">Details</string>
+    <string name="file_info_size" priority="translator">File size:</string>
+    <string name="files">Files</string>
+    <string name="files_copy">Files.Copy</string>
+    <string name="files_create">Files.CreateDir</string>
+    <string name="files_createfile">Files.CreateFile</string>
+    <string name="files_delete">Files.Delete</string>
+    <string name="files_emptyrecycle">Files.EmptyRecycle</string>
+    <string name="files_get">Files.Get</string>
+    <string name="files_list">Files.List</string>
+    <string name="files_subscribe">Files.Subscribe</string>
+    <string name="files_update">Files.Update</string>
+    <string name="files_updatecontent">Files.UpdateContent</string>
+    <string name="folder_info_include" priority="translator">Include:</string>
+    <string name="historyversions">HistoryVersions</string>
+    <string name="historyversions_delete">HistoryVersions.Delete</string>
+    <string name="historyversions_get">HistoryVersions.Get</string>
+    <string name="historyversions_list">HistoryVersions.List</string>
+    <string name="historyversions_update">HistoryVersions.Update</string>
+    <string name="list_changes" priority="LT">list changes</string>
+    <string name="log_in">Login with Huawei ID</string>
+    <string name="menu_album" priority="translator">Select from Gallery</string>
+    <string name="menu_open_camera" priority="translator">Take photo</string>
+    <string name="netdisk_appdata" priority="LT">My Application</string>
+    <string name="netdisk_move_state_recycle_unenable" priority="LT">Unable to move file to Recently deleted.</string>
+    <string name="netdisk_recently_deleted" priority="LT">Recently deleted</string>
+    <string name="onlineopen">OnlineOpen</string>
+    <string name="permissions">Permissions</string>
+    <string name="permissions_create">permissions.create</string>
+    <string name="permissions_delete">permissions.delete</string>
+    <string name="permissions_get">permissions.get</string>
+    <string name="permissions_list">permissions.list</string>
+    <string name="permissions_update">permissions.update</string>
+    <string name="recent" priority="LT">Interface</string>
+    <string name="recovery" priority="LT">Restore</string>
+    <string name="recycle_delete_time" priority="LT">Delete time:</string>
+    <string name="recycle_reduction" priority="LT">Restore</string>
+    <string name="recycle_remove_completely" priority="LT">Delete</string>
+    <string name="replies">Replies</string>
+    <string name="replies_create">replies.create</string>
+    <string name="replies_delete">replies.delete</string>
+    <string name="replies_get">replies.get</string>
+    <string name="replies_list">replies.list</string>
+    <string name="replies_update">replies.update</string>
+    <string name="reset">reset</string>
+    <string name="restore">AppDataRestore</string>
+    <string name="send" priority="LT">send</string>
+    <string name="start_new_watch" priority="LT">start new watch</string>
+    <string name="str_copyright" priority="LT">Copyright © %1$d-%2$d Huawei Software Technologies Co., Ltd. All rights reserved.</string>
+    <string name="strongbox_original_path" priority="translator">"Original path: "</string>
+    <style name="HiDisk_EMUI10_list_item_margin">
+        <item name="android:layout_marginStart">@dimen/emui10_margin_start_24</item>
+        <item name="android:layout_marginEnd">@dimen/emui10_margin_end_24</item>
+    </style>
+    <style name="Widget.Emui.HwButton" parent="@android:style/Widget.Holo.Button">
+        <item name="android:background">@drawable/hwbutton_default_emui</item>
+        <item name="android:textColor">@color/hwbutton_text_normal_emui</item>
+        <item name="android:minHeight">@dimen/hwbutton_emui_min_height</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+    <declare-styleable name="HidiskClassificationView">
+        <attr format="string" name="text_name"/>
+        <attr format="string" name="text_count"/>
+        <attr format="color" name="text_name_color"/>
+        <attr format="color" name="text_count_color"/>
+        <attr format="dimension" name="text_name_size"/>
+        <attr format="dimension" name="text_count_size"/>
+        <attr format="reference" name="image_src"/>
+        <attr format="reference" name="image_bg"/>
+        <attr format="dimension" name="image_width"/>
+        <attr format="dimension" name="image_height"/>
+    </declare-styleable>
+    <declare-styleable name="Multi_Image_View">
+       <attr format="reference" name="background"/>
+       
+       <attr format="dimension" name="layout_width_stack1"/>
+       <attr format="dimension" name="layout_height_stack1"/>
+       <attr format="reference" name="src_stack1"/>
+       <attr format="reference" name="background_stack1"/>
+       <attr format="dimension" name="offset_stack1"/>
+       <attr format="float" name="alpha_stack1"/>
+       <attr format="dimension" name="layout_width_stack2"/>
+       <attr format="dimension" name="layout_height_stack2"/>
+       <attr format="reference" name="src_stack2"/>
+       <attr format="reference" name="background_stack2"/>
+       <attr format="dimension" name="offset_stack2"/>
+       <attr format="float" name="alpha_stack2"/>
+   </declare-styleable>
+    <declare-styleable name="RingProgressBar">
+        <attr format="color" name="ringBackgroundColor"/>
+        <attr format="dimension" name="ringWidth"/>
+        <attr format="color" name="ringTextColor"/>
+        <attr format="dimension" name="ringTextSize"/>
+        <attr format="integer" name="ringMax"/>
+        <attr format="dimension" name="ringPercentSize"/>
+    </declare-styleable>
+    <declare-styleable name="RoundPercentBar">
+        <attr format="color" name="backgroundColor"/>
+        <attr format="color" name="audioTypeColor"/>
+        <attr format="color" name="videoTypeColor"/>
+        <attr format="color" name="imageTypeColor"/>
+        <attr format="color" name="docTypeColor"/>
+        <attr format="color" name="appTypeColor"/>
+        <attr format="color" name="archiveTypeColor"/>
+        <attr format="color" name="otherTypeColor"/>
+        <attr format="dimension" name="rectWidth"/>
+        <attr format="color" name="textColor"/>
+        <attr format="dimension" name="textSize"/>
+        <attr format="integer" name="roundMax"/>
+        <attr format="dimension" name="percentTextSize"/>
+        <attr format="color" name="percentTextColor"/>
+    </declare-styleable>
+</resources>

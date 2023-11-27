@@ -1,0 +1,8 @@
+{
+  "driver_server": {
+    "base_url": [
+      "https://driveapis.cloud.huawei.com",
+      "https://driveapis.cloud.huawei.com.cn"
+    ]
+  }
+}
