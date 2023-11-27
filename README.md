@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # HMS Drivekit Clientdemo
 
 [![License](https://img.shields.io/badge/Docs-hmsguides-brightgreen)](https://developer.huawei.com/consumer/cn/doc/development/HMS-Guides/drivekit-introduction)  ![Apache-2.0](https://img.shields.io/badge/license-Apache-blue)
@@ -82,4 +83,4 @@ If you have questions about how to use HMS samples, try the following options:
 If you run into a bug in our samples, please submit an [issue](https://github.com/HMS-Core/hms-drive-clientdemo/issues) to the Repository. Even better you can submit a [Pull Request](https://github.com/HMS-Core/hms-drive-clientdemo/pulls) with a fix.
 
 ## License
- DriveKit SDK sample is licensed under the [Apache License, version 2.0](http://www.apache.org/licenses/LICENSE-2.0).  
+ DriveKit SDK sample is licensed under the [Apache License, version 2.0](http://www.apache.org/licenses/LICENSE-2.0).
