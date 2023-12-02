@@ -18,6 +18,7 @@ import com.huawei.cloud.drive.MainActivity;
 import com.huawei.cloud.drive.adapter.TabsAdapter;
 import com.huawei.cloud.drive.hms.HmsServiceManager;
 import com.huawei.cloud.services.drive.model.File;
+import com.huawei.cloud.services.drive.model.FileList;
 
 import java.io.IOException;
 import java.util.ArrayList;
@@ -52,12 +53,15 @@ public class NotesFragment extends Fragment {
         buttonAddNote = view.findViewById(R.id.btnAddNote);
         listViewNotes = view.findViewById(R.id.listViewNotes);
         hmsServiceManager = new HmsServiceManager(getContext());
+
         notesList = new ArrayList<>();
         // 创建适配器并设置给 ListView
         notesAdapter = new ArrayAdapter<>(getContext(), android.R.layout.simple_list_item_1, notesList);
 
         listViewNotes.setAdapter(notesAdapter);
         mTabsAdapter = ((MainActivity) getActivity()).mTabsAdapter;
+
+
         new FileListAsyncTask().execute();
 
 
