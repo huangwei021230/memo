@@ -1032,6 +1032,7 @@ drawable hwid_auth_button_round_black
 drawable hwid_auth_button_round_normal
 drawable hwid_auth_button_round_white
 drawable hwid_auth_button_white
+drawable ic_arrow_back
 drawable ic_launcher_background
 drawable ic_launcher_foreground
 drawable notification_action_background
@@ -1151,6 +1152,7 @@ id bounce
 id bounceBoth
 id bounceEnd
 id bounceStart
+id btnAddNote
 id buttonPanel
 id cache_measures
 id callMeasure
@@ -1296,6 +1298,7 @@ id ifRoom
 id ignore
 id ignoreRequest
 id image
+id imageViewBack
 id immediateStop
 id included
 id info
@@ -1311,6 +1314,7 @@ id line1
 id line3
 id linear
 id listMode
+id listViewNotes
 id list_item
 id match_constraint
 id match_parent
@@ -1421,6 +1425,8 @@ id text
 id text2
 id textSpacerNoButtons
 id textSpacerNoTitle
+id textViewNoteContent
+id textViewNoteTitle
 id third_app_dl_progress_text
 id third_app_dl_progressbar
 id third_app_warn_text
@@ -1502,6 +1508,8 @@ layout activity_splash
 layout custom_dialog
 layout docskit_activity_web_veiw
 layout hms_download_progress
+layout memo_fragment
+layout note_detail_fragment
 layout notification_action
 layout notification_action_tombstone
 layout notification_media_action

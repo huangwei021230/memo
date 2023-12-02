@@ -18,4 +18,5 @@
         android:layout_weight="1">
     </com.huawei.cloud.drive.view.FileViewPager>
 
+
 </LinearLayout>

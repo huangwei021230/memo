@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/huangwei021230/code/ipads/HMS-core-Cloud/client/hms-drive-clientdemo/app/src/main/AndroidManifest.xml:2:1-69:12
-INJECTED from /Users/huangwei021230/code/ipads/HMS-core-Cloud/client/hms-drive-clientdemo/app/src/main/AndroidManifest.xml:2:1-69:12
-INJECTED from /Users/huangwei021230/code/ipads/HMS-core-Cloud/client/hms-drive-clientdemo/app/src/main/AndroidManifest.xml:2:1-69:12
-INJECTED from /Users/huangwei021230/code/ipads/HMS-core-Cloud/client/hms-drive-clientdemo/app/src/main/AndroidManifest.xml:2:1-69:12
+ADDED from /Users/huangwei021230/code/ipads/HMS-core-Cloud/client/hms-drive-clientdemo/app/src/main/AndroidManifest.xml:2:1-71:12
+INJECTED from /Users/huangwei021230/code/ipads/HMS-core-Cloud/client/hms-drive-clientdemo/app/src/main/AndroidManifest.xml:2:1-71:12
+INJECTED from /Users/huangwei021230/code/ipads/HMS-core-Cloud/client/hms-drive-clientdemo/app/src/main/AndroidManifest.xml:2:1-71:12
+INJECTED from /Users/huangwei021230/code/ipads/HMS-core-Cloud/client/hms-drive-clientdemo/app/src/main/AndroidManifest.xml:2:1-71:12
 MERGED from [androidx.recyclerview:recyclerview:1.0.0] /Users/huangwei021230/.gradle/caches/transforms-3/82b1c91db7af1cdb491d3a9b6cc7020b/transformed/recyclerview-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.2] /Users/huangwei021230/.gradle/caches/transforms-3/57a7ccc92dac923cfd71959e8382e3f4/transformed/constraintlayout-2.1.2/AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.appcompat:appcompat:1.3.1] /Users/huangwei021230/.gradle/caches/transforms-3/40244aad36396e1ea4fc1da3e1c59e5a/transformed/appcompat-1.3.1/AndroidManifest.xml:17:1-24:12
@@ -59,22 +59,22 @@ MERGED from [com.huawei.hms:update:2.0.6.300] /Users/huangwei021230/.gradle/cach
 MERGED from [com.huawei.hms:network-framework-compat:5.0.4.300] /Users/huangwei021230/.gradle/caches/transforms-3/120dfd388432fe7b0e8d3e31b250c527/transformed/jetified-network-framework-compat-5.0.4.300/AndroidManifest.xml:2:1-11:12
 MERGED from [com.huawei.hms:network-common:5.0.4.300] /Users/huangwei021230/.gradle/caches/transforms-3/adf1673fb797a11ed4993ec58b20a6f6/transformed/jetified-network-common-5.0.4.300/AndroidManifest.xml:2:1-11:12
 MERGED from [com.huawei.hms:dynamic-api:1.0.17.300] /Users/huangwei021230/.gradle/caches/transforms-3/b77597fcb7911bca8d9ec7c0690720f6/transformed/jetified-dynamic-api-1.0.17.300/AndroidManifest.xml:2:1-25:12
-INJECTED from /Users/huangwei021230/code/ipads/HMS-core-Cloud/client/hms-drive-clientdemo/app/src/main/AndroidManifest.xml:2:1-69:12
-INJECTED from /Users/huangwei021230/code/ipads/HMS-core-Cloud/client/hms-drive-clientdemo/app/src/main/AndroidManifest.xml:2:1-69:12
-INJECTED from /Users/huangwei021230/code/ipads/HMS-core-Cloud/client/hms-drive-clientdemo/app/src/main/AndroidManifest.xml:2:1-69:12
+INJECTED from /Users/huangwei021230/code/ipads/HMS-core-Cloud/client/hms-drive-clientdemo/app/src/main/AndroidManifest.xml:2:1-71:12
+INJECTED from /Users/huangwei021230/code/ipads/HMS-core-Cloud/client/hms-drive-clientdemo/app/src/main/AndroidManifest.xml:2:1-71:12
+INJECTED from /Users/huangwei021230/code/ipads/HMS-core-Cloud/client/hms-drive-clientdemo/app/src/main/AndroidManifest.xml:2:1-71:12
 	package
 		INJECTED from /Users/huangwei021230/code/ipads/HMS-core-Cloud/client/hms-drive-clientdemo/app/src/main/AndroidManifest.xml
-		ADDED from /Users/huangwei021230/code/ipads/HMS-core-Cloud/client/hms-drive-clientdemo/app/src/main/AndroidManifest.xml:2:1-69:12
+		ADDED from /Users/huangwei021230/code/ipads/HMS-core-Cloud/client/hms-drive-clientdemo/app/src/main/AndroidManifest.xml:2:1-71:12
 		INJECTED from /Users/huangwei021230/code/ipads/HMS-core-Cloud/client/hms-drive-clientdemo/app/src/main/AndroidManifest.xml
 	android:versionName
 		INJECTED from /Users/huangwei021230/code/ipads/HMS-core-Cloud/client/hms-drive-clientdemo/app/src/main/AndroidManifest.xml
-		ADDED from /Users/huangwei021230/code/ipads/HMS-core-Cloud/client/hms-drive-clientdemo/app/src/main/AndroidManifest.xml:2:1-69:12
+		ADDED from /Users/huangwei021230/code/ipads/HMS-core-Cloud/client/hms-drive-clientdemo/app/src/main/AndroidManifest.xml:2:1-71:12
 		INJECTED from /Users/huangwei021230/code/ipads/HMS-core-Cloud/client/hms-drive-clientdemo/app/src/main/AndroidManifest.xml
 	xmlns:tools
 		ADDED from /Users/huangwei021230/code/ipads/HMS-core-Cloud/client/hms-drive-clientdemo/app/src/main/AndroidManifest.xml:3:5-51
 	android:versionCode
 		INJECTED from /Users/huangwei021230/code/ipads/HMS-core-Cloud/client/hms-drive-clientdemo/app/src/main/AndroidManifest.xml
-		ADDED from /Users/huangwei021230/code/ipads/HMS-core-Cloud/client/hms-drive-clientdemo/app/src/main/AndroidManifest.xml:2:1-69:12
+		ADDED from /Users/huangwei021230/code/ipads/HMS-core-Cloud/client/hms-drive-clientdemo/app/src/main/AndroidManifest.xml:2:1-71:12
 		INJECTED from /Users/huangwei021230/code/ipads/HMS-core-Cloud/client/hms-drive-clientdemo/app/src/main/AndroidManifest.xml
 	xmlns:android
 		ADDED from /Users/huangwei021230/code/ipads/HMS-core-Cloud/client/hms-drive-clientdemo/app/src/main/AndroidManifest.xml:2:11-69
@@ -96,14 +96,20 @@ uses-permission#android.permission.READ_EXTERNAL_STORAGE
 ADDED from /Users/huangwei021230/code/ipads/HMS-core-Cloud/client/hms-drive-clientdemo/app/src/main/AndroidManifest.xml:7:5-80
 	android:name
 		ADDED from /Users/huangwei021230/code/ipads/HMS-core-Cloud/client/hms-drive-clientdemo/app/src/main/AndroidManifest.xml:7:22-77
-uses-permission#android.permission.WRITE_MEDIA_STORAGE
-ADDED from /Users/huangwei021230/code/ipads/HMS-core-Cloud/client/hms-drive-clientdemo/app/src/main/AndroidManifest.xml:8:5-10:47
+uses-permission#android.permission.WRITE_SECURE_SETTINGS
+ADDED from /Users/huangwei021230/code/ipads/HMS-core-Cloud/client/hms-drive-clientdemo/app/src/main/AndroidManifest.xml:8:5-9:47
 	tools:ignore
-		ADDED from /Users/huangwei021230/code/ipads/HMS-core-Cloud/client/hms-drive-clientdemo/app/src/main/AndroidManifest.xml:10:9-44
+		ADDED from /Users/huangwei021230/code/ipads/HMS-core-Cloud/client/hms-drive-clientdemo/app/src/main/AndroidManifest.xml:9:9-44
 	android:name
-		ADDED from /Users/huangwei021230/code/ipads/HMS-core-Cloud/client/hms-drive-clientdemo/app/src/main/AndroidManifest.xml:9:9-62
+		ADDED from /Users/huangwei021230/code/ipads/HMS-core-Cloud/client/hms-drive-clientdemo/app/src/main/AndroidManifest.xml:8:22-77
+uses-permission#android.permission.WRITE_MEDIA_STORAGE
+ADDED from /Users/huangwei021230/code/ipads/HMS-core-Cloud/client/hms-drive-clientdemo/app/src/main/AndroidManifest.xml:10:5-12:47
+	tools:ignore
+		ADDED from /Users/huangwei021230/code/ipads/HMS-core-Cloud/client/hms-drive-clientdemo/app/src/main/AndroidManifest.xml:12:9-44
+	android:name
+		ADDED from /Users/huangwei021230/code/ipads/HMS-core-Cloud/client/hms-drive-clientdemo/app/src/main/AndroidManifest.xml:11:9-62
 uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from /Users/huangwei021230/code/ipads/HMS-core-Cloud/client/hms-drive-clientdemo/app/src/main/AndroidManifest.xml:12:5-79
+ADDED from /Users/huangwei021230/code/ipads/HMS-core-Cloud/client/hms-drive-clientdemo/app/src/main/AndroidManifest.xml:14:5-79
 MERGED from [com.huawei.hms:network-embedded:5.0.4.300] /Users/huangwei021230/.gradle/caches/transforms-3/b373cbb83fc8a4b03c0ff3de7b6d47ce/transformed/jetified-network-embedded-5.0.4.300/AndroidManifest.xml:12:5-79
 MERGED from [com.huawei.hms:network-embedded:5.0.4.300] /Users/huangwei021230/.gradle/caches/transforms-3/b373cbb83fc8a4b03c0ff3de7b6d47ce/transformed/jetified-network-embedded-5.0.4.300/AndroidManifest.xml:12:5-79
 MERGED from [com.huawei.hms:base:4.0.2.300] /Users/huangwei021230/.gradle/caches/transforms-3/dcec466431619f25de5c40040e510396/transformed/jetified-base-4.0.2.300/AndroidManifest.xml:14:5-79
@@ -111,17 +117,17 @@ MERGED from [com.huawei.hms:base:4.0.2.300] /Users/huangwei021230/.gradle/caches
 MERGED from [com.huawei.hms:update:2.0.6.300] /Users/huangwei021230/.gradle/caches/transforms-3/6e6a96461d162ab1e15199292c463b44/transformed/jetified-update-2.0.6.300/AndroidManifest.xml:12:5-79
 MERGED from [com.huawei.hms:update:2.0.6.300] /Users/huangwei021230/.gradle/caches/transforms-3/6e6a96461d162ab1e15199292c463b44/transformed/jetified-update-2.0.6.300/AndroidManifest.xml:12:5-79
 	android:name
-		ADDED from /Users/huangwei021230/code/ipads/HMS-core-Cloud/client/hms-drive-clientdemo/app/src/main/AndroidManifest.xml:12:22-76
+		ADDED from /Users/huangwei021230/code/ipads/HMS-core-Cloud/client/hms-drive-clientdemo/app/src/main/AndroidManifest.xml:14:22-76
 uses-permission#android.permission.REQUEST_INSTALL_PACKAGES
-ADDED from /Users/huangwei021230/code/ipads/HMS-core-Cloud/client/hms-drive-clientdemo/app/src/main/AndroidManifest.xml:15:5-83
+ADDED from /Users/huangwei021230/code/ipads/HMS-core-Cloud/client/hms-drive-clientdemo/app/src/main/AndroidManifest.xml:17:5-83
 MERGED from [com.huawei.hms:base:4.0.2.300] /Users/huangwei021230/.gradle/caches/transforms-3/dcec466431619f25de5c40040e510396/transformed/jetified-base-4.0.2.300/AndroidManifest.xml:16:5-83
 MERGED from [com.huawei.hms:base:4.0.2.300] /Users/huangwei021230/.gradle/caches/transforms-3/dcec466431619f25de5c40040e510396/transformed/jetified-base-4.0.2.300/AndroidManifest.xml:16:5-83
 MERGED from [com.huawei.hms:update:2.0.6.300] /Users/huangwei021230/.gradle/caches/transforms-3/6e6a96461d162ab1e15199292c463b44/transformed/jetified-update-2.0.6.300/AndroidManifest.xml:15:5-83
 MERGED from [com.huawei.hms:update:2.0.6.300] /Users/huangwei021230/.gradle/caches/transforms-3/6e6a96461d162ab1e15199292c463b44/transformed/jetified-update-2.0.6.300/AndroidManifest.xml:15:5-83
 	android:name
-		ADDED from /Users/huangwei021230/code/ipads/HMS-core-Cloud/client/hms-drive-clientdemo/app/src/main/AndroidManifest.xml:15:22-80
+		ADDED from /Users/huangwei021230/code/ipads/HMS-core-Cloud/client/hms-drive-clientdemo/app/src/main/AndroidManifest.xml:17:22-80
 application
-ADDED from /Users/huangwei021230/code/ipads/HMS-core-Cloud/client/hms-drive-clientdemo/app/src/main/AndroidManifest.xml:18:5-68:19
+ADDED from /Users/huangwei021230/code/ipads/HMS-core-Cloud/client/hms-drive-clientdemo/app/src/main/AndroidManifest.xml:20:5-70:19
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.2] /Users/huangwei021230/.gradle/caches/transforms-3/57a7ccc92dac923cfd71959e8382e3f4/transformed/constraintlayout-2.1.2/AndroidManifest.xml:9:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.2] /Users/huangwei021230/.gradle/caches/transforms-3/57a7ccc92dac923cfd71959e8382e3f4/transformed/constraintlayout-2.1.2/AndroidManifest.xml:9:5-20
 MERGED from [com.huawei.hms:drive:5.2.0.300] /Users/huangwei021230/.gradle/caches/transforms-3/7bf6a4f43006d5d6d37b866dd4d023d2/transformed/jetified-drive-5.2.0.300/AndroidManifest.xml:11:5-19:19
@@ -151,91 +157,91 @@ MERGED from [com.huawei.hms:update:2.0.6.300] /Users/huangwei021230/.gradle/cach
 MERGED from [com.huawei.hms:dynamic-api:1.0.17.300] /Users/huangwei021230/.gradle/caches/transforms-3/b77597fcb7911bca8d9ec7c0690720f6/transformed/jetified-dynamic-api-1.0.17.300/AndroidManifest.xml:16:5-23:19
 MERGED from [com.huawei.hms:dynamic-api:1.0.17.300] /Users/huangwei021230/.gradle/caches/transforms-3/b77597fcb7911bca8d9ec7c0690720f6/transformed/jetified-dynamic-api-1.0.17.300/AndroidManifest.xml:16:5-23:19
 	android:requestLegacyExternalStorage
-		ADDED from /Users/huangwei021230/code/ipads/HMS-core-Cloud/client/hms-drive-clientdemo/app/src/main/AndroidManifest.xml:26:9-52
+		ADDED from /Users/huangwei021230/code/ipads/HMS-core-Cloud/client/hms-drive-clientdemo/app/src/main/AndroidManifest.xml:28:9-52
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.5.0] /Users/huangwei021230/.gradle/caches/transforms-3/72a50582f6534c79de3cba2ef803e550/transformed/core-1.5.0/AndroidManifest.xml:24:18-86
 	android:supportsRtl
-		ADDED from /Users/huangwei021230/code/ipads/HMS-core-Cloud/client/hms-drive-clientdemo/app/src/main/AndroidManifest.xml:23:9-35
+		ADDED from /Users/huangwei021230/code/ipads/HMS-core-Cloud/client/hms-drive-clientdemo/app/src/main/AndroidManifest.xml:25:9-35
 	android:label
-		ADDED from /Users/huangwei021230/code/ipads/HMS-core-Cloud/client/hms-drive-clientdemo/app/src/main/AndroidManifest.xml:22:9-41
+		ADDED from /Users/huangwei021230/code/ipads/HMS-core-Cloud/client/hms-drive-clientdemo/app/src/main/AndroidManifest.xml:24:9-41
 	android:uiOptions
-		ADDED from /Users/huangwei021230/code/ipads/HMS-core-Cloud/client/hms-drive-clientdemo/app/src/main/AndroidManifest.xml:25:9-53
+		ADDED from /Users/huangwei021230/code/ipads/HMS-core-Cloud/client/hms-drive-clientdemo/app/src/main/AndroidManifest.xml:27:9-53
 	android:icon
-		ADDED from /Users/huangwei021230/code/ipads/HMS-core-Cloud/client/hms-drive-clientdemo/app/src/main/AndroidManifest.xml:21:9-43
+		ADDED from /Users/huangwei021230/code/ipads/HMS-core-Cloud/client/hms-drive-clientdemo/app/src/main/AndroidManifest.xml:23:9-43
 	android:allowBackup
-		ADDED from /Users/huangwei021230/code/ipads/HMS-core-Cloud/client/hms-drive-clientdemo/app/src/main/AndroidManifest.xml:20:9-35
+		ADDED from /Users/huangwei021230/code/ipads/HMS-core-Cloud/client/hms-drive-clientdemo/app/src/main/AndroidManifest.xml:22:9-35
 	android:name
-		ADDED from /Users/huangwei021230/code/ipads/HMS-core-Cloud/client/hms-drive-clientdemo/app/src/main/AndroidManifest.xml:19:9-62
+		ADDED from /Users/huangwei021230/code/ipads/HMS-core-Cloud/client/hms-drive-clientdemo/app/src/main/AndroidManifest.xml:21:9-62
 meta-data#hwc-theme
-ADDED from /Users/huangwei021230/code/ipads/HMS-core-Cloud/client/hms-drive-clientdemo/app/src/main/AndroidManifest.xml:28:9-30:73
+ADDED from /Users/huangwei021230/code/ipads/HMS-core-Cloud/client/hms-drive-clientdemo/app/src/main/AndroidManifest.xml:30:9-32:73
 	android:value
-		ADDED from /Users/huangwei021230/code/ipads/HMS-core-Cloud/client/hms-drive-clientdemo/app/src/main/AndroidManifest.xml:30:13-70
+		ADDED from /Users/huangwei021230/code/ipads/HMS-core-Cloud/client/hms-drive-clientdemo/app/src/main/AndroidManifest.xml:32:13-70
 	android:name
-		ADDED from /Users/huangwei021230/code/ipads/HMS-core-Cloud/client/hms-drive-clientdemo/app/src/main/AndroidManifest.xml:29:13-37
+		ADDED from /Users/huangwei021230/code/ipads/HMS-core-Cloud/client/hms-drive-clientdemo/app/src/main/AndroidManifest.xml:31:13-37
 activity#com.huawei.cloud.drive.MainActivity
-ADDED from /Users/huangwei021230/code/ipads/HMS-core-Cloud/client/hms-drive-clientdemo/app/src/main/AndroidManifest.xml:32:9-33:20
+ADDED from /Users/huangwei021230/code/ipads/HMS-core-Cloud/client/hms-drive-clientdemo/app/src/main/AndroidManifest.xml:34:9-35:20
 	android:screenOrientation
-		ADDED from /Users/huangwei021230/code/ipads/HMS-core-Cloud/client/hms-drive-clientdemo/app/src/main/AndroidManifest.xml:32:71-107
+		ADDED from /Users/huangwei021230/code/ipads/HMS-core-Cloud/client/hms-drive-clientdemo/app/src/main/AndroidManifest.xml:34:71-107
 	android:name
-		ADDED from /Users/huangwei021230/code/ipads/HMS-core-Cloud/client/hms-drive-clientdemo/app/src/main/AndroidManifest.xml:32:19-69
+		ADDED from /Users/huangwei021230/code/ipads/HMS-core-Cloud/client/hms-drive-clientdemo/app/src/main/AndroidManifest.xml:34:19-69
 activity#com.huawei.cloud.drive.SplashActivity
-ADDED from /Users/huangwei021230/code/ipads/HMS-core-Cloud/client/hms-drive-clientdemo/app/src/main/AndroidManifest.xml:34:9-46:20
+ADDED from /Users/huangwei021230/code/ipads/HMS-core-Cloud/client/hms-drive-clientdemo/app/src/main/AndroidManifest.xml:36:9-48:20
 	android:screenOrientation
-		ADDED from /Users/huangwei021230/code/ipads/HMS-core-Cloud/client/hms-drive-clientdemo/app/src/main/AndroidManifest.xml:37:13-49
+		ADDED from /Users/huangwei021230/code/ipads/HMS-core-Cloud/client/hms-drive-clientdemo/app/src/main/AndroidManifest.xml:39:13-49
 	android:exported
-		ADDED from /Users/huangwei021230/code/ipads/HMS-core-Cloud/client/hms-drive-clientdemo/app/src/main/AndroidManifest.xml:36:13-36
+		ADDED from /Users/huangwei021230/code/ipads/HMS-core-Cloud/client/hms-drive-clientdemo/app/src/main/AndroidManifest.xml:38:13-36
 	android:name
-		ADDED from /Users/huangwei021230/code/ipads/HMS-core-Cloud/client/hms-drive-clientdemo/app/src/main/AndroidManifest.xml:35:13-65
+		ADDED from /Users/huangwei021230/code/ipads/HMS-core-Cloud/client/hms-drive-clientdemo/app/src/main/AndroidManifest.xml:37:13-65
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /Users/huangwei021230/code/ipads/HMS-core-Cloud/client/hms-drive-clientdemo/app/src/main/AndroidManifest.xml:42:13-45:29
+ADDED from /Users/huangwei021230/code/ipads/HMS-core-Cloud/client/hms-drive-clientdemo/app/src/main/AndroidManifest.xml:44:13-47:29
 category#android.intent.category.LAUNCHER
-ADDED from /Users/huangwei021230/code/ipads/HMS-core-Cloud/client/hms-drive-clientdemo/app/src/main/AndroidManifest.xml:43:17-77
+ADDED from /Users/huangwei021230/code/ipads/HMS-core-Cloud/client/hms-drive-clientdemo/app/src/main/AndroidManifest.xml:45:17-77
 	android:name
-		ADDED from /Users/huangwei021230/code/ipads/HMS-core-Cloud/client/hms-drive-clientdemo/app/src/main/AndroidManifest.xml:43:27-74
+		ADDED from /Users/huangwei021230/code/ipads/HMS-core-Cloud/client/hms-drive-clientdemo/app/src/main/AndroidManifest.xml:45:27-74
 action#android.intent.action.MAIN
-ADDED from /Users/huangwei021230/code/ipads/HMS-core-Cloud/client/hms-drive-clientdemo/app/src/main/AndroidManifest.xml:44:17-69
+ADDED from /Users/huangwei021230/code/ipads/HMS-core-Cloud/client/hms-drive-clientdemo/app/src/main/AndroidManifest.xml:46:17-69
 	android:name
-		ADDED from /Users/huangwei021230/code/ipads/HMS-core-Cloud/client/hms-drive-clientdemo/app/src/main/AndroidManifest.xml:44:25-66
+		ADDED from /Users/huangwei021230/code/ipads/HMS-core-Cloud/client/hms-drive-clientdemo/app/src/main/AndroidManifest.xml:46:25-66
 receiver#com.huawei.hms.support.api.push.PushMsgReceiver
-ADDED from /Users/huangwei021230/code/ipads/HMS-core-Cloud/client/hms-drive-clientdemo/app/src/main/AndroidManifest.xml:47:9-51:20
+ADDED from /Users/huangwei021230/code/ipads/HMS-core-Cloud/client/hms-drive-clientdemo/app/src/main/AndroidManifest.xml:49:9-53:20
 MERGED from [com.huawei.hms:push:4.0.3.300] /Users/huangwei021230/.gradle/caches/transforms-3/b9d2f295d6c789339d36e62fe840c85d/transformed/jetified-push-4.0.3.300/AndroidManifest.xml:24:9-35:20
 MERGED from [com.huawei.hms:push:4.0.3.300] /Users/huangwei021230/.gradle/caches/transforms-3/b9d2f295d6c789339d36e62fe840c85d/transformed/jetified-push-4.0.3.300/AndroidManifest.xml:24:9-35:20
 	android:exported
-		ADDED from /Users/huangwei021230/code/ipads/HMS-core-Cloud/client/hms-drive-clientdemo/app/src/main/AndroidManifest.xml:49:13-36
+		ADDED from /Users/huangwei021230/code/ipads/HMS-core-Cloud/client/hms-drive-clientdemo/app/src/main/AndroidManifest.xml:51:13-36
 	android:permission
 		ADDED from [com.huawei.hms:push:4.0.3.300] /Users/huangwei021230/.gradle/caches/transforms-3/b9d2f295d6c789339d36e62fe840c85d/transformed/jetified-push-4.0.3.300/AndroidManifest.xml:27:13-78
 	android:directBootAware
 		ADDED from [com.huawei.hms:push:4.0.3.300] /Users/huangwei021230/.gradle/caches/transforms-3/b9d2f295d6c789339d36e62fe840c85d/transformed/jetified-push-4.0.3.300/AndroidManifest.xml:26:13-43
 	android:name
-		ADDED from /Users/huangwei021230/code/ipads/HMS-core-Cloud/client/hms-drive-clientdemo/app/src/main/AndroidManifest.xml:48:13-75
+		ADDED from /Users/huangwei021230/code/ipads/HMS-core-Cloud/client/hms-drive-clientdemo/app/src/main/AndroidManifest.xml:50:13-75
 receiver#com.huawei.hms.support.api.push.PushReceiver
-ADDED from /Users/huangwei021230/code/ipads/HMS-core-Cloud/client/hms-drive-clientdemo/app/src/main/AndroidManifest.xml:53:9-57:20
+ADDED from /Users/huangwei021230/code/ipads/HMS-core-Cloud/client/hms-drive-clientdemo/app/src/main/AndroidManifest.xml:55:9-59:20
 MERGED from [com.huawei.hms:push:4.0.3.300] /Users/huangwei021230/.gradle/caches/transforms-3/b9d2f295d6c789339d36e62fe840c85d/transformed/jetified-push-4.0.3.300/AndroidManifest.xml:36:9-47:20
 MERGED from [com.huawei.hms:push:4.0.3.300] /Users/huangwei021230/.gradle/caches/transforms-3/b9d2f295d6c789339d36e62fe840c85d/transformed/jetified-push-4.0.3.300/AndroidManifest.xml:36:9-47:20
 	android:exported
-		ADDED from /Users/huangwei021230/code/ipads/HMS-core-Cloud/client/hms-drive-clientdemo/app/src/main/AndroidManifest.xml:55:13-36
+		ADDED from /Users/huangwei021230/code/ipads/HMS-core-Cloud/client/hms-drive-clientdemo/app/src/main/AndroidManifest.xml:57:13-36
 	android:permission
 		ADDED from [com.huawei.hms:push:4.0.3.300] /Users/huangwei021230/.gradle/caches/transforms-3/b9d2f295d6c789339d36e62fe840c85d/transformed/jetified-push-4.0.3.300/AndroidManifest.xml:39:13-78
 	android:directBootAware
 		ADDED from [com.huawei.hms:push:4.0.3.300] /Users/huangwei021230/.gradle/caches/transforms-3/b9d2f295d6c789339d36e62fe840c85d/transformed/jetified-push-4.0.3.300/AndroidManifest.xml:38:13-43
 	android:name
-		ADDED from /Users/huangwei021230/code/ipads/HMS-core-Cloud/client/hms-drive-clientdemo/app/src/main/AndroidManifest.xml:54:13-72
+		ADDED from /Users/huangwei021230/code/ipads/HMS-core-Cloud/client/hms-drive-clientdemo/app/src/main/AndroidManifest.xml:56:13-72
 activity#com.huawei.cloud.drive.view.activity.WebViewActivity
-ADDED from /Users/huangwei021230/code/ipads/HMS-core-Cloud/client/hms-drive-clientdemo/app/src/main/AndroidManifest.xml:58:9-66:20
+ADDED from /Users/huangwei021230/code/ipads/HMS-core-Cloud/client/hms-drive-clientdemo/app/src/main/AndroidManifest.xml:60:9-68:20
 	android:windowSoftInputMode
-		ADDED from /Users/huangwei021230/code/ipads/HMS-core-Cloud/client/hms-drive-clientdemo/app/src/main/AndroidManifest.xml:62:17-64
+		ADDED from /Users/huangwei021230/code/ipads/HMS-core-Cloud/client/hms-drive-clientdemo/app/src/main/AndroidManifest.xml:64:17-64
 	android:exported
-		ADDED from /Users/huangwei021230/code/ipads/HMS-core-Cloud/client/hms-drive-clientdemo/app/src/main/AndroidManifest.xml:61:17-41
+		ADDED from /Users/huangwei021230/code/ipads/HMS-core-Cloud/client/hms-drive-clientdemo/app/src/main/AndroidManifest.xml:63:17-41
 	android:configChanges
-		ADDED from /Users/huangwei021230/code/ipads/HMS-core-Cloud/client/hms-drive-clientdemo/app/src/main/AndroidManifest.xml:60:17-110
+		ADDED from /Users/huangwei021230/code/ipads/HMS-core-Cloud/client/hms-drive-clientdemo/app/src/main/AndroidManifest.xml:62:17-110
 	android:name
-		ADDED from /Users/huangwei021230/code/ipads/HMS-core-Cloud/client/hms-drive-clientdemo/app/src/main/AndroidManifest.xml:59:17-84
+		ADDED from /Users/huangwei021230/code/ipads/HMS-core-Cloud/client/hms-drive-clientdemo/app/src/main/AndroidManifest.xml:61:17-84
 meta-data#AppTheme
-ADDED from /Users/huangwei021230/code/ipads/HMS-core-Cloud/client/hms-drive-clientdemo/app/src/main/AndroidManifest.xml:63:13-65:74
+ADDED from /Users/huangwei021230/code/ipads/HMS-core-Cloud/client/hms-drive-clientdemo/app/src/main/AndroidManifest.xml:65:13-67:74
 	android:value
-		ADDED from /Users/huangwei021230/code/ipads/HMS-core-Cloud/client/hms-drive-clientdemo/app/src/main/AndroidManifest.xml:65:21-71
+		ADDED from /Users/huangwei021230/code/ipads/HMS-core-Cloud/client/hms-drive-clientdemo/app/src/main/AndroidManifest.xml:67:21-71
 	android:name
-		ADDED from /Users/huangwei021230/code/ipads/HMS-core-Cloud/client/hms-drive-clientdemo/app/src/main/AndroidManifest.xml:64:21-44
+		ADDED from /Users/huangwei021230/code/ipads/HMS-core-Cloud/client/hms-drive-clientdemo/app/src/main/AndroidManifest.xml:66:21-44
 uses-sdk
 INJECTED from /Users/huangwei021230/code/ipads/HMS-core-Cloud/client/hms-drive-clientdemo/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/huangwei021230/code/ipads/HMS-core-Cloud/client/hms-drive-clientdemo/app/src/main/AndroidManifest.xml

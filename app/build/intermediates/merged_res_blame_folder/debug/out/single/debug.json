@@ -172,6 +172,10 @@
         "source": "boogiepop.memo.app-main-25:/mipmap-xxxhdpi/ic_success.png"
     },
     {
+        "merged": "boogiepop.memo.app-merged_res-23:/layout_note_detail_fragment.xml.flat",
+        "source": "boogiepop.memo.app-main-25:/layout/note_detail_fragment.xml"
+    },
+    {
         "merged": "boogiepop.memo.app-merged_res-23:/drawable_hwbutton_default_emui.xml.flat",
         "source": "boogiepop.memo.app-main-25:/drawable/hwbutton_default_emui.xml"
     },
@@ -188,12 +192,20 @@
         "source": "boogiepop.memo.app-main-25:/mipmap-xxxhdpi/bottombar_categories_normal.png"
     },
     {
+        "merged": "boogiepop.memo.app-merged_res-23:/layout_memo_fragment.xml.flat",
+        "source": "boogiepop.memo.app-main-25:/layout/memo_fragment.xml"
+    },
+    {
         "merged": "boogiepop.memo.app-merged_res-23:/mipmap-hdpi_ic_launcher.png.flat",
         "source": "boogiepop.memo.app-main-25:/mipmap-hdpi/ic_launcher.png"
     },
     {
         "merged": "boogiepop.memo.app-merged_res-23:/drawable_button_circle_shape_green.xml.flat",
         "source": "boogiepop.memo.app-main-25:/drawable/button_circle_shape_green.xml"
+    },
+    {
+        "merged": "boogiepop.memo.app-merged_res-23:/drawable_ic_arrow_back.xml.flat",
+        "source": "boogiepop.memo.app-main-25:/drawable/ic_arrow_back.xml"
     },
     {
         "merged": "boogiepop.memo.app-merged_res-23:/layout_recent_fragment.xml.flat",
