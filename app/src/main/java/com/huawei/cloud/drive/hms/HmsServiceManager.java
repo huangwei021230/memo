@@ -47,61 +47,61 @@ import java.util.Map;
 import boogiepop.memo.R;
 
 public class HmsServiceManager {
-    private static final String TAG = "HmsServiceManager";
-    private static final String FILENAME = "IMG_20190712_155412.jpg";
+    public static final String TAG = "HmsServiceManager";
+    public static final String FILENAME = "IMG_20190712_155412.jpg";
 
-    private static final String DOCXFILE = "test.docx";
+    public static final String DOCXFILE = "test.docx";
 
     /**
      * 在线预览/编辑文档的时候，退出webview界面，刷新文件列表界面
      */
     public static final int WEB_VIEW_BACK_REFRESH = 5201;
 
-    private static final long DIRECT_UPLOAD_MAX_SIZE = 20 * 1024 * 1024;
+    public static final long DIRECT_UPLOAD_MAX_SIZE = 20 * 1024 * 1024;
 
-    private static final long DIRECT_DOWNLOAD_MAX_SIZE = 20 * 1024 * 1024;
+    public static final long DIRECT_DOWNLOAD_MAX_SIZE = 20 * 1024 * 1024;
 
     // Successful result
-    private static final int SUCCESS = 0;
+    public static final int SUCCESS = 0;
 
     // Failure result
-    private static final int FAIL = 1;
+    public static final int FAIL = 1;
 
     // Margin space
-    private static final int ZOOM_OUT = 30;
+    public static final int ZOOM_OUT = 30;
 
     // Main view
-    private View mView;
+    public View mView;
 
     // Context
-    private Context context;
+    public Context context;
 
-    private HistoryVersion mHistoryVersion;
+    public HistoryVersion mHistoryVersion;
 
-    private HistoryVersion deleteHistoryVersions;
+    public HistoryVersion deleteHistoryVersions;
 
     // Used to cache metadata information after the folder is created successfully.
-    private File mDirectory;
+    public File mDirectory;
 
     // Used to cache metadata information after successful file creation
-    private File mFile;
+    public File mFile;
 
-    private File mBackupFile;
+    public File mBackupFile;
 
     // Used to cache metadata information after the Comment is created successfully.
-    private Comment mComment;
+    public Comment mComment;
 
     //  Used to cache metadata information after the Reply is created successfully.
-    private Reply mReply;
+    public Reply mReply;
 
     // Used to cache channel token
-    private String watchListPageToken;
+    public String watchListPageToken;
 
     public HmsServiceManager(Context context){
         this.context = context;
     }
 
-    private void prepareTestFile() {
+    public void prepareTestFile() {
         try {
             InputStream in = context.getAssets().open(FILENAME);
             String cachePath = context.getExternalCacheDir().getAbsolutePath();
@@ -159,28 +159,28 @@ public class HmsServiceManager {
             showErrorToast(msg);
         }
     };
-    private void showErrorToast(Message msg) {
+    public void showErrorToast(Message msg) {
         if (msg.what == SUCCESS || msg.obj == null) {
             return;
         }
 //        Toast.makeText(getActivity(), msg.obj.toString(), Toast.LENGTH_LONG).show();
         Toast.makeText(context, msg.obj.toString(), Toast.LENGTH_LONG).show();
     }
-    private Drive buildDrive() {
+    public Drive buildDrive() {
         Drive service = new Drive.Builder(CredentialManager.getInstance().getCredential(), context).build();
         return service;
     }
     /**
      * Execute the About.get interface test task
      */
-    private void executeAboutGet() {
+    public void executeAboutGet() {
         TaskManager.getInstance().execute(new HmsServiceManager.AboutGetTask());
     }
 
     /**
      * The About.get interface test task
      */
-    private class AboutGetTask extends DriveTask {
+    public class AboutGetTask extends DriveTask {
         @Override
         public void call() {
             doAbout();
@@ -190,7 +190,7 @@ public class HmsServiceManager {
     /**
      * Test the About.get interface
      */
-    private void doAbout() {
+    public void doAbout() {
         try {
             Drive drive = buildDrive();
             Drive.About about = drive.about();
@@ -208,7 +208,7 @@ public class HmsServiceManager {
      *
      * @param about Returned response
      */
-    private void checkUpdateProtocol(About about) {
+    public void checkUpdateProtocol(About about) {
         if (about == null) {
             return;
         }
@@ -244,7 +244,7 @@ public class HmsServiceManager {
         }
     }
 
-    private void sendHandleMessage(int buttonId, int result) {
+    public void sendHandleMessage(int buttonId, int result) {
         sendHandleMessage(buttonId, result, null);
     }
 
@@ -254,7 +254,7 @@ public class HmsServiceManager {
      * @param buttonId button id
      * @param result Interface test result 0 success 1 failure
      */
-    private void sendHandleMessage(int buttonId, int result, String msg) {
+    public void sendHandleMessage(int buttonId, int result, String msg) {
         Message message = handler.obtainMessage();
         message.arg1 = buttonId;
         message.what = result;
@@ -265,14 +265,14 @@ public class HmsServiceManager {
     /**
      * Execute the Files.list interface test task
      */
-    private void executeFilesList() {
+    public void executeFilesList() {
         TaskManager.getInstance().execute(new HmsServiceManager.FilesListTask());
     }
 
     /**
      * The Files.list interface test task
      */
-    private class FilesListTask extends DriveTask {
+    public class FilesListTask extends DriveTask {
         @Override
         public void call() {
             doFilesList();
@@ -282,7 +282,7 @@ public class HmsServiceManager {
     /**
      * Test the Files.list interface
      */
-    private void doFilesList() {
+    public void doFilesList() {
         try {
             List<File> folders = getFileList("mimeType = 'application/vnd.huawei-apps.folder'", "fileName", 10, "*");
             Logger.i(TAG, "executeFilesList: directory size =  " + folders.size());
@@ -335,7 +335,7 @@ public class HmsServiceManager {
      * @param fileList files list
      * @return file ID of parent dir
      */
-    private ArrayList<String> getParentsId(FileList fileList) {
+    public ArrayList<String> getParentsId(FileList fileList) {
         if (fileList == null) {
             return null;
         }
@@ -358,14 +358,14 @@ public class HmsServiceManager {
     /**
      * Execute the Files.create interface test task
      */
-    private void executeFilesCreate() {
+    public void executeFilesCreate() {
         TaskManager.getInstance().execute(new HmsServiceManager.FilesCreateTask());
     }
 
     /**
      * Execute the Files.create interface test task
      */
-    private class FilesCreateTask extends DriveTask {
+    public class FilesCreateTask extends DriveTask {
 
         @Override
         public void call() {
@@ -376,7 +376,7 @@ public class HmsServiceManager {
     /**
      * Create a directory
      */
-    private File createDirectory() {
+    public File createDirectory() {
         try {
             Drive drive = buildDrive();
             Map<String, String> appProperties = new HashMap<>();
@@ -396,18 +396,35 @@ public class HmsServiceManager {
             return null;
         }
     }
+    public File createDirectoryWithName(String dirName){
+        try {
+            Drive drive = buildDrive();
+            Map<String, String> appProperties = new HashMap<>();
+            appProperties.put("appProperties", "property");
+            Logger.i(TAG, "executeFilesCreate: " + dirName);
 
+            File file = new File();
+            file.setFileName(dirName).setAppSettings(appProperties).setMimeType("application/vnd.huawei-apps.folder");
+            File directory = drive.files().create(file).execute();
+            sendHandleMessage(R.id.drive_files_button_create, SUCCESS);
+            return directory;
+        } catch (IOException e) {
+            sendHandleMessage(R.id.drive_files_button_create, FAIL);
+            Logger.e(TAG, "createDirectory error: " + e.toString());
+            return null;
+        }
+    }
     /**
      * Execute the Files.update interface test task
      */
-    private void executeFilesUpdate() {
+    public void executeFilesUpdate() {
         TaskManager.getInstance().execute(new HmsServiceManager.FilesUpdateTask());
     }
 
     /**
      * The Files.create interface test task
      */
-    private class FilesUpdateTask extends DriveTask {
+    public class FilesUpdateTask extends DriveTask {
 
         @Override
         public void call() {
@@ -420,7 +437,7 @@ public class HmsServiceManager {
      *
      * @param file File to be modified (directory)
      */
-    private void updateFile(File file) {
+    public void updateFile(File file) {
         try {
             if (file == null) {
                 Logger.e(TAG, "updateFile error, need to create file.");
@@ -444,14 +461,14 @@ public class HmsServiceManager {
     /**
      * Execute the Files.create interface test task
      */
-    private void executeFilesCreateFile() {
+    public void executeFilesCreateFile() {
         TaskManager.getInstance().execute(new HmsServiceManager.CreateFileTask());
     }
 
     /**
      * The Files.create interface test task
      */
-    private class CreateFileTask extends DriveTask {
+    public class CreateFileTask extends DriveTask {
 
         @Override
         public void call() {
@@ -468,6 +485,31 @@ public class HmsServiceManager {
         }
     }
 
+    public File createTxTFile(String fileName, File dir) {
+        String parentId = dir.getId();
+        try {
+            File content = new File()
+                    .setFileName(fileName)
+                    .setMimeType("text/plain") // Set MIME type for txt file
+                    .setParentFolder(Collections.singletonList(parentId))
+                    .setContentExtras(null); // No thumbnail for text file
+
+            Drive drive = buildDrive();
+            Drive.Files.Create request = drive.files().create(content, null); // Pass null as FileContent for empty file
+
+            // default: resume, If the file Size is less than 20M, use directly upload.
+            boolean isDirectUpload = false;
+            request.getMediaHttpUploader().setDirectUploadEnabled(isDirectUpload);
+
+            mFile = request.execute();
+            Logger.i(TAG, "executeFilesCreateFile:" + mFile.toString());
+        } catch (Exception e) {
+            Logger.e(TAG, "executeFilesCreateFile exception: " + e.toString());
+        }
+        return mFile;
+    }
+
+
     /**
      * create a image file by Files.create interface.
      *
@@ -476,7 +518,7 @@ public class HmsServiceManager {
      * @param thumbnailImageBuffer thumbnail Image Data
      * @param thumbnailMimeType image mime type
      */
-    private void createFile(String filePath, String parentId, byte[] thumbnailImageBuffer, String thumbnailMimeType) {
+    public void createFile(String filePath, String parentId, byte[] thumbnailImageBuffer, String thumbnailMimeType) {
         try {
             if (filePath == null) {
                 sendHandleMessage(R.id.drive_files_button_createfile, FAIL);
@@ -518,7 +560,7 @@ public class HmsServiceManager {
      *
      * @return base64 code of the thumbnail
      */
-    private byte[] getThumbnailImage(String iamgeFileName) {
+    public byte[] getThumbnailImage(String iamgeFileName) {
         //imagePath: path to store thumbnail image
         String imagePath = "/storage/emulated/0/DCIM/Camera/";
         ThumbnailUtilsImage.genImageThumbnail(iamgeFileName, imagePath + "imageThumbnail.jpg", 250, 150, 0);
@@ -536,26 +578,28 @@ public class HmsServiceManager {
     /**
      * Execute the Files.get interface test task
      */
-    private void executeFilesGet() {
+    public void executeFilesGet() {
         TaskManager.getInstance().execute(new HmsServiceManager.FilesGetTask());
     }
 
     /**
      * The Files.get interface test task
      */
-    private class FilesGetTask extends DriveTask {
+    public class FilesGetTask extends DriveTask {
         @Override
         public void call() {
             downLoadFile(mFile.getId());
         }
     }
+    public void downLoadTXTFile(String fileId){
 
+    }
     /**
      * Test Files.get interface
      *
      * @param fileId Specifies the file to be obtained.
      */
-    private void downLoadFile(String fileId) {
+    public void downLoadFile(String fileId) {
         try {
             if (fileId == null) {
                 Logger.e(TAG, "executeFilesGet error, need to create file.");
@@ -600,14 +644,14 @@ public class HmsServiceManager {
     /**
      * Execute the Files.copy interface test task
      */
-    private void executeFilesCopy() {
+    public void executeFilesCopy() {
         TaskManager.getInstance().execute(new HmsServiceManager.FilesCopyTask());
     }
 
     /**
      * The Files.copy interface test task
      */
-    private class FilesCopyTask extends DriveTask {
+    public class FilesCopyTask extends DriveTask {
 
         @Override
         public void call() {
@@ -632,7 +676,7 @@ public class HmsServiceManager {
      * @param file copy file
      * @param dstDir Specifies the destination directory of the file to be copied.
      */
-    private void copyFile(File file, ArrayList<String> dstDir) {
+    public void copyFile(File file, ArrayList<String> dstDir) {
         try {
 
             // Copy operation, copy to the first created directory
@@ -666,7 +710,7 @@ public class HmsServiceManager {
     /**
      * The Files.delete interface test task, use to delete file or directory
      */
-    private class FilesDeleteTask extends DriveTask {
+    public class FilesDeleteTask extends DriveTask {
         @Override
         public void call() {
             //Create a folder and delete it
@@ -680,7 +724,7 @@ public class HmsServiceManager {
      *
      * @return file
      */
-    private File getDirectory() {
+    public File getDirectory() {
         File uploadFile = null;
         // Newly created directory
         Drive drive = buildDrive();
@@ -703,7 +747,7 @@ public class HmsServiceManager {
      *
      * @param fileId file ID
      */
-    private void deleteFile(String fileId) {
+    public void deleteFile(String fileId) {
         if (fileId == null) {
             Logger.i(TAG, "deleteFile error, need to create file");
             sendHandleMessage(R.id.drive_files_button_delete, FAIL);
@@ -723,14 +767,14 @@ public class HmsServiceManager {
     /**
      * Execute the Files.update test task
      */
-    private void executeFilesUpdateContent() {
+    public void executeFilesUpdateContent() {
         TaskManager.getInstance().execute(new HmsServiceManager.FilesUpdateContentTask());
     }
 
     /**
      * The Files.update interface test task
      */
-    private class FilesUpdateContentTask extends DriveTask {
+    public class FilesUpdateContentTask extends DriveTask {
         @Override
         public void call() {
             String newFilePath = context.getExternalCacheDir().getAbsolutePath() + "/cache.jpg";
@@ -779,21 +823,21 @@ public class HmsServiceManager {
     /**
      * Execute the Files.delete interface test task
      */
-    private void executeFilesDelete() {
+    public void executeFilesDelete() {
         TaskManager.getInstance().execute(new HmsServiceManager.FilesDeleteTask());
     }
 
     /**
      * Execute the Files.emptyRecycle interface test task
      */
-    private void executeFilesEmptyRecycle() {
+    public void executeFilesEmptyRecycle() {
         TaskManager.getInstance().execute(new HmsServiceManager.FilesEmptyRecycleTask());
     }
 
     /**
      * Execute the Files.emptyRecycle interface test task
      */
-    private class FilesEmptyRecycleTask extends DriveTask {
+    public class FilesEmptyRecycleTask extends DriveTask {
         @Override
         public void call() {
             doFilesEmptyRecycle();
@@ -803,7 +847,7 @@ public class HmsServiceManager {
     /**
      * empty recycle bin
      */
-    private void doFilesEmptyRecycle() {
+    public void doFilesEmptyRecycle() {
         Drive drive = buildDrive();
         try {
             //create a new folder
@@ -834,14 +878,14 @@ public class HmsServiceManager {
     /**
      * Execute the Files.subscribe interface test task
      */
-    private void executeFilesSubscribe() {
+    public void executeFilesSubscribe() {
         TaskManager.getInstance().execute(new HmsServiceManager.FilesSubscribeTask());
     }
 
     /**
      * The Files.subscribe interface test task
      */
-    private class FilesSubscribeTask extends DriveTask {
+    public class FilesSubscribeTask extends DriveTask {
 
         @Override
         public void call() {
@@ -854,7 +898,7 @@ public class HmsServiceManager {
      *
      * @param fileId file ID
      */
-    private void filesWatch(String fileId) {
+    public void filesWatch(String fileId) {
         try {
             Drive drive = buildDrive();
             Channel content = new Channel();
@@ -875,14 +919,14 @@ public class HmsServiceManager {
     /**
      * Execute the Changes.startCursor interface test task.
      */
-    private void executeChangesGetStartCursor() {
+    public void executeChangesGetStartCursor() {
         TaskManager.getInstance().execute(new HmsServiceManager.ChangesGetStartCursorTask());
     }
 
     /**
      * The Changes.startCursor interface test task.
      */
-    private class ChangesGetStartCursorTask extends DriveTask {
+    public class ChangesGetStartCursorTask extends DriveTask {
         @Override
         public void call() {
             doGetStartCursor();
@@ -892,7 +936,7 @@ public class HmsServiceManager {
     /**
      * In the future, the file will be changed. This gets the starting cursor of the changes
      */
-    private void doGetStartCursor() {
+    public void doGetStartCursor() {
         try {
             Drive drive = buildDrive();
             Drive.Changes.GetStartCursor request = drive.changes().getStartCursor();

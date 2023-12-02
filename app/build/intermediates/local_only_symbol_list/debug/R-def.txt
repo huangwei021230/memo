@@ -147,6 +147,7 @@ id drive_replies_text
 id drive_replies_update
 id drive_restore_btn
 id drive_restore_text
+id editTextNote
 id external_webview
 id hwtoolbar
 id imageViewBack

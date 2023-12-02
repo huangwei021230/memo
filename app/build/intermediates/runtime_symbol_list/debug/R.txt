@@ -1252,6 +1252,7 @@ int id easeIn 0x7f0900c2
 int id easeInOut 0x7f0900c3
 int id easeOut 0x7f0900c4
 int id east 0x7f0900c5
+int id editTextNote 0x7f090199
 int id edit_query 0x7f0900c6
 int id enable_service_text 0x7f0900c7
 int id end 0x7f0900c8

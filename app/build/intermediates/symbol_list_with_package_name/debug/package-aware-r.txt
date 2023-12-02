@@ -1253,6 +1253,7 @@ id easeIn
 id easeInOut
 id easeOut
 id east
+id editTextNote
 id edit_query
 id enable_service_text
 id end

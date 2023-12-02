@@ -20,4 +20,17 @@
         android:layout_marginBottom="16dp"
         android:text="Add Note" />
 
+    <!-- 可编辑的文本框 -->
+    <EditText
+        android:id="@+id/editTextNote"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/btnAddNote"
+        android:layout_marginBottom="16dp"
+        android:hint="Name your note here"
+        android:padding="8dp"
+        android:background="@android:color/white"
+        android:inputType="textMultiLine"
+        android:maxLength="200" />
+
 </RelativeLayout>

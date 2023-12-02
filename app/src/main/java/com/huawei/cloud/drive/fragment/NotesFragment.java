@@ -10,6 +10,8 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
+import android.widget.Button;
+import android.widget.EditText;
 import android.widget.ListView;
 
 import com.huawei.cloud.drive.MainActivity;
@@ -28,8 +30,13 @@ public class NotesFragment extends Fragment {
     private static final String TAG = "NotesFragment";
     private TabsAdapter mTabsAdapter;
     private ListView listViewNotes;
+    private Button buttonAddNote;
+    private EditText editText;
     private ArrayList<String> notesList;
     private ArrayAdapter<String> notesAdapter;
+    public File mDirectory;
+    public File mFile;
+
     public NotesFragment() {
         // Required empty public constructor
     }
@@ -41,6 +48,8 @@ public class NotesFragment extends Fragment {
                              Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.memo_fragment, container, false);
 
+        editText = view.findViewById(R.id.editTextNote);
+        buttonAddNote = view.findViewById(R.id.btnAddNote);
         listViewNotes = view.findViewById(R.id.listViewNotes);
         hmsServiceManager = new HmsServiceManager(getContext());
         notesList = new ArrayList<>();
@@ -51,51 +60,87 @@ public class NotesFragment extends Fragment {
         mTabsAdapter = ((MainActivity) getActivity()).mTabsAdapter;
         new FileListAsyncTask().execute();
 
+
+
         listViewNotes.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                 // 当用户点击列表项时，切换到显示备忘录详情的 Fragment
                 String selectedNote = notesList.get(position);
-
                 Bundle bundle = new Bundle();
                 bundle.putString("noteText", selectedNote);
 
-                MainActivity mainActivity = (MainActivity) getActivity();
-                mainActivity.mTabsAdapter.addTab(NoteDetailFragment.class, bundle);
-                mainActivity.mTabsAdapter.notifyDataSetChanged();
-                Log.d("emergency", String.valueOf(mainActivity.mTabsAdapter.mTabs.size()));
-                mainActivity.mTabsAdapter.selectPaper(1); // 调用onTabSelected方法切换选项卡
+
+                mTabsAdapter.addTab(NoteDetailFragment.class, bundle);
+                mTabsAdapter.notifyDataSetChanged();
+                Log.d("emergency", String.valueOf(mTabsAdapter.mTabs.size()));
+                mTabsAdapter.selectPaper(1); // 调用onTabSelected方法切换选项卡
             }
         });
-
+        buttonAddNote.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                new FileCreateAsyncTask().execute();
+            }
+        });
         return view;
     }
-
     @SuppressLint("StaticFieldLeak")
-    private class FileListAsyncTask extends AsyncTask<Void, Void, List<File>> {
+    private class FileCreateAsyncTask extends AsyncTask<Void, Void, File> {
         @Override
-        protected List<File> doInBackground(Void... voids) {
+        protected File doInBackground(Void... voids) {
+            String fileName = editText.getText().toString();
+            File file = hmsServiceManager.createTxTFile(fileName,mDirectory);
+            return file;
+        }
+
+        @Override
+        protected void onPostExecute(File file) {
+            // 直接进行跳转
+            mFile = file;
+            String selectedNote = file.getFileName();
+            Bundle bundle = new Bundle();
+            bundle.putString("noteText", selectedNote);
+            mTabsAdapter.addTab(NoteDetailFragment.class, bundle);
+            mTabsAdapter.notifyDataSetChanged();
+            mTabsAdapter.selectPaper(1);
+        }
+    }
+    @SuppressLint("StaticFieldLeak")
+    private class FileListAsyncTask extends AsyncTask<Void, Void, File> {
+        @Override
+        protected File doInBackground(Void... voids) {
+            File tempDir = new File();
             List<File> folders = null;
             try {
                 folders = hmsServiceManager.getFileList("mimeType = 'application/vnd.huawei-apps.folder'", "fileName", 10, "*");
             } catch (IOException e) {
                 e.printStackTrace();
             }
-            return folders;
-        }
-
-        @Override
-        protected void onPostExecute(List<File> folders) {
+            boolean flag = false;
             if (folders != null) {
                 for(File file : folders){
-                    notesList.add(file.getFileName());
+                    if(file.getFileName().equals("memo")){
+                        tempDir = file;
+                        flag = true;
+                        break;
+                    }
                 }
-                // 通知适配器数据已更改
-                notesAdapter.notifyDataSetChanged();
+                if(!flag){
+                    tempDir = hmsServiceManager.createDirectoryWithName("memo");
+                }
             } else {
                 // 处理获取文件列表失败的情况
                 // 可以进行错误处理或者提示用户获取失败
             }
+            return tempDir;
+        }
+
+        @Override
+        protected void onPostExecute(File file) {
+            file
+            notesList.add(file.getFileName());
+            notesAdapter.notifyDataSetChanged();
         }
     }
 
