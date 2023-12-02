@@ -311,7 +311,7 @@ public class HmsServiceManager {
      * @param pageSize page Size
      * @param fields fields
      */
-    private List<File> getFileList(String query, String orderBy, int pageSize, String fields) throws IOException {
+    public List<File> getFileList(String query, String orderBy, int pageSize, String fields) throws IOException {
 
         Drive drive = buildDrive();
         Drive.Files.List request = drive.files().list();
