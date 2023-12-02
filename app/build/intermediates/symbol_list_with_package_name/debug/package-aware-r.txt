@@ -1542,6 +1542,7 @@ mipmap ic_launcher
 mipmap ic_success
 mipmap image_cloud_setting
 plurals recycle_permanently_remove_select_file
+raw temp
 string abc_action_bar_home_description
 string abc_action_bar_up_description
 string abc_action_menu_overflow_description

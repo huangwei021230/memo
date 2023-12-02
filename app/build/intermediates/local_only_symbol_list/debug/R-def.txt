@@ -172,6 +172,7 @@ mipmap ic_launcher
 mipmap ic_success
 mipmap image_cloud_setting
 plurals recycle_permanently_remove_select_file
+raw temp
 string about
 string about_get
 string about_title

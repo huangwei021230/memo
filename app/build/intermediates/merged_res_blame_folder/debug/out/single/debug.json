@@ -44,6 +44,10 @@
         "source": "boogiepop.memo.app-main-25:/mipmap-xhdpi/bottombar_categories_select.png"
     },
     {
+        "merged": "boogiepop.memo.app-merged_res-23:/raw_temp.txt.flat",
+        "source": "boogiepop.memo.app-main-25:/raw/temp.txt"
+    },
+    {
         "merged": "boogiepop.memo.app-merged_res-23:/drawable-night-xhdpi-v8_hwbutton_big_bg_stroked_disable.9.png.flat",
         "source": "boogiepop.memo.app-main-25:/drawable-night-xhdpi-v8/hwbutton_big_bg_stroked_disable.9.png"
     },

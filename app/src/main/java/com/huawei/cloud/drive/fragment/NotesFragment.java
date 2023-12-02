@@ -138,7 +138,7 @@ public class NotesFragment extends Fragment {
 
         @Override
         protected void onPostExecute(File file) {
-            file
+            mDirectory = file;
             notesList.add(file.getFileName());
             notesAdapter.notifyDataSetChanged();
         }

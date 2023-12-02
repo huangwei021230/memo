@@ -21,6 +21,7 @@ import com.huawei.cloud.base.util.base64.Base64;
 import com.huawei.cloud.drive.log.Logger;
 import com.huawei.cloud.drive.task.task.DriveTask;
 import com.huawei.cloud.drive.task.task.TaskManager;
+import com.huawei.cloud.drive.utils.RawFileUtils;
 import com.huawei.cloud.drive.utils.thumbnail.ThumbnailUtilsImage;
 import com.huawei.cloud.services.drive.Drive;
 import com.huawei.cloud.services.drive.model.About;
@@ -96,9 +97,10 @@ public class HmsServiceManager {
 
     // Used to cache channel token
     public String watchListPageToken;
-
+    public RawFileUtils rawFileUtils;
     public HmsServiceManager(Context context){
         this.context = context;
+        this.rawFileUtils = new RawFileUtils();
     }
 
     public void prepareTestFile() {
@@ -487,19 +489,28 @@ public class HmsServiceManager {
 
     public File createTxTFile(String fileName, File dir) {
         String parentId = dir.getId();
+
         try {
+            fileName = fileName + ".txt";
+
+            java.io.File io = RawFileUtils.copyRawFileToTempFile(context, R.raw.temp, fileName);
+
+            FileContent fileContent = new FileContent(mimeType(io), io);
             File content = new File()
                     .setFileName(fileName)
                     .setMimeType("text/plain") // Set MIME type for txt file
                     .setParentFolder(Collections.singletonList(parentId))
                     .setContentExtras(null); // No thumbnail for text file
 
+
             Drive drive = buildDrive();
-            Drive.Files.Create request = drive.files().create(content, null); // Pass null as FileContent for empty file
+            Drive.Files.Create request = drive.files().create(content, fileContent);
+
 
             // default: resume, If the file Size is less than 20M, use directly upload.
             boolean isDirectUpload = false;
-            request.getMediaHttpUploader().setDirectUploadEnabled(isDirectUpload);
+//            request.getMediaHttpUploader().setDirectUploadEnabled(isDirectUpload);
+            request.getMediaHttpUploader().setDirectUploadEnabled(true);
 
             mFile = request.execute();
             Logger.i(TAG, "executeFilesCreateFile:" + mFile.toString());
