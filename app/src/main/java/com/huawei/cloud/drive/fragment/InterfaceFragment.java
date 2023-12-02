@@ -144,6 +144,7 @@ public class InterfaceFragment extends Fragment implements View.OnClickListener 
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         mView = inflater.inflate(R.layout.recent_fragment, container, false);
+//        mView = inflater.inflate(R.layout.memo_fragment, container, false);
         context = getContext();
         setHasOptionsMenu(true);
         initView();
@@ -474,7 +475,7 @@ public class InterfaceFragment extends Fragment implements View.OnClickListener 
     /**
      * The About.get interface test task
      */
-    private class AboutGetTask extends DriveTask {
+    class AboutGetTask extends DriveTask {
         @Override
         public void call() {
             doAbout();
@@ -586,6 +587,7 @@ public class InterfaceFragment extends Fragment implements View.OnClickListener 
             }
             // get child files of a folder
             String directoryId = folders.get(0).getId();
+
             String queryStr = "'" + directoryId + "' in parentFolder and mimeType != 'application/vnd.huawei-apps.folder'";
             List<File> files = getFileList(queryStr, "fileName", 10, "*");
             Logger.i(TAG, "executeFilesList: files size = " + files.size());
@@ -674,7 +676,7 @@ public class InterfaceFragment extends Fragment implements View.OnClickListener 
             Drive drive = buildDrive();
             Map<String, String> appProperties = new HashMap<>();
             appProperties.put("appProperties", "property");
-            SimpleDateFormat formatter = new SimpleDateFormat("yyyyMMdd_HHmmss_SSS");
+            @SuppressLint("SimpleDateFormat") SimpleDateFormat formatter = new SimpleDateFormat("yyyyMMdd_HHmmss_SSS");
             String dirName = formatter.format(new Date());
             Logger.i(TAG, "executeFilesCreate: " + dirName);
 

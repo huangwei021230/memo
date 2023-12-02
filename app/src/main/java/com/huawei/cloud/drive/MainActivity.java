@@ -25,7 +25,7 @@ import android.view.MenuItem;
 import android.widget.Toolbar;
 
 import com.huawei.cloud.drive.adapter.TabsAdapter;
-import com.huawei.cloud.drive.fragment.InterfaceFragment;
+import com.huawei.cloud.drive.fragment.NotesFragment;
 import com.huawei.cloud.drive.log.Logger;
 import com.huawei.cloud.drive.model.TabInfo;
 import com.huawei.cloud.drive.utils.ViewUtil;
@@ -77,7 +77,7 @@ public class MainActivity extends Activity {
      */
     private void initTabsAdapter() {
         mTabsAdapter = new TabsAdapter(this, mViewPager, getFragmentManager());
-        mTabsAdapter.addTab(InterfaceFragment.class, null);
+        mTabsAdapter.addTab(NotesFragment.class, null);
         mTabsAdapter.notifyDataSetChanged();
     }
 

@@ -22,9 +22,10 @@ import android.app.FragmentManager;
 import android.app.FragmentTransaction;
 import android.content.Context;
 import android.os.Bundle;
+import android.util.Log;
+
 import androidx.legacy.app.FragmentStatePagerAdapter;
 import androidx.viewpager.widget.ViewPager;
-import android.util.Log;
 
 import com.huawei.cloud.drive.model.TabInfo;
 import com.huawei.cloud.drive.view.FileViewPager;
@@ -121,5 +122,8 @@ public class TabsAdapter extends FragmentStatePagerAdapter implements ActionBar.
     @Override
     public void onTabReselected(ActionBar.Tab tab, FragmentTransaction fragmentTransaction) {
 
+    }
+    public void selectPaper(int position){
+        mViewPager.setCurrentItem(position);
     }
 }
