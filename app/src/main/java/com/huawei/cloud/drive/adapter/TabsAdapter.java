@@ -69,8 +69,8 @@ public class TabsAdapter extends FragmentStatePagerAdapter implements ActionBar.
      * @param _Class class
      * @param args   other args
      */
-    public void addTab(Class<?> _Class, Bundle args) {
-        TabInfo info = new TabInfo(_Class, args);
+    public void addTab(Class<?> _Class, Bundle args, String Name) {
+        TabInfo info = new TabInfo(_Class, args, Name);
         mTabs.add(info);
     }
 
@@ -123,7 +123,12 @@ public class TabsAdapter extends FragmentStatePagerAdapter implements ActionBar.
     public void onTabReselected(ActionBar.Tab tab, FragmentTransaction fragmentTransaction) {
 
     }
-    public void selectPaper(int position){
-        mViewPager.setCurrentItem(position);
+    public void selectPaper(String fileName){
+        for (int i = 0; i < mTabs.size(); i++) {
+            if (mTabs.get(i).getName().equals(fileName)) {
+                mViewPager.setCurrentItem(i);
+            }
+        }
     }
+
 }

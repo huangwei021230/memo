@@ -1154,6 +1154,7 @@ id bounceEnd
 id bounceStart
 id btnAddNote
 id buttonPanel
+id buttonSave
 id cache_measures
 id callMeasure
 id cancel_action
@@ -1254,6 +1255,8 @@ id easeInOut
 id easeOut
 id east
 id editTextNote
+id editTextNoteContent
+id editTextNoteTitle
 id edit_query
 id enable_service_text
 id end
@@ -1426,8 +1429,6 @@ id text
 id text2
 id textSpacerNoButtons
 id textSpacerNoTitle
-id textViewNoteContent
-id textViewNoteTitle
 id third_app_dl_progress_text
 id third_app_dl_progressbar
 id third_app_warn_text

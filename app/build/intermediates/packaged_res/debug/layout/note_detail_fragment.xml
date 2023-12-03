@@ -4,8 +4,6 @@
     android:orientation="vertical"
     android:padding="16dp">
 
-
-
     <ImageView
         android:id="@+id/imageViewBack"
         android:layout_width="wrap_content"
@@ -14,11 +12,9 @@
         android:src="@drawable/ic_arrow_back"
         android:contentDescription="Back" />
 
-
-
     <!-- 标题部分 -->
-    <TextView
-        android:id="@+id/textViewNoteTitle"
+    <EditText
+        android:id="@+id/editTextNoteTitle"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textSize="24sp"
@@ -28,13 +24,20 @@
         android:paddingBottom="8dp" />
 
     <!-- 内容部分 -->
-    <TextView
-        android:id="@+id/textViewNoteContent"
+    <EditText
+        android:id="@+id/editTextNoteContent"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textSize="18sp"
         android:textColor="@android:color/black"
         android:gravity="start"
         android:padding="8dp" />
+
+    <!-- 保存按钮 -->
+    <Button
+        android:id="@+id/buttonSave"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="保存" />
 
 </LinearLayout>

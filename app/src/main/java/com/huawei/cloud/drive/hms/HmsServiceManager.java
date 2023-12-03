@@ -305,6 +305,18 @@ public class HmsServiceManager {
         }
     }
 
+    public List<File> listFilesInFolder(File file) throws IOException {
+        List<File> files = null;
+        try {
+            String directoryId = file.getId();
+            String queryStr = "'" + directoryId + "' in parentFolder and mimeType != 'application/vnd.huawei-apps.folder'";
+            files = getFileList(queryStr, "fileName", 10, "*");
+        } catch (Exception e){
+
+        }
+        return files;
+    }
+
     /**
      * Traverse to get all files
      *
@@ -651,7 +663,89 @@ public class HmsServiceManager {
             Logger.e(TAG, "executeFilesGet exception: " + e.toString());
         }
     }
+    public String getFileContent(String fileId, String fileName){
+        String content = null;
+        try {
+            if (fileId == null) {
+                Logger.e(TAG, "executeFilesGet error, need to create file.");
+                sendHandleMessage(R.id.drive_files_button_get, FAIL);
+                return null;
+            }
+            Log.i("fileId",fileId);
+            Log.i("fileId",fileName);
+            String filePath = "/storage/emulated/0/Download/";
+            Drive drive = buildDrive();
+            // Get File metaData
+            Drive.Files.Get request = drive.files().get(fileId);
+            request.setFields("id,size");
+            File res = request.execute();
+            // Download File
+            long size = res.getSize();
+            Drive.Files.Get get = drive.files().get(fileId);
+            get.setForm("text/plain");
+            MediaHttpDownloader downloader = get.getMediaHttpDownloader();
 
+            boolean isDirectDownload = false;
+            if (size < DIRECT_DOWNLOAD_MAX_SIZE) {
+                isDirectDownload = true;
+            }
+            downloader.setContentRange(0,size - 1).setDirectDownloadEnabled(isDirectDownload);
+            downloader.setProgressListener(new MediaHttpDownloaderProgressListener() {
+                @Override
+                public void progressChanged(MediaHttpDownloader mediaHttpDownloader) throws IOException {
+                    // The download subthread invokes this method to process the download progress.
+                    double progress = mediaHttpDownloader.getProgress();
+                }
+            });
+            java.io.File f = new java.io.File(filePath + fileName);
+            get.executeContentAndDownloadTo(new FileOutputStream(f));
+
+            Logger.i(TAG, "executeFilesGetMedia success.");
+            sendHandleMessage(R.id.drive_files_button_get, SUCCESS);
+            try (FileInputStream fis = new FileInputStream(f)) {
+                byte[] data = new byte[(int) f.length()];
+                fis.read(data);
+                content = new String(data, "UTF-8");
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+        } catch (Exception e) {
+            sendHandleMessage(R.id.drive_files_button_get, FAIL);
+            Logger.e(TAG, "executeFilesGet exception: " + e.toString());
+        }
+        return content;
+    }
+    public void setFileContent(String fileName,String fileId, String content, String filePath){
+        try {
+            if (TextUtils.isEmpty(filePath)) {
+                Logger.e(TAG, "updateFileContent error, need to create file.");
+                sendHandleMessage(R.id.drive_files_update_content_button, FAIL);
+                return;
+            }
+
+            Drive drive = buildDrive();
+            File temp = new File();
+
+            temp.setFileName(fileName).setMimeType(mimeType(".txt")).setDescription("update text");
+
+            java.io.File io = new java.io.File(filePath);
+            FileContent fileContent = new FileContent(mimeType(io), io);
+            Drive.Files.Update request = drive.files().update(fileId, temp, fileContent);
+            boolean isDirectUpload = false;
+            if (io.length() < DIRECT_UPLOAD_MAX_SIZE) {
+                isDirectUpload = true;
+            }
+
+            request.getMediaHttpUploader().setDirectUploadEnabled(isDirectUpload);
+            mFile = request.execute();
+
+            Logger.i(TAG, "updateFileContent result: " + mFile.toString());
+            sendHandleMessage(R.id.drive_files_update_content_button, SUCCESS);
+        } catch (Exception e) {
+            sendHandleMessage(R.id.drive_files_update_content_button, FAIL);
+            Logger.e(TAG, "updateFile error: " + e.toString());
+        }
+    }
     /**
      * Execute the Files.copy interface test task
      */
