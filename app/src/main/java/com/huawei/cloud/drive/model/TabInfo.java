@@ -26,12 +26,15 @@ public class TabInfo {
     public Class<?> loadedClass;
     public Bundle args;
     public Fragment fragment;
-
-    public TabInfo(Class<?> _Class, Bundle _args) {
+    public String Name;
+    public TabInfo(Class<?> _Class, Bundle _args, String Name) {
         loadedClass = _Class;
         args = _args;
+        this.Name = Name;
     }
-
+    public String getName(){
+        return Name;
+    }
     /**
      * Get fragment
      */

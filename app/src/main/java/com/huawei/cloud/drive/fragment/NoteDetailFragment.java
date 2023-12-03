@@ -30,6 +30,7 @@ public class NoteDetailFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.note_detail_fragment, container, false);
+
         MainActivity mainActivity = (MainActivity) getActivity();
         mTabsAdapter = mainActivity.mTabsAdapter;
         hmsServiceManager = new HmsServiceManager(getContext());
@@ -50,8 +51,7 @@ public class NoteDetailFragment extends Fragment {
         imageView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                mTabsAdapter.selectPaper(0);
-                mTabsAdapter.mTabs.remove(1);
+                mTabsAdapter.selectPaper("NotesFragment");
                 mTabsAdapter.notifyDataSetChanged();
             }
         });

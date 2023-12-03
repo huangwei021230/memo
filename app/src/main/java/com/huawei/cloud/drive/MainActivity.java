@@ -77,7 +77,7 @@ public class MainActivity extends Activity {
      */
     private void initTabsAdapter() {
         mTabsAdapter = new TabsAdapter(this, mViewPager, getFragmentManager());
-        mTabsAdapter.addTab(NotesFragment.class, null);
+        mTabsAdapter.addTab(NotesFragment.class, null, "NotesFragment");
         mTabsAdapter.notifyDataSetChanged();
     }
 

@@ -70,15 +70,16 @@ public class NotesFragment extends Fragment {
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                 // 当用户点击列表项时，切换到显示备忘录详情的 Fragment
                 String selectedNote = notesList.get(position);
-                mFile = filesList.get(position-1);
+                mFile = filesList.get(position);
                 Bundle bundle = new Bundle();
                 bundle.putString("fileName", selectedNote);
                 bundle.putString("fileId", mFile.getId());
 
-                mTabsAdapter.addTab(NoteDetailFragment.class, bundle);
+                mTabsAdapter.addTab(NoteDetailFragment.class, bundle, selectedNote);
                 mTabsAdapter.notifyDataSetChanged();
                 Log.d("emergency", String.valueOf(mTabsAdapter.mTabs.size()));
-                mTabsAdapter.selectPaper(1); // 调用onTabSelected方法切换选项卡
+                mTabsAdapter.selectPaper(selectedNote); // 调用onTabSelected方法切换选项卡
+
             }
         });
         buttonAddNote.setOnClickListener(new View.OnClickListener() {
@@ -107,10 +108,10 @@ public class NotesFragment extends Fragment {
             bundle.putString("fileName", selectedNote);
             bundle.putString("fileId", file.getId());
             notesList.add(selectedNote);
-            mTabsAdapter.addTab(NoteDetailFragment.class, bundle);
+            mTabsAdapter.addTab(NoteDetailFragment.class, bundle, selectedNote);
             notesAdapter.notifyDataSetChanged();
             mTabsAdapter.notifyDataSetChanged();
-            mTabsAdapter.selectPaper(1);
+            mTabsAdapter.selectPaper(selectedNote);
         }
     }
     @SuppressLint("StaticFieldLeak")
