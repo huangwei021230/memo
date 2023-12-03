@@ -715,8 +715,36 @@ public class HmsServiceManager {
         }
         return content;
     }
-    public void setFileContent(File file, String content){
+    public void setFileContent(String fileName,String fileId, String content, String filePath){
+        try {
+            if (TextUtils.isEmpty(filePath)) {
+                Logger.e(TAG, "updateFileContent error, need to create file.");
+                sendHandleMessage(R.id.drive_files_update_content_button, FAIL);
+                return;
+            }
 
+            Drive drive = buildDrive();
+            File temp = new File();
+
+            temp.setFileName(fileName).setMimeType(mimeType(".txt")).setDescription("update text");
+
+            java.io.File io = new java.io.File(filePath);
+            FileContent fileContent = new FileContent(mimeType(io), io);
+            Drive.Files.Update request = drive.files().update(fileId, temp, fileContent);
+            boolean isDirectUpload = false;
+            if (io.length() < DIRECT_UPLOAD_MAX_SIZE) {
+                isDirectUpload = true;
+            }
+
+            request.getMediaHttpUploader().setDirectUploadEnabled(isDirectUpload);
+            mFile = request.execute();
+
+            Logger.i(TAG, "updateFileContent result: " + mFile.toString());
+            sendHandleMessage(R.id.drive_files_update_content_button, SUCCESS);
+        } catch (Exception e) {
+            sendHandleMessage(R.id.drive_files_update_content_button, FAIL);
+            Logger.e(TAG, "updateFile error: " + e.toString());
+        }
     }
     /**
      * Execute the Files.copy interface test task

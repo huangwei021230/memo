@@ -15,9 +15,14 @@ import com.huawei.cloud.drive.MainActivity;
 import com.huawei.cloud.drive.adapter.TabsAdapter;
 import com.huawei.cloud.drive.hms.HmsServiceManager;
 
+import java.io.BufferedWriter;
+import java.io.FileWriter;
+import java.io.IOException;
+
 import boogiepop.memo.R;
 
 public class NoteDetailFragment extends Fragment {
+    private String filePath = "/storage/emulated/0/Download/";
     private HmsServiceManager hmsServiceManager;
     private ImageView imageView;
     private TabsAdapter mTabsAdapter;
@@ -58,12 +63,45 @@ public class NoteDetailFragment extends Fragment {
         buttonSave.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-
+                writeFile();
+                new FileUpdateAsyncTask().execute();
             }
         });
         new FileGetAsyncTask().execute();
 
         return view;
+    }
+
+
+    private void writeFile(){
+        String file_name = filePath + fileName;
+        String content = editTextNoteContent.getText().toString();
+        try {
+            FileWriter fileWriter = new FileWriter(file_name);
+            BufferedWriter bufferedWriter = new BufferedWriter(fileWriter);
+            bufferedWriter.write(content);
+            bufferedWriter.close();
+            // 写入成功
+        } catch (IOException e) {
+            e.printStackTrace();
+            // 发生异常，写入失败
+        }
+    }
+    @SuppressLint("StaticFieldLeak")
+    private class FileUpdateAsyncTask extends AsyncTask<Void, Void, Void>{
+        @Override
+        protected Void doInBackground(Void... voids) {
+            String file_path = filePath + fileName;
+            String content = editTextNoteContent.getText().toString();
+            hmsServiceManager.setFileContent(fileName, fileId, content, file_path);
+            return null;
+        }
+        @Override
+        protected void onPostExecute(Void unused) {
+            super.onPostExecute(unused);
+       }
+
+
     }
     @SuppressLint("StaticFieldLeak")
     private class FileGetAsyncTask extends AsyncTask<Void, Void, String> {
