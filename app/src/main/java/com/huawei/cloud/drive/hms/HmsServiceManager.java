@@ -305,6 +305,18 @@ public class HmsServiceManager {
         }
     }
 
+    public List<File> listFilesInFolder(File file) throws IOException {
+        List<File> files = null;
+        try {
+            String directoryId = file.getId();
+            String queryStr = "'" + directoryId + "' in parentFolder and mimeType != 'application/vnd.huawei-apps.folder'";
+            files = getFileList(queryStr, "fileName", 10, "*");
+        } catch (Exception e){
+
+        }
+        return files;
+    }
+
     /**
      * Traverse to get all files
      *
@@ -651,7 +663,61 @@ public class HmsServiceManager {
             Logger.e(TAG, "executeFilesGet exception: " + e.toString());
         }
     }
+    public String getFileContent(String fileId, String fileName){
+        String content = null;
+        try {
+            if (fileId == null) {
+                Logger.e(TAG, "executeFilesGet error, need to create file.");
+                sendHandleMessage(R.id.drive_files_button_get, FAIL);
+                return null;
+            }
+            Log.i("fileId",fileId);
+            Log.i("fileId",fileName);
+            String filePath = "/storage/emulated/0/Download/";
+            Drive drive = buildDrive();
+            // Get File metaData
+            Drive.Files.Get request = drive.files().get(fileId);
+            request.setFields("id,size");
+            File res = request.execute();
+            // Download File
+            long size = res.getSize();
+            Drive.Files.Get get = drive.files().get(fileId);
+            get.setForm("text/plain");
+            MediaHttpDownloader downloader = get.getMediaHttpDownloader();
 
+            boolean isDirectDownload = false;
+            if (size < DIRECT_DOWNLOAD_MAX_SIZE) {
+                isDirectDownload = true;
+            }
+            downloader.setContentRange(0,size - 1).setDirectDownloadEnabled(isDirectDownload);
+            downloader.setProgressListener(new MediaHttpDownloaderProgressListener() {
+                @Override
+                public void progressChanged(MediaHttpDownloader mediaHttpDownloader) throws IOException {
+                    // The download subthread invokes this method to process the download progress.
+                    double progress = mediaHttpDownloader.getProgress();
+                }
+            });
+            java.io.File f = new java.io.File(filePath + fileName);
+            get.executeContentAndDownloadTo(new FileOutputStream(f));
+
+            Logger.i(TAG, "executeFilesGetMedia success.");
+            sendHandleMessage(R.id.drive_files_button_get, SUCCESS);
+            try (FileInputStream fis = new FileInputStream(f)) {
+                byte[] data = new byte[(int) f.length()];
+                fis.read(data);
+                content = new String(data, "UTF-8");
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+        } catch (Exception e) {
+            sendHandleMessage(R.id.drive_files_button_get, FAIL);
+            Logger.e(TAG, "executeFilesGet exception: " + e.toString());
+        }
+        return content;
+    }
+    public void setFileContent(File file, String content){
+
+    }
     /**
      * Execute the Files.copy interface test task
      */

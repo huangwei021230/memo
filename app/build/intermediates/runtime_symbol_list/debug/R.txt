@@ -1153,6 +1153,7 @@ int id bounceEnd 0x7f09005f
 int id bounceStart 0x7f090060
 int id btnAddNote 0x7f090061
 int id buttonPanel 0x7f090062
+int id buttonSave 0x7f09019a
 int id cache_measures 0x7f090063
 int id callMeasure 0x7f090064
 int id cancel_action 0x7f090065
@@ -1253,6 +1254,8 @@ int id easeInOut 0x7f0900c3
 int id easeOut 0x7f0900c4
 int id east 0x7f0900c5
 int id editTextNote 0x7f090199
+int id editTextNoteContent 0x7f09019b
+int id editTextNoteTitle 0x7f09019c
 int id edit_query 0x7f0900c6
 int id enable_service_text 0x7f0900c7
 int id end 0x7f0900c8
@@ -1425,8 +1428,6 @@ int id text 0x7f09016e
 int id text2 0x7f09016f
 int id textSpacerNoButtons 0x7f090170
 int id textSpacerNoTitle 0x7f090171
-int id textViewNoteContent 0x7f090172
-int id textViewNoteTitle 0x7f090173
 int id third_app_dl_progress_text 0x7f090174
 int id third_app_dl_progressbar 0x7f090175
 int id third_app_warn_text 0x7f090176

@@ -18,7 +18,6 @@ import com.huawei.cloud.drive.MainActivity;
 import com.huawei.cloud.drive.adapter.TabsAdapter;
 import com.huawei.cloud.drive.hms.HmsServiceManager;
 import com.huawei.cloud.services.drive.model.File;
-import com.huawei.cloud.services.drive.model.FileList;
 
 import java.io.IOException;
 import java.util.ArrayList;
@@ -37,7 +36,7 @@ public class NotesFragment extends Fragment {
     private ArrayAdapter<String> notesAdapter;
     public File mDirectory;
     public File mFile;
-
+    public List<File> filesList;
     public NotesFragment() {
         // Required empty public constructor
     }
@@ -63,7 +62,7 @@ public class NotesFragment extends Fragment {
 
 
         new FileListAsyncTask().execute();
-
+        new FileInFolderListAsyncTask().execute();
 
 
         listViewNotes.setOnItemClickListener(new AdapterView.OnItemClickListener() {
@@ -71,9 +70,10 @@ public class NotesFragment extends Fragment {
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                 // 当用户点击列表项时，切换到显示备忘录详情的 Fragment
                 String selectedNote = notesList.get(position);
+                mFile = filesList.get(position-1);
                 Bundle bundle = new Bundle();
-                bundle.putString("noteText", selectedNote);
-
+                bundle.putString("fileName", selectedNote);
+                bundle.putString("fileId", mFile.getId());
 
                 mTabsAdapter.addTab(NoteDetailFragment.class, bundle);
                 mTabsAdapter.notifyDataSetChanged();
@@ -104,8 +104,11 @@ public class NotesFragment extends Fragment {
             mFile = file;
             String selectedNote = file.getFileName();
             Bundle bundle = new Bundle();
-            bundle.putString("noteText", selectedNote);
+            bundle.putString("fileName", selectedNote);
+            bundle.putString("fileId", file.getId());
+            notesList.add(selectedNote);
             mTabsAdapter.addTab(NoteDetailFragment.class, bundle);
+            notesAdapter.notifyDataSetChanged();
             mTabsAdapter.notifyDataSetChanged();
             mTabsAdapter.selectPaper(1);
         }
@@ -142,12 +145,34 @@ public class NotesFragment extends Fragment {
 
         @Override
         protected void onPostExecute(File file) {
+            super.onPostExecute(file);
             mDirectory = file;
-            notesList.add(file.getFileName());
-            notesAdapter.notifyDataSetChanged();
+
         }
     }
 
+    @SuppressLint("StaticFieldLeak")
+    private class FileInFolderListAsyncTask extends AsyncTask<Void, Void, List<File>> {
+        @Override
+        protected List<File> doInBackground(Void... voids) {
+            List<File> files = null;
+            try {
+                files = hmsServiceManager.listFilesInFolder(mDirectory);
+            }catch (IOException e) {
+                throw new RuntimeException(e);
+            }
+            return files;
+        }
 
-
+        @Override
+        protected void onPostExecute(List<File> files) {
+            super.onPostExecute(files);
+            filesList = files;
+            for(File file: files){
+                notesList.add(file.getFileName());
+            }
+            notesAdapter.notifyDataSetChanged();
+            mTabsAdapter.notifyDataSetChanged();
+        }
+    }
 }

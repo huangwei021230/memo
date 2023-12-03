@@ -104,6 +104,7 @@ drawable ic_arrow_back
 drawable ic_launcher_background
 drawable ic_launcher_foreground
 id btnAddNote
+id buttonSave
 id drive_about_button_get
 id drive_about_text
 id drive_about_text_error
@@ -148,13 +149,13 @@ id drive_replies_update
 id drive_restore_btn
 id drive_restore_text
 id editTextNote
+id editTextNoteContent
+id editTextNoteTitle
 id external_webview
 id hwtoolbar
 id imageViewBack
 id listViewNotes
 id splash_info
-id textViewNoteContent
-id textViewNoteTitle
 id view_pager
 id welcome_image
 layout activity_main
