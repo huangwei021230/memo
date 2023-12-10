@@ -4,8 +4,12 @@
  */
 package com.huawei.cloud.drive.bean;
 
+import android.os.Bundle;
+
 import com.huawei.agconnect.cloud.database.CloudDBZoneObject;
 import com.huawei.agconnect.cloud.database.annotations.PrimaryKeys;
+
+import java.io.Serializable;
 
 /**
  * Definition of ObjectType MemoInfo.
@@ -13,7 +17,7 @@ import com.huawei.agconnect.cloud.database.annotations.PrimaryKeys;
  * @since 2023-12-10
  */
 @PrimaryKeys({"id"})
-public final class MemoInfo extends CloudDBZoneObject {
+public final class MemoInfo extends CloudDBZoneObject implements Serializable {
     private Long id;
 
     private String title;
@@ -52,5 +56,18 @@ public final class MemoInfo extends CloudDBZoneObject {
     public String getContent() {
         return content;
     }
-
+    public Bundle toBundle() {
+        Bundle bundle = new Bundle();
+        bundle.putLong("id", id);
+        bundle.putString("title", title);
+        bundle.putString("content", content);
+        return bundle;
+    }
+    // 从Bundle中提取属性值，并创建新的MemoInfo对象
+    public static MemoInfo fromBundle(Bundle bundle) {
+        Long id = bundle.getLong("id");
+        String title = bundle.getString("title");
+        String content = bundle.getString("content");
+        return new MemoInfo(id, title, content);
+    }
 }

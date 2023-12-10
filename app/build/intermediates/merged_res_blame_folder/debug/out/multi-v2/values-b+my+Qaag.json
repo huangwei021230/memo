@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "boogiepop.memo.app-mergeDebugResources-22:/values-b+my+Qaag/values-b+my+Qaag.xml",
+            "outputFile": "boogiepop.memo.app-mergeDebugResources-39:/values-b+my+Qaag/values-b+my+Qaag.xml",
             "map": [
                 {
-                    "source": "/Users/huangwei021230/.gradle/caches/transforms-3/a0797ecb4575c1dbb684bfb19ae9ea0c/transformed/jetified-base-4.0.2.300/res/values-b+my+Qaag/values-b+my+Qaag.xml",
+                    "source": "/Users/huangwei021230/.gradle/caches/transforms-3/696036a5fc582438720372d8e91ad644/transformed/jetified-base-4.0.2.300/res/values-b+my+Qaag/values-b+my+Qaag.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -14,7 +14,7 @@
                     }
                 },
                 {
-                    "source": "/Users/huangwei021230/.gradle/caches/transforms-3/5261facd26240cee9789971c8764902c/transformed/jetified-update-2.0.6.300/res/values-b+my+Qaag/values-b+my+Qaag.xml",
+                    "source": "/Users/huangwei021230/.gradle/caches/transforms-3/6a1092da5bbb97abede1f4da81462628/transformed/jetified-update-2.0.6.300/res/values-b+my+Qaag/values-b+my+Qaag.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -31,7 +31,7 @@
                     }
                 },
                 {
-                    "source": "/Users/huangwei021230/.gradle/caches/transforms-3/847e79bcee885c37fe7bc34fdc900bf8/transformed/jetified-hwid-4.0.1.300/res/values-b+my+Qaag/values-b+my+Qaag.xml",
+                    "source": "/Users/huangwei021230/.gradle/caches/transforms-3/9d27ae6b8b48eba4deb5acd38e49aa6d/transformed/jetified-hwid-4.0.1.300/res/values-b+my+Qaag/values-b+my+Qaag.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

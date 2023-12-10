@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "boogiepop.memo.app-mergeDebugResources-22:/values-night-v29/values-night-v29.xml",
+            "outputFile": "boogiepop.memo.app-mergeDebugResources-39:/values-night-v29/values-night-v29.xml",
             "map": [
                 {
-                    "source": "/Users/huangwei021230/.gradle/caches/transforms-3/a0797ecb4575c1dbb684bfb19ae9ea0c/transformed/jetified-base-4.0.2.300/res/values-night-v29/values-night-v29.xml",
+                    "source": "/Users/huangwei021230/.gradle/caches/transforms-3/696036a5fc582438720372d8e91ad644/transformed/jetified-base-4.0.2.300/res/values-night-v29/values-night-v29.xml",
                     "from": {
                         "startLines": "2,3,4",
                         "startColumns": "4,4,4",

@@ -1,10 +1,27 @@
 {
     "logs": [
         {
-            "outputFile": "boogiepop.memo.app-mergeDebugResources-22:/values-large-v4/values-large-v4.xml",
+            "outputFile": "boogiepop.memo.app-mergeDebugResources-39:/values-large-v4/values-large-v4.xml",
             "map": [
                 {
-                    "source": "/Users/huangwei021230/.gradle/caches/transforms-3/b2466c451b84e4ba1e784dd23f0177a3/transformed/appcompat-1.3.1/res/values-large-v4/values-large-v4.xml",
+                    "source": "/Users/huangwei021230/.gradle/caches/transforms-3/68e95e6e8f81dd2823a8c4e602a8dea2/transformed/material-1.10.0/res/values-large-v4/values-large-v4.xml",
+                    "from": {
+                        "startLines": "2,3,4,5",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,169,285,407",
+                        "endColumns": "113,115,121,133",
+                        "endOffsets": "164,280,402,536"
+                    },
+                    "to": {
+                        "startLines": "11,12,13,14",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "752,866,982,1104",
+                        "endColumns": "113,115,121,133",
+                        "endOffsets": "861,977,1099,1233"
+                    }
+                },
+                {
+                    "source": "/Users/huangwei021230/.gradle/caches/transforms-3/884b74bd28e318c92eed5fb175e5f56c/transformed/appcompat-1.6.1/res/values-large-v4/values-large-v4.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10",
                         "startColumns": "4,4,4,4,4,4,4,4,4",

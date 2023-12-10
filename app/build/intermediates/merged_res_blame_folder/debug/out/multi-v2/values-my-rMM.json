@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "boogiepop.memo.app-mergeDebugResources-22:/values-my-rMM/values-my-rMM.xml",
+            "outputFile": "boogiepop.memo.app-mergeDebugResources-39:/values-my-rMM/values-my-rMM.xml",
             "map": [
                 {
-                    "source": "/Users/huangwei021230/.gradle/caches/transforms-3/c50e2cbdffdee8454c20621d520b1133/transformed/jetified-push-4.0.3.300/res/values-my-rMM/values-my-rMM.xml",
+                    "source": "/Users/huangwei021230/.gradle/caches/transforms-3/0a3bc53bde0e16b7a5f5db3a4f1dd4ec/transformed/jetified-push-4.0.3.300/res/values-my-rMM/values-my-rMM.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
