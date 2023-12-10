@@ -99,7 +99,7 @@ public class MainActivity extends AppCompatActivity implements UiCallBack {
     }
     private boolean isNew(MemoInfo memoInfo){
         for(MemoInfo memo : memoList){
-            if(memo.getId() == memoInfo.getId()){
+            if(memo.getId().equals(memoInfo.getId())){
                 return false;
             }
         }
@@ -119,14 +119,18 @@ public class MainActivity extends AppCompatActivity implements UiCallBack {
                         if (isNew(memo)) {
                             // 新建备忘录项
                             memoList.add(memo);
-                            cloudDBManager.upsertMemoInfos(memo);
                         } else {
                             // 更新备忘录项
-                            int position = memoList.indexOf(memo);
-                            if (position != -1) {
-                                memoList.set(position, memo);
+                            int position = 0;
+                            for(int i = 0;i<memoList.size();i++){
+                                if(memoList.get(i).getId().equals(memo.getId())){
+                                    position = i;
+                                    break;
+                                }
                             }
+                            memoList.set(position, memo);
                         }
+                        cloudDBManager.upsertMemoInfos(memo);
                         // 刷新备忘录列表
                         memoAdapter.notifyDataSetChanged();
                     }

@@ -46,9 +46,25 @@ public class MemoAdapter extends RecyclerView.Adapter<MemoAdapter.ViewHolder> {
         void onItemClick(int position);
     }
     public void addMemos(List<MemoInfo> list) {
-        int startPosition = memoList.size(); // 获取当前列表的末尾位置
-        memoList.addAll(list); // 将新的MemoInfo对象列表添加到原有列表中
-        notifyItemRangeInserted(startPosition, list.size()); // 通知适配器有新的数据插入
+        for (MemoInfo newMemo : list) {
+            boolean isExisting = false;
+            for (int i = 0; i < memoList.size(); i++) {
+                MemoInfo existingMemo = memoList.get(i);
+                if (existingMemo.getId().equals(newMemo.getId())) {
+                    // 相同id的对象已存在，更新内容
+                    existingMemo.setTitle(newMemo.getTitle());
+                    existingMemo.setContent(newMemo.getContent());
+                    notifyItemChanged(i); // 通知适配器有数据更新
+                    isExisting = true;
+                    break;
+                }
+            }
+            if (!isExisting) {
+                // 相同id的对象不存在，添加到列表末尾
+                memoList.add(newMemo);
+                notifyItemInserted(memoList.size() - 1); // 通知适配器有新的数据插入
+            }
+        }
     }
     public class ViewHolder extends RecyclerView.ViewHolder implements View.OnClickListener {
         private TextView titleTextView;

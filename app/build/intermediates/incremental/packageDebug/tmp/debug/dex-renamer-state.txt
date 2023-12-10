@@ -1,4 +1,4 @@
-#Sun Dec 10 23:53:41 CST 2023
+#Mon Dec 11 00:35:48 CST 2023
 base.0=/Users/huangwei021230/code/ipads/HMS-core-Cloud/client/hms-drive-clientdemo/app/build/intermediates/dex/debug/mergeExtDexDebug/classes.dex
 base.1=/Users/huangwei021230/code/ipads/HMS-core-Cloud/client/hms-drive-clientdemo/app/build/intermediates/dex/debug/mergeProjectDexDebug/0/classes.dex
 base.2=/Users/huangwei021230/code/ipads/HMS-core-Cloud/client/hms-drive-clientdemo/app/build/intermediates/dex/debug/mergeProjectDexDebug/14/classes.dex
