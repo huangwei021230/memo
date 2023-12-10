@@ -13,6 +13,11 @@ android {
         versionName "1.0.0.300"
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
+    packagingOptions {
+        resources {
+            excludes += 'okhttp3/internal/publicsuffix/publicsuffixes.gz'
+        }
+    }
     signingConfigs {
         debug {
             storeFile file('memo.jks')
@@ -37,7 +42,12 @@ android {
             signingConfig signingConfigs.release
         }
     }
+    compileOptions{
+        sourceCompatibility = 1.8
+        targetCompatibility = 1.8
+    }
 }
+
 
 repositories {
     flatDir {
@@ -47,9 +57,10 @@ repositories {
 
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
-    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
     implementation 'androidx.legacy:legacy-support-v13:1.0.0'
 
+    implementation 'com.huawei.agconnect:agconnect-core:1.9.1.301'
+    implementation 'com.huawei.agconnect:agconnect-cloud-database:1.9.1.301'
     implementation 'com.huawei.hms:drive:5.2.0.300'
     implementation 'com.huawei.hms:hwid:4.0.1.300'
     implementation 'com.huawei.hms:push:4.0.3.300'

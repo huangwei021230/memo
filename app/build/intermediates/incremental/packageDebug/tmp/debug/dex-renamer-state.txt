@@ -1,8 +1,9 @@
-#Mon Dec 04 14:37:53 CST 2023
+#Sun Dec 10 19:48:36 CST 2023
 base.0=/Users/huangwei021230/code/ipads/HMS-core-Cloud/client/hms-drive-clientdemo/app/build/intermediates/dex/debug/mergeExtDexDebug/classes.dex
 base.1=/Users/huangwei021230/code/ipads/HMS-core-Cloud/client/hms-drive-clientdemo/app/build/intermediates/dex/debug/mergeProjectDexDebug/0/classes.dex
 base.10=/Users/huangwei021230/code/ipads/HMS-core-Cloud/client/hms-drive-clientdemo/app/build/intermediates/dex/debug/mergeProjectDexDebug/7/classes.dex
 base.11=/Users/huangwei021230/code/ipads/HMS-core-Cloud/client/hms-drive-clientdemo/app/build/intermediates/dex/debug/mergeProjectDexDebug/8/classes.dex
+base.12=/Users/huangwei021230/code/ipads/HMS-core-Cloud/client/hms-drive-clientdemo/app/build/intermediates/dex/debug/mergeExtDexDebug/classes2.dex
 base.2=/Users/huangwei021230/code/ipads/HMS-core-Cloud/client/hms-drive-clientdemo/app/build/intermediates/dex/debug/mergeProjectDexDebug/1/classes.dex
 base.3=/Users/huangwei021230/code/ipads/HMS-core-Cloud/client/hms-drive-clientdemo/app/build/intermediates/dex/debug/mergeProjectDexDebug/10/classes.dex
 base.4=/Users/huangwei021230/code/ipads/HMS-core-Cloud/client/hms-drive-clientdemo/app/build/intermediates/dex/debug/mergeProjectDexDebug/14/classes.dex
@@ -15,6 +16,7 @@ path.0=classes.dex
 path.1=0/classes.dex
 path.10=7/classes.dex
 path.11=8/classes.dex
+path.12=classes2.dex
 path.2=1/classes.dex
 path.3=10/classes.dex
 path.4=14/classes.dex
@@ -27,6 +29,7 @@ renamed.0=classes.dex
 renamed.1=classes2.dex
 renamed.10=classes11.dex
 renamed.11=classes12.dex
+renamed.12=classes13.dex
 renamed.2=classes3.dex
 renamed.3=classes4.dex
 renamed.4=classes5.dex

@@ -4,61 +4,67 @@ ADDED from /Users/huangwei021230/code/ipads/HMS-core-Cloud/client/hms-drive-clie
 INJECTED from /Users/huangwei021230/code/ipads/HMS-core-Cloud/client/hms-drive-clientdemo/app/src/main/AndroidManifest.xml:2:1-71:12
 INJECTED from /Users/huangwei021230/code/ipads/HMS-core-Cloud/client/hms-drive-clientdemo/app/src/main/AndroidManifest.xml:2:1-71:12
 INJECTED from /Users/huangwei021230/code/ipads/HMS-core-Cloud/client/hms-drive-clientdemo/app/src/main/AndroidManifest.xml:2:1-71:12
-MERGED from [androidx.recyclerview:recyclerview:1.0.0] /Users/huangwei021230/.gradle/caches/transforms-3/82b1c91db7af1cdb491d3a9b6cc7020b/transformed/recyclerview-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.constraintlayout:constraintlayout:2.1.2] /Users/huangwei021230/.gradle/caches/transforms-3/57a7ccc92dac923cfd71959e8382e3f4/transformed/constraintlayout-2.1.2/AndroidManifest.xml:2:1-11:12
-MERGED from [androidx.appcompat:appcompat:1.3.1] /Users/huangwei021230/.gradle/caches/transforms-3/40244aad36396e1ea4fc1da3e1c59e5a/transformed/appcompat-1.3.1/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.legacy:legacy-support-v13:1.0.0] /Users/huangwei021230/.gradle/caches/transforms-3/7756758f349eb86124f6cca50801579d/transformed/legacy-support-v13-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/huangwei021230/.gradle/caches/transforms-3/292498eaf809e3261f792222fba4ca5a/transformed/legacy-support-v4-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [com.huawei.hms:drive:5.2.0.300] /Users/huangwei021230/.gradle/caches/transforms-3/7bf6a4f43006d5d6d37b866dd4d023d2/transformed/jetified-drive-5.2.0.300/AndroidManifest.xml:2:1-21:12
-MERGED from [com.huawei.hms:hwid:4.0.1.300] /Users/huangwei021230/.gradle/caches/transforms-3/35f1cfe872d0d009e37773798c158cc1/transformed/jetified-hwid-4.0.1.300/AndroidManifest.xml:2:1-25:12
-MERGED from [com.huawei.hms:push:4.0.3.300] /Users/huangwei021230/.gradle/caches/transforms-3/b9d2f295d6c789339d36e62fe840c85d/transformed/jetified-push-4.0.3.300/AndroidManifest.xml:2:1-78:12
-MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/huangwei021230/.gradle/caches/transforms-3/8dc345a54d5fa069fb498ced41a9445a/transformed/legacy-support-core-ui-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.fragment:fragment:1.3.6] /Users/huangwei021230/.gradle/caches/transforms-3/3104232469309c915a392adfee4471cc/transformed/fragment-1.3.6/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.activity:activity:1.2.4] /Users/huangwei021230/.gradle/caches/transforms-3/6a2efb7364a5f3c7cfcef50559856648/transformed/jetified-activity-1.2.4/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.appcompat:appcompat-resources:1.3.1] /Users/huangwei021230/.gradle/caches/transforms-3/4314c12bf7d1b497e9a90bb0b7ecbce1/transformed/jetified-appcompat-resources-1.3.1/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/huangwei021230/.gradle/caches/transforms-3/387f1479157b097976039a0190b9f520/transformed/drawerlayout-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.media:media:1.0.0] /Users/huangwei021230/.gradle/caches/transforms-3/458cbcd8ad6607d2484d03fd1bb2bc27/transformed/media-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/huangwei021230/.gradle/caches/transforms-3/efa2cfd8bfdd116cec39c4d4453b3427/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/huangwei021230/.gradle/caches/transforms-3/bfa4f769dbefe6f7f1e29b67a9650354/transformed/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/huangwei021230/.gradle/caches/transforms-3/018280a5ecda96ef45982075b554d7f7/transformed/coordinatorlayout-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/huangwei021230/.gradle/caches/transforms-3/339c243871317995a6c566aa50317a8a/transformed/slidingpanelayout-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.customview:customview:1.0.0] /Users/huangwei021230/.gradle/caches/transforms-3/20b98cd4331f249e54f67e5481ce8cfe/transformed/customview-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/huangwei021230/.gradle/caches/transforms-3/f7d1f6964ac7ae17edd7673f7b78534d/transformed/swiperefreshlayout-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/huangwei021230/.gradle/caches/transforms-3/9b8174bf07e6dccc8a11d26ad9fb0425/transformed/asynclayoutinflater-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.loader:loader:1.0.0] /Users/huangwei021230/.gradle/caches/transforms-3/3ed356821cba94deeef2bf59d21b5a90/transformed/loader-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/huangwei021230/.gradle/caches/transforms-3/6a2bfad5a1722285ef446b40e54708f5/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/huangwei021230/.gradle/caches/transforms-3/585caa88408ca8541a4136218e79eb38/transformed/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.core:core:1.5.0] /Users/huangwei021230/.gradle/caches/transforms-3/72a50582f6534c79de3cba2ef803e550/transformed/core-1.5.0/AndroidManifest.xml:17:1-26:12
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/huangwei021230/.gradle/caches/transforms-3/7d1a963a058c6abe2a4a5b5511fbfc99/transformed/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] /Users/huangwei021230/.gradle/caches/transforms-3/c6bd7a248d1d8d5465ecb51ae4d6895c/transformed/jetified-lifecycle-viewmodel-savedstate-2.3.1/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.savedstate:savedstate:1.1.0] /Users/huangwei021230/.gradle/caches/transforms-3/ca82c499086ca8c76eccd076c45c79f1/transformed/jetified-savedstate-1.1.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] /Users/huangwei021230/.gradle/caches/transforms-3/c6cc80c8cc199cb7eedf3392bb5c0012/transformed/lifecycle-runtime-2.3.1/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] /Users/huangwei021230/.gradle/caches/transforms-3/0949c221fc83af881beb5b9e7fcd8d16/transformed/lifecycle-viewmodel-2.3.1/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/huangwei021230/.gradle/caches/transforms-3/6a01b967462b6441753e18b345341c61/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/huangwei021230/.gradle/caches/transforms-3/9a1822496f117405c6548e536cfef30d/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
-MERGED from [androidx.tracing:tracing:1.0.0] /Users/huangwei021230/.gradle/caches/transforms-3/d2f9c4f24f168584e66326cb3ec8e629/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/huangwei021230/.gradle/caches/transforms-3/ec5f1d5454cc4d127b9dd815d2839f0b/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] /Users/huangwei021230/.gradle/caches/transforms-3/f5f1e805b23592f4b2a69f06253a9bbc/transformed/lifecycle-livedata-core-2.3.1/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/huangwei021230/.gradle/caches/transforms-3/59e2bdde938113c9d5e68254fe77f08c/transformed/core-runtime-2.1.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/huangwei021230/.gradle/caches/transforms-3/be6b588785a5165ea4ed632de2a68d98/transformed/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/huangwei021230/.gradle/caches/transforms-3/62946348cfccb4fced1aa293d3628438/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.print:print:1.0.0] /Users/huangwei021230/.gradle/caches/transforms-3/1cd0041b2c9323cc61e422cb320cd06c/transformed/print-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [com.huawei.hms:network-embedded:5.0.4.300] /Users/huangwei021230/.gradle/caches/transforms-3/b373cbb83fc8a4b03c0ff3de7b6d47ce/transformed/jetified-network-embedded-5.0.4.300/AndroidManifest.xml:3:1-29:12
-MERGED from [com.huawei.hms:network-api:5.0.4.300] /Users/huangwei021230/.gradle/caches/transforms-3/9aa6a9e85ce9ebf3cc56360e714ce028/transformed/jetified-network-api-5.0.4.300/AndroidManifest.xml:3:1-27:12
-MERGED from [com.huawei.hms:opendevice:4.0.1.301] /Users/huangwei021230/.gradle/caches/transforms-3/e6821752a67ce2719fa350d06e18636b/transformed/jetified-opendevice-4.0.1.301/AndroidManifest.xml:2:1-23:12
-MERGED from [com.huawei.hms:base:4.0.2.300] /Users/huangwei021230/.gradle/caches/transforms-3/dcec466431619f25de5c40040e510396/transformed/jetified-base-4.0.2.300/AndroidManifest.xml:2:1-59:12
-MERGED from [androidx.annotation:annotation-experimental:1.0.0] /Users/huangwei021230/.gradle/caches/transforms-3/fd5fff127c38f658d240ae06bdf23304/transformed/jetified-annotation-experimental-1.0.0/AndroidManifest.xml:17:1-24:12
-MERGED from [com.huawei.hms:network-grs:5.0.4.300] /Users/huangwei021230/.gradle/caches/transforms-3/d0ed32225b196b712fca157122ca8f9b/transformed/jetified-network-grs-5.0.4.300/AndroidManifest.xml:2:1-11:12
-MERGED from [com.huawei.hms:network-base:5.0.4.300] /Users/huangwei021230/.gradle/caches/transforms-3/9ef52fdcec9416e155ede6066b553107/transformed/jetified-network-base-5.0.4.300/AndroidManifest.xml:2:1-11:12
-MERGED from [com.huawei.android.hms:security-intent:1.1.5.306] /Users/huangwei021230/.gradle/caches/transforms-3/561fbb61583e058be12c2b80433bd984/transformed/jetified-security-intent-1.1.5.306/AndroidManifest.xml:2:1-9:12
-MERGED from [com.huawei.android.hms:security-ssl:1.1.5.306] /Users/huangwei021230/.gradle/caches/transforms-3/04b7218ca0c596777ac30559dd8fe1b7/transformed/jetified-security-ssl-1.1.5.306/AndroidManifest.xml:2:1-15:12
-MERGED from [com.huawei.android.hms:security-encrypt:1.1.5.306] /Users/huangwei021230/.gradle/caches/transforms-3/8826781ed1d6cbc4ebffc3e8198deafa/transformed/jetified-security-encrypt-1.1.5.306/AndroidManifest.xml:2:1-11:12
-MERGED from [com.huawei.agconnect:agconnect-core:1.0.0.300] /Users/huangwei021230/.gradle/caches/transforms-3/5da72b6fe9fd3645190e59856ba6e378/transformed/jetified-agconnect-core-1.0.0.300/AndroidManifest.xml:2:1-20:12
-MERGED from [com.huawei.hmf:tasks:1.3.3.300] /Users/huangwei021230/.gradle/caches/transforms-3/73bca1086f554f055822dbd4620cfef4/transformed/jetified-tasks-1.3.3.300/AndroidManifest.xml:2:1-10:12
-MERGED from [com.huawei.hms:update:2.0.6.300] /Users/huangwei021230/.gradle/caches/transforms-3/6e6a96461d162ab1e15199292c463b44/transformed/jetified-update-2.0.6.300/AndroidManifest.xml:2:1-41:12
-MERGED from [com.huawei.hms:network-framework-compat:5.0.4.300] /Users/huangwei021230/.gradle/caches/transforms-3/120dfd388432fe7b0e8d3e31b250c527/transformed/jetified-network-framework-compat-5.0.4.300/AndroidManifest.xml:2:1-11:12
-MERGED from [com.huawei.hms:network-common:5.0.4.300] /Users/huangwei021230/.gradle/caches/transforms-3/adf1673fb797a11ed4993ec58b20a6f6/transformed/jetified-network-common-5.0.4.300/AndroidManifest.xml:2:1-11:12
-MERGED from [com.huawei.hms:dynamic-api:1.0.17.300] /Users/huangwei021230/.gradle/caches/transforms-3/b77597fcb7911bca8d9ec7c0690720f6/transformed/jetified-dynamic-api-1.0.17.300/AndroidManifest.xml:2:1-25:12
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] /Users/huangwei021230/.gradle/caches/transforms-3/7218209edb2854e348cfb30a13d2ce09/transformed/recyclerview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-v13:1.0.0] /Users/huangwei021230/.gradle/caches/transforms-3/d6960366c3cc8233ed76ca4ff8e6c2df/transformed/legacy-support-v13-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/huangwei021230/.gradle/caches/transforms-3/4d27896560ca11a0ef99e4d2ec1de865/transformed/legacy-support-v4-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.huawei.agconnect:agconnect-cloud-database:1.9.1.301] /Users/huangwei021230/.gradle/caches/transforms-3/9c83a0a6de0bdb6c9fac0e39b6853d66/transformed/jetified-agconnect-cloud-database-1.9.1.301/AndroidManifest.xml:2:1-12:12
+MERGED from [com.huawei.agconnect:agconnect-auth:1.9.1.301] /Users/huangwei021230/.gradle/caches/transforms-3/efe45eb0955feebd9a998e5af6952cb4/transformed/jetified-agconnect-auth-1.9.1.301/AndroidManifest.xml:2:1-20:12
+MERGED from [com.huawei.hms:hwid:4.0.1.300] /Users/huangwei021230/.gradle/caches/transforms-3/847e79bcee885c37fe7bc34fdc900bf8/transformed/jetified-hwid-4.0.1.300/AndroidManifest.xml:2:1-25:12
+MERGED from [com.huawei.hms:push:4.0.3.300] /Users/huangwei021230/.gradle/caches/transforms-3/c50e2cbdffdee8454c20621d520b1133/transformed/jetified-push-4.0.3.300/AndroidManifest.xml:2:1-78:12
+MERGED from [com.huawei.hms:opendevice:4.0.1.301] /Users/huangwei021230/.gradle/caches/transforms-3/df9cc4d1296ba0b1c83ab745fc70cd10/transformed/jetified-opendevice-4.0.1.301/AndroidManifest.xml:2:1-23:12
+MERGED from [com.huawei.hms:base:4.0.2.300] /Users/huangwei021230/.gradle/caches/transforms-3/a0797ecb4575c1dbb684bfb19ae9ea0c/transformed/jetified-base-4.0.2.300/AndroidManifest.xml:2:1-59:12
+MERGED from [com.huawei.agconnect:agconnect-credential:1.9.1.301] /Users/huangwei021230/.gradle/caches/transforms-3/c8c6cefc3720a3aa66d8d7e6a3f6b16a/transformed/jetified-agconnect-credential-1.9.1.301/AndroidManifest.xml:2:1-23:12
+MERGED from [com.huawei.agconnect:agconnect-core:1.9.1.301] /Users/huangwei021230/.gradle/caches/transforms-3/7805fb3c7154fc9d73d692bf4d8ed5e7/transformed/jetified-agconnect-core-1.9.1.301/AndroidManifest.xml:2:1-21:12
+MERGED from [com.huawei.hms:drive:5.2.0.300] /Users/huangwei021230/.gradle/caches/transforms-3/3f008d4d7fe57c75c015d6932529eeff/transformed/jetified-drive-5.2.0.300/AndroidManifest.xml:2:1-21:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.2] /Users/huangwei021230/.gradle/caches/transforms-3/414034373bbac582985153cf37cc0d21/transformed/constraintlayout-2.1.2/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.appcompat:appcompat:1.3.1] /Users/huangwei021230/.gradle/caches/transforms-3/b2466c451b84e4ba1e784dd23f0177a3/transformed/appcompat-1.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/huangwei021230/.gradle/caches/transforms-3/22c56f475a8b9a50dc1ca60992c9e21d/transformed/legacy-support-core-ui-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.media:media:1.0.0] /Users/huangwei021230/.gradle/caches/transforms-3/a2eaa6bd027777f05e5ccaadc0948682/transformed/media-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/huangwei021230/.gradle/caches/transforms-3/b209ba09f228c7887740f3c69957b8ec/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.fragment:fragment:1.3.6] /Users/huangwei021230/.gradle/caches/transforms-3/d82146f4b15220e475a958382bfcea1a/transformed/fragment-1.3.6/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.2.4] /Users/huangwei021230/.gradle/caches/transforms-3/b15f3985356e20b3bf0078bcaf01c642/transformed/jetified-activity-1.2.4/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat-resources:1.3.1] /Users/huangwei021230/.gradle/caches/transforms-3/c4c98f7a4510142a5b18e24530785a9b/transformed/jetified-appcompat-resources-1.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/huangwei021230/.gradle/caches/transforms-3/0934e5bfd114429c35e8d8be7f2430e3/transformed/drawerlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/huangwei021230/.gradle/caches/transforms-3/711c0486c0414937e1c5e5ee51b5b2b7/transformed/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/huangwei021230/.gradle/caches/transforms-3/c653f1451b5dbb1f5f991f0e1a4da65a/transformed/coordinatorlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/huangwei021230/.gradle/caches/transforms-3/33c703b49b813c48c52bbf2b6991be0d/transformed/slidingpanelayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] /Users/huangwei021230/.gradle/caches/transforms-3/4ff802dcb35906f8866e4c98617002a9/transformed/customview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/huangwei021230/.gradle/caches/transforms-3/326d4e69d465ce048ccfb378537c961d/transformed/swiperefreshlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/huangwei021230/.gradle/caches/transforms-3/c0a54eb772dd669c0b717ad6ebb2de3d/transformed/asynclayoutinflater-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/huangwei021230/.gradle/caches/transforms-3/872b44b60555be47db08f18f1038f766/transformed/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/huangwei021230/.gradle/caches/transforms-3/5cd39d1e50f2af087ddb849f985c9358/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/huangwei021230/.gradle/caches/transforms-3/07b69de1651a29c0a7d02df83eeefb2d/transformed/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core:1.5.0] /Users/huangwei021230/.gradle/caches/transforms-3/c5eb8a1b91ac7cf618524e01e5773028/transformed/core-1.5.0/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/huangwei021230/.gradle/caches/transforms-3/98c9e6e03d6dfec40b9c6f9807e54f42/transformed/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] /Users/huangwei021230/.gradle/caches/transforms-3/489d035b01f39ae713d469c870ec8403/transformed/jetified-lifecycle-viewmodel-savedstate-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.1.0] /Users/huangwei021230/.gradle/caches/transforms-3/919a375dbbbae6d9603a39f6fb60ae74/transformed/jetified-savedstate-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] /Users/huangwei021230/.gradle/caches/transforms-3/ef34b9b659f239f6ed1365fae75adf54/transformed/lifecycle-runtime-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] /Users/huangwei021230/.gradle/caches/transforms-3/0141a8990d4cb049d0b974559efc01f1/transformed/lifecycle-viewmodel-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/huangwei021230/.gradle/caches/transforms-3/4f2bc5b56fe035e99d068479f9433dcf/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/huangwei021230/.gradle/caches/transforms-3/27eb0c942f0f32829c6ceb6569205e0d/transformed/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/huangwei021230/.gradle/caches/transforms-3/1d18cc190aca3db5ac56969eae874e1e/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /Users/huangwei021230/.gradle/caches/transforms-3/d58387f397efa7b0effdb59d90a37de3/transformed/print-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.huawei.hms:network-embedded:5.0.4.300] /Users/huangwei021230/.gradle/caches/transforms-3/b2ae2b4b9e21b44fa23b57a2a06b864d/transformed/jetified-network-embedded-5.0.4.300/AndroidManifest.xml:3:1-29:12
+MERGED from [com.huawei.hms:network-api:5.0.4.300] /Users/huangwei021230/.gradle/caches/transforms-3/d560ec5c70d83e319fc919778eaf98dc/transformed/jetified-network-api-5.0.4.300/AndroidManifest.xml:3:1-27:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/huangwei021230/.gradle/caches/transforms-3/0c785517747410e921df37b72eb766a1/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/huangwei021230/.gradle/caches/transforms-3/bd6e2ecb3ba6f233f601c5f32a25ec57/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/huangwei021230/.gradle/caches/transforms-3/87738e45033b5ec59d0158d30c059826/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] /Users/huangwei021230/.gradle/caches/transforms-3/07bc18cc635160a856d2b008752da9f5/transformed/lifecycle-livedata-core-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/huangwei021230/.gradle/caches/transforms-3/cd7b577502cdd0fd304ae37814ed8cb6/transformed/core-runtime-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.huawei.agconnect:agconnect-https:1.9.1.301] /Users/huangwei021230/.gradle/caches/transforms-3/80d7189591defec35be5234fb914e4df/transformed/jetified-agconnect-https-1.9.1.301/AndroidManifest.xml:3:1-13:12
+MERGED from [com.huawei.agconnect:agconnect-api-core:1.9.1.301] /Users/huangwei021230/.gradle/caches/transforms-3/979be059cccb4be1271ac0f4e3a893d1/transformed/jetified-agconnect-api-core-1.9.1.301/AndroidManifest.xml:3:1-21:12
+MERGED from [com.huawei.agconnect:datastore-core:1.9.1.301] /Users/huangwei021230/.gradle/caches/transforms-3/7b2602cd58857bc0858ec3a29a2b9d10/transformed/jetified-datastore-core-1.9.1.301/AndroidManifest.xml:2:1-10:12
+MERGED from [com.huawei.hms:network-grs:5.0.4.300] /Users/huangwei021230/.gradle/caches/transforms-3/da8503e9052208868f083ee8f11beaec/transformed/jetified-network-grs-5.0.4.300/AndroidManifest.xml:2:1-11:12
+MERGED from [com.huawei.hms:network-base:5.0.4.300] /Users/huangwei021230/.gradle/caches/transforms-3/588f2f57d00026696b25a56ee29c29d2/transformed/jetified-network-base-5.0.4.300/AndroidManifest.xml:2:1-11:12
+MERGED from [com.huawei.android.hms:security-intent:1.1.5.306] /Users/huangwei021230/.gradle/caches/transforms-3/84a07c9621f11879ca34c44544736d26/transformed/jetified-security-intent-1.1.5.306/AndroidManifest.xml:2:1-9:12
+MERGED from [com.huawei.android.hms:security-ssl:1.2.0.306] /Users/huangwei021230/.gradle/caches/transforms-3/1cb47a4cc687c1f470c6355d975157ac/transformed/jetified-security-ssl-1.2.0.306/AndroidManifest.xml:2:1-9:12
+MERGED from [com.huawei.android.hms:security-encrypt:1.2.0.306] /Users/huangwei021230/.gradle/caches/transforms-3/406111e0c7f03319f8b8b9181b25ea65/transformed/jetified-security-encrypt-1.2.0.306/AndroidManifest.xml:2:1-11:12
+MERGED from [com.huawei.hms:update:2.0.6.300] /Users/huangwei021230/.gradle/caches/transforms-3/5261facd26240cee9789971c8764902c/transformed/jetified-update-2.0.6.300/AndroidManifest.xml:2:1-41:12
+MERGED from [androidx.annotation:annotation-experimental:1.0.0] /Users/huangwei021230/.gradle/caches/transforms-3/996931f2c82a1fb1fc26347f17913d00/transformed/jetified-annotation-experimental-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.huawei.android.hms:security-base:1.2.0.306] /Users/huangwei021230/.gradle/caches/transforms-3/809e7795b8166eeeaf23211199fcbb45/transformed/jetified-security-base-1.2.0.306/AndroidManifest.xml:2:1-9:12
+MERGED from [com.huawei.hms:network-framework-compat:5.0.4.300] /Users/huangwei021230/.gradle/caches/transforms-3/c0af8924908d3a6f3449d8d75c001a4a/transformed/jetified-network-framework-compat-5.0.4.300/AndroidManifest.xml:2:1-11:12
+MERGED from [com.huawei.hms:network-common:5.0.4.300] /Users/huangwei021230/.gradle/caches/transforms-3/f91ba8e7bb80b2658fcf6d99ae06fece/transformed/jetified-network-common-5.0.4.300/AndroidManifest.xml:2:1-11:12
+MERGED from [com.huawei.hms:dynamic-api:1.0.17.300] /Users/huangwei021230/.gradle/caches/transforms-3/f1e48c6d13f7c825419a6432ced4988a/transformed/jetified-dynamic-api-1.0.17.300/AndroidManifest.xml:2:1-25:12
 INJECTED from /Users/huangwei021230/code/ipads/HMS-core-Cloud/client/hms-drive-clientdemo/app/src/main/AndroidManifest.xml:2:1-71:12
 INJECTED from /Users/huangwei021230/code/ipads/HMS-core-Cloud/client/hms-drive-clientdemo/app/src/main/AndroidManifest.xml:2:1-71:12
 INJECTED from /Users/huangwei021230/code/ipads/HMS-core-Cloud/client/hms-drive-clientdemo/app/src/main/AndroidManifest.xml:2:1-71:12
@@ -80,16 +86,20 @@ INJECTED from /Users/huangwei021230/code/ipads/HMS-core-Cloud/client/hms-drive-c
 		ADDED from /Users/huangwei021230/code/ipads/HMS-core-Cloud/client/hms-drive-clientdemo/app/src/main/AndroidManifest.xml:2:11-69
 uses-permission#android.permission.INTERNET
 ADDED from /Users/huangwei021230/code/ipads/HMS-core-Cloud/client/hms-drive-clientdemo/app/src/main/AndroidManifest.xml:5:5-67
-MERGED from [com.huawei.hms:base:4.0.2.300] /Users/huangwei021230/.gradle/caches/transforms-3/dcec466431619f25de5c40040e510396/transformed/jetified-base-4.0.2.300/AndroidManifest.xml:10:5-67
-MERGED from [com.huawei.hms:base:4.0.2.300] /Users/huangwei021230/.gradle/caches/transforms-3/dcec466431619f25de5c40040e510396/transformed/jetified-base-4.0.2.300/AndroidManifest.xml:10:5-67
-MERGED from [com.huawei.hms:update:2.0.6.300] /Users/huangwei021230/.gradle/caches/transforms-3/6e6a96461d162ab1e15199292c463b44/transformed/jetified-update-2.0.6.300/AndroidManifest.xml:11:5-67
-MERGED from [com.huawei.hms:update:2.0.6.300] /Users/huangwei021230/.gradle/caches/transforms-3/6e6a96461d162ab1e15199292c463b44/transformed/jetified-update-2.0.6.300/AndroidManifest.xml:11:5-67
+MERGED from [com.huawei.agconnect:agconnect-cloud-database:1.9.1.301] /Users/huangwei021230/.gradle/caches/transforms-3/9c83a0a6de0bdb6c9fac0e39b6853d66/transformed/jetified-agconnect-cloud-database-1.9.1.301/AndroidManifest.xml:10:5-67
+MERGED from [com.huawei.agconnect:agconnect-cloud-database:1.9.1.301] /Users/huangwei021230/.gradle/caches/transforms-3/9c83a0a6de0bdb6c9fac0e39b6853d66/transformed/jetified-agconnect-cloud-database-1.9.1.301/AndroidManifest.xml:10:5-67
+MERGED from [com.huawei.hms:base:4.0.2.300] /Users/huangwei021230/.gradle/caches/transforms-3/a0797ecb4575c1dbb684bfb19ae9ea0c/transformed/jetified-base-4.0.2.300/AndroidManifest.xml:10:5-67
+MERGED from [com.huawei.hms:base:4.0.2.300] /Users/huangwei021230/.gradle/caches/transforms-3/a0797ecb4575c1dbb684bfb19ae9ea0c/transformed/jetified-base-4.0.2.300/AndroidManifest.xml:10:5-67
+MERGED from [com.huawei.agconnect:agconnect-credential:1.9.1.301] /Users/huangwei021230/.gradle/caches/transforms-3/c8c6cefc3720a3aa66d8d7e6a3f6b16a/transformed/jetified-agconnect-credential-1.9.1.301/AndroidManifest.xml:11:5-67
+MERGED from [com.huawei.agconnect:agconnect-credential:1.9.1.301] /Users/huangwei021230/.gradle/caches/transforms-3/c8c6cefc3720a3aa66d8d7e6a3f6b16a/transformed/jetified-agconnect-credential-1.9.1.301/AndroidManifest.xml:11:5-67
+MERGED from [com.huawei.hms:update:2.0.6.300] /Users/huangwei021230/.gradle/caches/transforms-3/5261facd26240cee9789971c8764902c/transformed/jetified-update-2.0.6.300/AndroidManifest.xml:11:5-67
+MERGED from [com.huawei.hms:update:2.0.6.300] /Users/huangwei021230/.gradle/caches/transforms-3/5261facd26240cee9789971c8764902c/transformed/jetified-update-2.0.6.300/AndroidManifest.xml:11:5-67
 	android:name
 		ADDED from /Users/huangwei021230/code/ipads/HMS-core-Cloud/client/hms-drive-clientdemo/app/src/main/AndroidManifest.xml:5:22-64
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
 ADDED from /Users/huangwei021230/code/ipads/HMS-core-Cloud/client/hms-drive-clientdemo/app/src/main/AndroidManifest.xml:6:5-81
-MERGED from [com.huawei.hms:base:4.0.2.300] /Users/huangwei021230/.gradle/caches/transforms-3/dcec466431619f25de5c40040e510396/transformed/jetified-base-4.0.2.300/AndroidManifest.xml:12:5-81
-MERGED from [com.huawei.hms:base:4.0.2.300] /Users/huangwei021230/.gradle/caches/transforms-3/dcec466431619f25de5c40040e510396/transformed/jetified-base-4.0.2.300/AndroidManifest.xml:12:5-81
+MERGED from [com.huawei.hms:base:4.0.2.300] /Users/huangwei021230/.gradle/caches/transforms-3/a0797ecb4575c1dbb684bfb19ae9ea0c/transformed/jetified-base-4.0.2.300/AndroidManifest.xml:12:5-81
+MERGED from [com.huawei.hms:base:4.0.2.300] /Users/huangwei021230/.gradle/caches/transforms-3/a0797ecb4575c1dbb684bfb19ae9ea0c/transformed/jetified-base-4.0.2.300/AndroidManifest.xml:12:5-81
 	android:name
 		ADDED from /Users/huangwei021230/code/ipads/HMS-core-Cloud/client/hms-drive-clientdemo/app/src/main/AndroidManifest.xml:6:22-78
 uses-permission#android.permission.READ_EXTERNAL_STORAGE
@@ -110,56 +120,62 @@ ADDED from /Users/huangwei021230/code/ipads/HMS-core-Cloud/client/hms-drive-clie
 		ADDED from /Users/huangwei021230/code/ipads/HMS-core-Cloud/client/hms-drive-clientdemo/app/src/main/AndroidManifest.xml:11:9-62
 uses-permission#android.permission.ACCESS_NETWORK_STATE
 ADDED from /Users/huangwei021230/code/ipads/HMS-core-Cloud/client/hms-drive-clientdemo/app/src/main/AndroidManifest.xml:14:5-79
-MERGED from [com.huawei.hms:network-embedded:5.0.4.300] /Users/huangwei021230/.gradle/caches/transforms-3/b373cbb83fc8a4b03c0ff3de7b6d47ce/transformed/jetified-network-embedded-5.0.4.300/AndroidManifest.xml:12:5-79
-MERGED from [com.huawei.hms:network-embedded:5.0.4.300] /Users/huangwei021230/.gradle/caches/transforms-3/b373cbb83fc8a4b03c0ff3de7b6d47ce/transformed/jetified-network-embedded-5.0.4.300/AndroidManifest.xml:12:5-79
-MERGED from [com.huawei.hms:base:4.0.2.300] /Users/huangwei021230/.gradle/caches/transforms-3/dcec466431619f25de5c40040e510396/transformed/jetified-base-4.0.2.300/AndroidManifest.xml:14:5-79
-MERGED from [com.huawei.hms:base:4.0.2.300] /Users/huangwei021230/.gradle/caches/transforms-3/dcec466431619f25de5c40040e510396/transformed/jetified-base-4.0.2.300/AndroidManifest.xml:14:5-79
-MERGED from [com.huawei.hms:update:2.0.6.300] /Users/huangwei021230/.gradle/caches/transforms-3/6e6a96461d162ab1e15199292c463b44/transformed/jetified-update-2.0.6.300/AndroidManifest.xml:12:5-79
-MERGED from [com.huawei.hms:update:2.0.6.300] /Users/huangwei021230/.gradle/caches/transforms-3/6e6a96461d162ab1e15199292c463b44/transformed/jetified-update-2.0.6.300/AndroidManifest.xml:12:5-79
+MERGED from [com.huawei.hms:base:4.0.2.300] /Users/huangwei021230/.gradle/caches/transforms-3/a0797ecb4575c1dbb684bfb19ae9ea0c/transformed/jetified-base-4.0.2.300/AndroidManifest.xml:14:5-79
+MERGED from [com.huawei.hms:base:4.0.2.300] /Users/huangwei021230/.gradle/caches/transforms-3/a0797ecb4575c1dbb684bfb19ae9ea0c/transformed/jetified-base-4.0.2.300/AndroidManifest.xml:14:5-79
+MERGED from [com.huawei.hms:network-embedded:5.0.4.300] /Users/huangwei021230/.gradle/caches/transforms-3/b2ae2b4b9e21b44fa23b57a2a06b864d/transformed/jetified-network-embedded-5.0.4.300/AndroidManifest.xml:12:5-79
+MERGED from [com.huawei.hms:network-embedded:5.0.4.300] /Users/huangwei021230/.gradle/caches/transforms-3/b2ae2b4b9e21b44fa23b57a2a06b864d/transformed/jetified-network-embedded-5.0.4.300/AndroidManifest.xml:12:5-79
+MERGED from [com.huawei.agconnect:agconnect-https:1.9.1.301] /Users/huangwei021230/.gradle/caches/transforms-3/80d7189591defec35be5234fb914e4df/transformed/jetified-agconnect-https-1.9.1.301/AndroidManifest.xml:11:5-79
+MERGED from [com.huawei.agconnect:agconnect-https:1.9.1.301] /Users/huangwei021230/.gradle/caches/transforms-3/80d7189591defec35be5234fb914e4df/transformed/jetified-agconnect-https-1.9.1.301/AndroidManifest.xml:11:5-79
+MERGED from [com.huawei.hms:update:2.0.6.300] /Users/huangwei021230/.gradle/caches/transforms-3/5261facd26240cee9789971c8764902c/transformed/jetified-update-2.0.6.300/AndroidManifest.xml:12:5-79
+MERGED from [com.huawei.hms:update:2.0.6.300] /Users/huangwei021230/.gradle/caches/transforms-3/5261facd26240cee9789971c8764902c/transformed/jetified-update-2.0.6.300/AndroidManifest.xml:12:5-79
 	android:name
 		ADDED from /Users/huangwei021230/code/ipads/HMS-core-Cloud/client/hms-drive-clientdemo/app/src/main/AndroidManifest.xml:14:22-76
 uses-permission#android.permission.REQUEST_INSTALL_PACKAGES
 ADDED from /Users/huangwei021230/code/ipads/HMS-core-Cloud/client/hms-drive-clientdemo/app/src/main/AndroidManifest.xml:17:5-83
-MERGED from [com.huawei.hms:base:4.0.2.300] /Users/huangwei021230/.gradle/caches/transforms-3/dcec466431619f25de5c40040e510396/transformed/jetified-base-4.0.2.300/AndroidManifest.xml:16:5-83
-MERGED from [com.huawei.hms:base:4.0.2.300] /Users/huangwei021230/.gradle/caches/transforms-3/dcec466431619f25de5c40040e510396/transformed/jetified-base-4.0.2.300/AndroidManifest.xml:16:5-83
-MERGED from [com.huawei.hms:update:2.0.6.300] /Users/huangwei021230/.gradle/caches/transforms-3/6e6a96461d162ab1e15199292c463b44/transformed/jetified-update-2.0.6.300/AndroidManifest.xml:15:5-83
-MERGED from [com.huawei.hms:update:2.0.6.300] /Users/huangwei021230/.gradle/caches/transforms-3/6e6a96461d162ab1e15199292c463b44/transformed/jetified-update-2.0.6.300/AndroidManifest.xml:15:5-83
+MERGED from [com.huawei.hms:base:4.0.2.300] /Users/huangwei021230/.gradle/caches/transforms-3/a0797ecb4575c1dbb684bfb19ae9ea0c/transformed/jetified-base-4.0.2.300/AndroidManifest.xml:16:5-83
+MERGED from [com.huawei.hms:base:4.0.2.300] /Users/huangwei021230/.gradle/caches/transforms-3/a0797ecb4575c1dbb684bfb19ae9ea0c/transformed/jetified-base-4.0.2.300/AndroidManifest.xml:16:5-83
+MERGED from [com.huawei.hms:update:2.0.6.300] /Users/huangwei021230/.gradle/caches/transforms-3/5261facd26240cee9789971c8764902c/transformed/jetified-update-2.0.6.300/AndroidManifest.xml:15:5-83
+MERGED from [com.huawei.hms:update:2.0.6.300] /Users/huangwei021230/.gradle/caches/transforms-3/5261facd26240cee9789971c8764902c/transformed/jetified-update-2.0.6.300/AndroidManifest.xml:15:5-83
 	android:name
 		ADDED from /Users/huangwei021230/code/ipads/HMS-core-Cloud/client/hms-drive-clientdemo/app/src/main/AndroidManifest.xml:17:22-80
 application
 ADDED from /Users/huangwei021230/code/ipads/HMS-core-Cloud/client/hms-drive-clientdemo/app/src/main/AndroidManifest.xml:20:5-70:19
-MERGED from [androidx.constraintlayout:constraintlayout:2.1.2] /Users/huangwei021230/.gradle/caches/transforms-3/57a7ccc92dac923cfd71959e8382e3f4/transformed/constraintlayout-2.1.2/AndroidManifest.xml:9:5-20
-MERGED from [androidx.constraintlayout:constraintlayout:2.1.2] /Users/huangwei021230/.gradle/caches/transforms-3/57a7ccc92dac923cfd71959e8382e3f4/transformed/constraintlayout-2.1.2/AndroidManifest.xml:9:5-20
-MERGED from [com.huawei.hms:drive:5.2.0.300] /Users/huangwei021230/.gradle/caches/transforms-3/7bf6a4f43006d5d6d37b866dd4d023d2/transformed/jetified-drive-5.2.0.300/AndroidManifest.xml:11:5-19:19
-MERGED from [com.huawei.hms:drive:5.2.0.300] /Users/huangwei021230/.gradle/caches/transforms-3/7bf6a4f43006d5d6d37b866dd4d023d2/transformed/jetified-drive-5.2.0.300/AndroidManifest.xml:11:5-19:19
-MERGED from [com.huawei.hms:hwid:4.0.1.300] /Users/huangwei021230/.gradle/caches/transforms-3/35f1cfe872d0d009e37773798c158cc1/transformed/jetified-hwid-4.0.1.300/AndroidManifest.xml:9:5-23:19
-MERGED from [com.huawei.hms:hwid:4.0.1.300] /Users/huangwei021230/.gradle/caches/transforms-3/35f1cfe872d0d009e37773798c158cc1/transformed/jetified-hwid-4.0.1.300/AndroidManifest.xml:9:5-23:19
-MERGED from [com.huawei.hms:push:4.0.3.300] /Users/huangwei021230/.gradle/caches/transforms-3/b9d2f295d6c789339d36e62fe840c85d/transformed/jetified-push-4.0.3.300/AndroidManifest.xml:23:5-76:19
-MERGED from [com.huawei.hms:push:4.0.3.300] /Users/huangwei021230/.gradle/caches/transforms-3/b9d2f295d6c789339d36e62fe840c85d/transformed/jetified-push-4.0.3.300/AndroidManifest.xml:23:5-76:19
-MERGED from [androidx.core:core:1.5.0] /Users/huangwei021230/.gradle/caches/transforms-3/72a50582f6534c79de3cba2ef803e550/transformed/core-1.5.0/AndroidManifest.xml:24:5-89
-MERGED from [androidx.core:core:1.5.0] /Users/huangwei021230/.gradle/caches/transforms-3/72a50582f6534c79de3cba2ef803e550/transformed/core-1.5.0/AndroidManifest.xml:24:5-89
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/huangwei021230/.gradle/caches/transforms-3/9a1822496f117405c6548e536cfef30d/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/huangwei021230/.gradle/caches/transforms-3/9a1822496f117405c6548e536cfef30d/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
-MERGED from [com.huawei.hms:network-embedded:5.0.4.300] /Users/huangwei021230/.gradle/caches/transforms-3/b373cbb83fc8a4b03c0ff3de7b6d47ce/transformed/jetified-network-embedded-5.0.4.300/AndroidManifest.xml:14:5-27:19
-MERGED from [com.huawei.hms:network-embedded:5.0.4.300] /Users/huangwei021230/.gradle/caches/transforms-3/b373cbb83fc8a4b03c0ff3de7b6d47ce/transformed/jetified-network-embedded-5.0.4.300/AndroidManifest.xml:14:5-27:19
-MERGED from [com.huawei.hms:network-api:5.0.4.300] /Users/huangwei021230/.gradle/caches/transforms-3/9aa6a9e85ce9ebf3cc56360e714ce028/transformed/jetified-network-api-5.0.4.300/AndroidManifest.xml:14:5-25:19
-MERGED from [com.huawei.hms:network-api:5.0.4.300] /Users/huangwei021230/.gradle/caches/transforms-3/9aa6a9e85ce9ebf3cc56360e714ce028/transformed/jetified-network-api-5.0.4.300/AndroidManifest.xml:14:5-25:19
-MERGED from [com.huawei.hms:opendevice:4.0.1.301] /Users/huangwei021230/.gradle/caches/transforms-3/e6821752a67ce2719fa350d06e18636b/transformed/jetified-opendevice-4.0.1.301/AndroidManifest.xml:9:5-21:19
-MERGED from [com.huawei.hms:opendevice:4.0.1.301] /Users/huangwei021230/.gradle/caches/transforms-3/e6821752a67ce2719fa350d06e18636b/transformed/jetified-opendevice-4.0.1.301/AndroidManifest.xml:9:5-21:19
-MERGED from [com.huawei.hms:base:4.0.2.300] /Users/huangwei021230/.gradle/caches/transforms-3/dcec466431619f25de5c40040e510396/transformed/jetified-base-4.0.2.300/AndroidManifest.xml:20:5-57:19
-MERGED from [com.huawei.hms:base:4.0.2.300] /Users/huangwei021230/.gradle/caches/transforms-3/dcec466431619f25de5c40040e510396/transformed/jetified-base-4.0.2.300/AndroidManifest.xml:20:5-57:19
-MERGED from [com.huawei.android.hms:security-ssl:1.1.5.306] /Users/huangwei021230/.gradle/caches/transforms-3/04b7218ca0c596777ac30559dd8fe1b7/transformed/jetified-security-ssl-1.1.5.306/AndroidManifest.xml:9:5-13:19
-MERGED from [com.huawei.android.hms:security-ssl:1.1.5.306] /Users/huangwei021230/.gradle/caches/transforms-3/04b7218ca0c596777ac30559dd8fe1b7/transformed/jetified-security-ssl-1.1.5.306/AndroidManifest.xml:9:5-13:19
-MERGED from [com.huawei.agconnect:agconnect-core:1.0.0.300] /Users/huangwei021230/.gradle/caches/transforms-3/5da72b6fe9fd3645190e59856ba6e378/transformed/jetified-agconnect-core-1.0.0.300/AndroidManifest.xml:9:5-18:19
-MERGED from [com.huawei.agconnect:agconnect-core:1.0.0.300] /Users/huangwei021230/.gradle/caches/transforms-3/5da72b6fe9fd3645190e59856ba6e378/transformed/jetified-agconnect-core-1.0.0.300/AndroidManifest.xml:9:5-18:19
-MERGED from [com.huawei.hms:update:2.0.6.300] /Users/huangwei021230/.gradle/caches/transforms-3/6e6a96461d162ab1e15199292c463b44/transformed/jetified-update-2.0.6.300/AndroidManifest.xml:20:5-39:19
-MERGED from [com.huawei.hms:update:2.0.6.300] /Users/huangwei021230/.gradle/caches/transforms-3/6e6a96461d162ab1e15199292c463b44/transformed/jetified-update-2.0.6.300/AndroidManifest.xml:20:5-39:19
-MERGED from [com.huawei.hms:dynamic-api:1.0.17.300] /Users/huangwei021230/.gradle/caches/transforms-3/b77597fcb7911bca8d9ec7c0690720f6/transformed/jetified-dynamic-api-1.0.17.300/AndroidManifest.xml:16:5-23:19
-MERGED from [com.huawei.hms:dynamic-api:1.0.17.300] /Users/huangwei021230/.gradle/caches/transforms-3/b77597fcb7911bca8d9ec7c0690720f6/transformed/jetified-dynamic-api-1.0.17.300/AndroidManifest.xml:16:5-23:19
+MERGED from [com.huawei.agconnect:agconnect-auth:1.9.1.301] /Users/huangwei021230/.gradle/caches/transforms-3/efe45eb0955feebd9a998e5af6952cb4/transformed/jetified-agconnect-auth-1.9.1.301/AndroidManifest.xml:10:5-18:19
+MERGED from [com.huawei.agconnect:agconnect-auth:1.9.1.301] /Users/huangwei021230/.gradle/caches/transforms-3/efe45eb0955feebd9a998e5af6952cb4/transformed/jetified-agconnect-auth-1.9.1.301/AndroidManifest.xml:10:5-18:19
+MERGED from [com.huawei.hms:hwid:4.0.1.300] /Users/huangwei021230/.gradle/caches/transforms-3/847e79bcee885c37fe7bc34fdc900bf8/transformed/jetified-hwid-4.0.1.300/AndroidManifest.xml:9:5-23:19
+MERGED from [com.huawei.hms:hwid:4.0.1.300] /Users/huangwei021230/.gradle/caches/transforms-3/847e79bcee885c37fe7bc34fdc900bf8/transformed/jetified-hwid-4.0.1.300/AndroidManifest.xml:9:5-23:19
+MERGED from [com.huawei.hms:push:4.0.3.300] /Users/huangwei021230/.gradle/caches/transforms-3/c50e2cbdffdee8454c20621d520b1133/transformed/jetified-push-4.0.3.300/AndroidManifest.xml:23:5-76:19
+MERGED from [com.huawei.hms:push:4.0.3.300] /Users/huangwei021230/.gradle/caches/transforms-3/c50e2cbdffdee8454c20621d520b1133/transformed/jetified-push-4.0.3.300/AndroidManifest.xml:23:5-76:19
+MERGED from [com.huawei.hms:opendevice:4.0.1.301] /Users/huangwei021230/.gradle/caches/transforms-3/df9cc4d1296ba0b1c83ab745fc70cd10/transformed/jetified-opendevice-4.0.1.301/AndroidManifest.xml:9:5-21:19
+MERGED from [com.huawei.hms:opendevice:4.0.1.301] /Users/huangwei021230/.gradle/caches/transforms-3/df9cc4d1296ba0b1c83ab745fc70cd10/transformed/jetified-opendevice-4.0.1.301/AndroidManifest.xml:9:5-21:19
+MERGED from [com.huawei.hms:base:4.0.2.300] /Users/huangwei021230/.gradle/caches/transforms-3/a0797ecb4575c1dbb684bfb19ae9ea0c/transformed/jetified-base-4.0.2.300/AndroidManifest.xml:20:5-57:19
+MERGED from [com.huawei.hms:base:4.0.2.300] /Users/huangwei021230/.gradle/caches/transforms-3/a0797ecb4575c1dbb684bfb19ae9ea0c/transformed/jetified-base-4.0.2.300/AndroidManifest.xml:20:5-57:19
+MERGED from [com.huawei.agconnect:agconnect-credential:1.9.1.301] /Users/huangwei021230/.gradle/caches/transforms-3/c8c6cefc3720a3aa66d8d7e6a3f6b16a/transformed/jetified-agconnect-credential-1.9.1.301/AndroidManifest.xml:13:5-21:19
+MERGED from [com.huawei.agconnect:agconnect-credential:1.9.1.301] /Users/huangwei021230/.gradle/caches/transforms-3/c8c6cefc3720a3aa66d8d7e6a3f6b16a/transformed/jetified-agconnect-credential-1.9.1.301/AndroidManifest.xml:13:5-21:19
+MERGED from [com.huawei.agconnect:agconnect-core:1.9.1.301] /Users/huangwei021230/.gradle/caches/transforms-3/7805fb3c7154fc9d73d692bf4d8ed5e7/transformed/jetified-agconnect-core-1.9.1.301/AndroidManifest.xml:10:5-19:19
+MERGED from [com.huawei.agconnect:agconnect-core:1.9.1.301] /Users/huangwei021230/.gradle/caches/transforms-3/7805fb3c7154fc9d73d692bf4d8ed5e7/transformed/jetified-agconnect-core-1.9.1.301/AndroidManifest.xml:10:5-19:19
+MERGED from [com.huawei.hms:drive:5.2.0.300] /Users/huangwei021230/.gradle/caches/transforms-3/3f008d4d7fe57c75c015d6932529eeff/transformed/jetified-drive-5.2.0.300/AndroidManifest.xml:11:5-19:19
+MERGED from [com.huawei.hms:drive:5.2.0.300] /Users/huangwei021230/.gradle/caches/transforms-3/3f008d4d7fe57c75c015d6932529eeff/transformed/jetified-drive-5.2.0.300/AndroidManifest.xml:11:5-19:19
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.2] /Users/huangwei021230/.gradle/caches/transforms-3/414034373bbac582985153cf37cc0d21/transformed/constraintlayout-2.1.2/AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.2] /Users/huangwei021230/.gradle/caches/transforms-3/414034373bbac582985153cf37cc0d21/transformed/constraintlayout-2.1.2/AndroidManifest.xml:9:5-20
+MERGED from [androidx.core:core:1.5.0] /Users/huangwei021230/.gradle/caches/transforms-3/c5eb8a1b91ac7cf618524e01e5773028/transformed/core-1.5.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.5.0] /Users/huangwei021230/.gradle/caches/transforms-3/c5eb8a1b91ac7cf618524e01e5773028/transformed/core-1.5.0/AndroidManifest.xml:24:5-89
+MERGED from [com.huawei.hms:network-embedded:5.0.4.300] /Users/huangwei021230/.gradle/caches/transforms-3/b2ae2b4b9e21b44fa23b57a2a06b864d/transformed/jetified-network-embedded-5.0.4.300/AndroidManifest.xml:14:5-27:19
+MERGED from [com.huawei.hms:network-embedded:5.0.4.300] /Users/huangwei021230/.gradle/caches/transforms-3/b2ae2b4b9e21b44fa23b57a2a06b864d/transformed/jetified-network-embedded-5.0.4.300/AndroidManifest.xml:14:5-27:19
+MERGED from [com.huawei.hms:network-api:5.0.4.300] /Users/huangwei021230/.gradle/caches/transforms-3/d560ec5c70d83e319fc919778eaf98dc/transformed/jetified-network-api-5.0.4.300/AndroidManifest.xml:14:5-25:19
+MERGED from [com.huawei.hms:network-api:5.0.4.300] /Users/huangwei021230/.gradle/caches/transforms-3/d560ec5c70d83e319fc919778eaf98dc/transformed/jetified-network-api-5.0.4.300/AndroidManifest.xml:14:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/huangwei021230/.gradle/caches/transforms-3/0c785517747410e921df37b72eb766a1/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/huangwei021230/.gradle/caches/transforms-3/0c785517747410e921df37b72eb766a1/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [com.huawei.agconnect:agconnect-api-core:1.9.1.301] /Users/huangwei021230/.gradle/caches/transforms-3/979be059cccb4be1271ac0f4e3a893d1/transformed/jetified-agconnect-api-core-1.9.1.301/AndroidManifest.xml:11:5-19:19
+MERGED from [com.huawei.agconnect:agconnect-api-core:1.9.1.301] /Users/huangwei021230/.gradle/caches/transforms-3/979be059cccb4be1271ac0f4e3a893d1/transformed/jetified-agconnect-api-core-1.9.1.301/AndroidManifest.xml:11:5-19:19
+MERGED from [com.huawei.hms:update:2.0.6.300] /Users/huangwei021230/.gradle/caches/transforms-3/5261facd26240cee9789971c8764902c/transformed/jetified-update-2.0.6.300/AndroidManifest.xml:20:5-39:19
+MERGED from [com.huawei.hms:update:2.0.6.300] /Users/huangwei021230/.gradle/caches/transforms-3/5261facd26240cee9789971c8764902c/transformed/jetified-update-2.0.6.300/AndroidManifest.xml:20:5-39:19
+MERGED from [com.huawei.hms:dynamic-api:1.0.17.300] /Users/huangwei021230/.gradle/caches/transforms-3/f1e48c6d13f7c825419a6432ced4988a/transformed/jetified-dynamic-api-1.0.17.300/AndroidManifest.xml:16:5-23:19
+MERGED from [com.huawei.hms:dynamic-api:1.0.17.300] /Users/huangwei021230/.gradle/caches/transforms-3/f1e48c6d13f7c825419a6432ced4988a/transformed/jetified-dynamic-api-1.0.17.300/AndroidManifest.xml:16:5-23:19
 	android:requestLegacyExternalStorage
 		ADDED from /Users/huangwei021230/code/ipads/HMS-core-Cloud/client/hms-drive-clientdemo/app/src/main/AndroidManifest.xml:28:9-52
 	android:appComponentFactory
-		ADDED from [androidx.core:core:1.5.0] /Users/huangwei021230/.gradle/caches/transforms-3/72a50582f6534c79de3cba2ef803e550/transformed/core-1.5.0/AndroidManifest.xml:24:18-86
+		ADDED from [androidx.core:core:1.5.0] /Users/huangwei021230/.gradle/caches/transforms-3/c5eb8a1b91ac7cf618524e01e5773028/transformed/core-1.5.0/AndroidManifest.xml:24:18-86
 	android:supportsRtl
 		ADDED from /Users/huangwei021230/code/ipads/HMS-core-Cloud/client/hms-drive-clientdemo/app/src/main/AndroidManifest.xml:25:9-35
 	android:label
@@ -204,26 +220,26 @@ ADDED from /Users/huangwei021230/code/ipads/HMS-core-Cloud/client/hms-drive-clie
 		ADDED from /Users/huangwei021230/code/ipads/HMS-core-Cloud/client/hms-drive-clientdemo/app/src/main/AndroidManifest.xml:46:25-66
 receiver#com.huawei.hms.support.api.push.PushMsgReceiver
 ADDED from /Users/huangwei021230/code/ipads/HMS-core-Cloud/client/hms-drive-clientdemo/app/src/main/AndroidManifest.xml:49:9-53:20
-MERGED from [com.huawei.hms:push:4.0.3.300] /Users/huangwei021230/.gradle/caches/transforms-3/b9d2f295d6c789339d36e62fe840c85d/transformed/jetified-push-4.0.3.300/AndroidManifest.xml:24:9-35:20
-MERGED from [com.huawei.hms:push:4.0.3.300] /Users/huangwei021230/.gradle/caches/transforms-3/b9d2f295d6c789339d36e62fe840c85d/transformed/jetified-push-4.0.3.300/AndroidManifest.xml:24:9-35:20
+MERGED from [com.huawei.hms:push:4.0.3.300] /Users/huangwei021230/.gradle/caches/transforms-3/c50e2cbdffdee8454c20621d520b1133/transformed/jetified-push-4.0.3.300/AndroidManifest.xml:24:9-35:20
+MERGED from [com.huawei.hms:push:4.0.3.300] /Users/huangwei021230/.gradle/caches/transforms-3/c50e2cbdffdee8454c20621d520b1133/transformed/jetified-push-4.0.3.300/AndroidManifest.xml:24:9-35:20
 	android:exported
 		ADDED from /Users/huangwei021230/code/ipads/HMS-core-Cloud/client/hms-drive-clientdemo/app/src/main/AndroidManifest.xml:51:13-36
 	android:permission
-		ADDED from [com.huawei.hms:push:4.0.3.300] /Users/huangwei021230/.gradle/caches/transforms-3/b9d2f295d6c789339d36e62fe840c85d/transformed/jetified-push-4.0.3.300/AndroidManifest.xml:27:13-78
+		ADDED from [com.huawei.hms:push:4.0.3.300] /Users/huangwei021230/.gradle/caches/transforms-3/c50e2cbdffdee8454c20621d520b1133/transformed/jetified-push-4.0.3.300/AndroidManifest.xml:27:13-78
 	android:directBootAware
-		ADDED from [com.huawei.hms:push:4.0.3.300] /Users/huangwei021230/.gradle/caches/transforms-3/b9d2f295d6c789339d36e62fe840c85d/transformed/jetified-push-4.0.3.300/AndroidManifest.xml:26:13-43
+		ADDED from [com.huawei.hms:push:4.0.3.300] /Users/huangwei021230/.gradle/caches/transforms-3/c50e2cbdffdee8454c20621d520b1133/transformed/jetified-push-4.0.3.300/AndroidManifest.xml:26:13-43
 	android:name
 		ADDED from /Users/huangwei021230/code/ipads/HMS-core-Cloud/client/hms-drive-clientdemo/app/src/main/AndroidManifest.xml:50:13-75
 receiver#com.huawei.hms.support.api.push.PushReceiver
 ADDED from /Users/huangwei021230/code/ipads/HMS-core-Cloud/client/hms-drive-clientdemo/app/src/main/AndroidManifest.xml:55:9-59:20
-MERGED from [com.huawei.hms:push:4.0.3.300] /Users/huangwei021230/.gradle/caches/transforms-3/b9d2f295d6c789339d36e62fe840c85d/transformed/jetified-push-4.0.3.300/AndroidManifest.xml:36:9-47:20
-MERGED from [com.huawei.hms:push:4.0.3.300] /Users/huangwei021230/.gradle/caches/transforms-3/b9d2f295d6c789339d36e62fe840c85d/transformed/jetified-push-4.0.3.300/AndroidManifest.xml:36:9-47:20
+MERGED from [com.huawei.hms:push:4.0.3.300] /Users/huangwei021230/.gradle/caches/transforms-3/c50e2cbdffdee8454c20621d520b1133/transformed/jetified-push-4.0.3.300/AndroidManifest.xml:36:9-47:20
+MERGED from [com.huawei.hms:push:4.0.3.300] /Users/huangwei021230/.gradle/caches/transforms-3/c50e2cbdffdee8454c20621d520b1133/transformed/jetified-push-4.0.3.300/AndroidManifest.xml:36:9-47:20
 	android:exported
 		ADDED from /Users/huangwei021230/code/ipads/HMS-core-Cloud/client/hms-drive-clientdemo/app/src/main/AndroidManifest.xml:57:13-36
 	android:permission
-		ADDED from [com.huawei.hms:push:4.0.3.300] /Users/huangwei021230/.gradle/caches/transforms-3/b9d2f295d6c789339d36e62fe840c85d/transformed/jetified-push-4.0.3.300/AndroidManifest.xml:39:13-78
+		ADDED from [com.huawei.hms:push:4.0.3.300] /Users/huangwei021230/.gradle/caches/transforms-3/c50e2cbdffdee8454c20621d520b1133/transformed/jetified-push-4.0.3.300/AndroidManifest.xml:39:13-78
 	android:directBootAware
-		ADDED from [com.huawei.hms:push:4.0.3.300] /Users/huangwei021230/.gradle/caches/transforms-3/b9d2f295d6c789339d36e62fe840c85d/transformed/jetified-push-4.0.3.300/AndroidManifest.xml:38:13-43
+		ADDED from [com.huawei.hms:push:4.0.3.300] /Users/huangwei021230/.gradle/caches/transforms-3/c50e2cbdffdee8454c20621d520b1133/transformed/jetified-push-4.0.3.300/AndroidManifest.xml:38:13-43
 	android:name
 		ADDED from /Users/huangwei021230/code/ipads/HMS-core-Cloud/client/hms-drive-clientdemo/app/src/main/AndroidManifest.xml:56:13-72
 activity#com.huawei.cloud.drive.view.activity.WebViewActivity
@@ -246,120 +262,132 @@ uses-sdk
 INJECTED from /Users/huangwei021230/code/ipads/HMS-core-Cloud/client/hms-drive-clientdemo/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/huangwei021230/code/ipads/HMS-core-Cloud/client/hms-drive-clientdemo/app/src/main/AndroidManifest.xml
 INJECTED from /Users/huangwei021230/code/ipads/HMS-core-Cloud/client/hms-drive-clientdemo/app/src/main/AndroidManifest.xml
-MERGED from [androidx.recyclerview:recyclerview:1.0.0] /Users/huangwei021230/.gradle/caches/transforms-3/82b1c91db7af1cdb491d3a9b6cc7020b/transformed/recyclerview-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.recyclerview:recyclerview:1.0.0] /Users/huangwei021230/.gradle/caches/transforms-3/82b1c91db7af1cdb491d3a9b6cc7020b/transformed/recyclerview-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.constraintlayout:constraintlayout:2.1.2] /Users/huangwei021230/.gradle/caches/transforms-3/57a7ccc92dac923cfd71959e8382e3f4/transformed/constraintlayout-2.1.2/AndroidManifest.xml:5:5-7:41
-MERGED from [androidx.constraintlayout:constraintlayout:2.1.2] /Users/huangwei021230/.gradle/caches/transforms-3/57a7ccc92dac923cfd71959e8382e3f4/transformed/constraintlayout-2.1.2/AndroidManifest.xml:5:5-7:41
-MERGED from [androidx.appcompat:appcompat:1.3.1] /Users/huangwei021230/.gradle/caches/transforms-3/40244aad36396e1ea4fc1da3e1c59e5a/transformed/appcompat-1.3.1/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.appcompat:appcompat:1.3.1] /Users/huangwei021230/.gradle/caches/transforms-3/40244aad36396e1ea4fc1da3e1c59e5a/transformed/appcompat-1.3.1/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.legacy:legacy-support-v13:1.0.0] /Users/huangwei021230/.gradle/caches/transforms-3/7756758f349eb86124f6cca50801579d/transformed/legacy-support-v13-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.legacy:legacy-support-v13:1.0.0] /Users/huangwei021230/.gradle/caches/transforms-3/7756758f349eb86124f6cca50801579d/transformed/legacy-support-v13-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/huangwei021230/.gradle/caches/transforms-3/292498eaf809e3261f792222fba4ca5a/transformed/legacy-support-v4-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/huangwei021230/.gradle/caches/transforms-3/292498eaf809e3261f792222fba4ca5a/transformed/legacy-support-v4-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [com.huawei.hms:drive:5.2.0.300] /Users/huangwei021230/.gradle/caches/transforms-3/7bf6a4f43006d5d6d37b866dd4d023d2/transformed/jetified-drive-5.2.0.300/AndroidManifest.xml:7:5-9:41
-MERGED from [com.huawei.hms:drive:5.2.0.300] /Users/huangwei021230/.gradle/caches/transforms-3/7bf6a4f43006d5d6d37b866dd4d023d2/transformed/jetified-drive-5.2.0.300/AndroidManifest.xml:7:5-9:41
-MERGED from [com.huawei.hms:hwid:4.0.1.300] /Users/huangwei021230/.gradle/caches/transforms-3/35f1cfe872d0d009e37773798c158cc1/transformed/jetified-hwid-4.0.1.300/AndroidManifest.xml:5:5-7:41
-MERGED from [com.huawei.hms:hwid:4.0.1.300] /Users/huangwei021230/.gradle/caches/transforms-3/35f1cfe872d0d009e37773798c158cc1/transformed/jetified-hwid-4.0.1.300/AndroidManifest.xml:5:5-7:41
-MERGED from [com.huawei.hms:push:4.0.3.300] /Users/huangwei021230/.gradle/caches/transforms-3/b9d2f295d6c789339d36e62fe840c85d/transformed/jetified-push-4.0.3.300/AndroidManifest.xml:5:5-7:41
-MERGED from [com.huawei.hms:push:4.0.3.300] /Users/huangwei021230/.gradle/caches/transforms-3/b9d2f295d6c789339d36e62fe840c85d/transformed/jetified-push-4.0.3.300/AndroidManifest.xml:5:5-7:41
-MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/huangwei021230/.gradle/caches/transforms-3/8dc345a54d5fa069fb498ced41a9445a/transformed/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/huangwei021230/.gradle/caches/transforms-3/8dc345a54d5fa069fb498ced41a9445a/transformed/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.fragment:fragment:1.3.6] /Users/huangwei021230/.gradle/caches/transforms-3/3104232469309c915a392adfee4471cc/transformed/fragment-1.3.6/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.fragment:fragment:1.3.6] /Users/huangwei021230/.gradle/caches/transforms-3/3104232469309c915a392adfee4471cc/transformed/fragment-1.3.6/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.activity:activity:1.2.4] /Users/huangwei021230/.gradle/caches/transforms-3/6a2efb7364a5f3c7cfcef50559856648/transformed/jetified-activity-1.2.4/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.activity:activity:1.2.4] /Users/huangwei021230/.gradle/caches/transforms-3/6a2efb7364a5f3c7cfcef50559856648/transformed/jetified-activity-1.2.4/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.appcompat:appcompat-resources:1.3.1] /Users/huangwei021230/.gradle/caches/transforms-3/4314c12bf7d1b497e9a90bb0b7ecbce1/transformed/jetified-appcompat-resources-1.3.1/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.appcompat:appcompat-resources:1.3.1] /Users/huangwei021230/.gradle/caches/transforms-3/4314c12bf7d1b497e9a90bb0b7ecbce1/transformed/jetified-appcompat-resources-1.3.1/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/huangwei021230/.gradle/caches/transforms-3/387f1479157b097976039a0190b9f520/transformed/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/huangwei021230/.gradle/caches/transforms-3/387f1479157b097976039a0190b9f520/transformed/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.media:media:1.0.0] /Users/huangwei021230/.gradle/caches/transforms-3/458cbcd8ad6607d2484d03fd1bb2bc27/transformed/media-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.media:media:1.0.0] /Users/huangwei021230/.gradle/caches/transforms-3/458cbcd8ad6607d2484d03fd1bb2bc27/transformed/media-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/huangwei021230/.gradle/caches/transforms-3/efa2cfd8bfdd116cec39c4d4453b3427/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/huangwei021230/.gradle/caches/transforms-3/efa2cfd8bfdd116cec39c4d4453b3427/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/huangwei021230/.gradle/caches/transforms-3/bfa4f769dbefe6f7f1e29b67a9650354/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/huangwei021230/.gradle/caches/transforms-3/bfa4f769dbefe6f7f1e29b67a9650354/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/huangwei021230/.gradle/caches/transforms-3/018280a5ecda96ef45982075b554d7f7/transformed/coordinatorlayout-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/huangwei021230/.gradle/caches/transforms-3/018280a5ecda96ef45982075b554d7f7/transformed/coordinatorlayout-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/huangwei021230/.gradle/caches/transforms-3/339c243871317995a6c566aa50317a8a/transformed/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/huangwei021230/.gradle/caches/transforms-3/339c243871317995a6c566aa50317a8a/transformed/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.customview:customview:1.0.0] /Users/huangwei021230/.gradle/caches/transforms-3/20b98cd4331f249e54f67e5481ce8cfe/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.customview:customview:1.0.0] /Users/huangwei021230/.gradle/caches/transforms-3/20b98cd4331f249e54f67e5481ce8cfe/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/huangwei021230/.gradle/caches/transforms-3/f7d1f6964ac7ae17edd7673f7b78534d/transformed/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/huangwei021230/.gradle/caches/transforms-3/f7d1f6964ac7ae17edd7673f7b78534d/transformed/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/huangwei021230/.gradle/caches/transforms-3/9b8174bf07e6dccc8a11d26ad9fb0425/transformed/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/huangwei021230/.gradle/caches/transforms-3/9b8174bf07e6dccc8a11d26ad9fb0425/transformed/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.loader:loader:1.0.0] /Users/huangwei021230/.gradle/caches/transforms-3/3ed356821cba94deeef2bf59d21b5a90/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.loader:loader:1.0.0] /Users/huangwei021230/.gradle/caches/transforms-3/3ed356821cba94deeef2bf59d21b5a90/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/huangwei021230/.gradle/caches/transforms-3/6a2bfad5a1722285ef446b40e54708f5/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/huangwei021230/.gradle/caches/transforms-3/6a2bfad5a1722285ef446b40e54708f5/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/huangwei021230/.gradle/caches/transforms-3/585caa88408ca8541a4136218e79eb38/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/huangwei021230/.gradle/caches/transforms-3/585caa88408ca8541a4136218e79eb38/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.core:core:1.5.0] /Users/huangwei021230/.gradle/caches/transforms-3/72a50582f6534c79de3cba2ef803e550/transformed/core-1.5.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.core:core:1.5.0] /Users/huangwei021230/.gradle/caches/transforms-3/72a50582f6534c79de3cba2ef803e550/transformed/core-1.5.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/huangwei021230/.gradle/caches/transforms-3/7d1a963a058c6abe2a4a5b5511fbfc99/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/huangwei021230/.gradle/caches/transforms-3/7d1a963a058c6abe2a4a5b5511fbfc99/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] /Users/huangwei021230/.gradle/caches/transforms-3/c6bd7a248d1d8d5465ecb51ae4d6895c/transformed/jetified-lifecycle-viewmodel-savedstate-2.3.1/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] /Users/huangwei021230/.gradle/caches/transforms-3/c6bd7a248d1d8d5465ecb51ae4d6895c/transformed/jetified-lifecycle-viewmodel-savedstate-2.3.1/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.savedstate:savedstate:1.1.0] /Users/huangwei021230/.gradle/caches/transforms-3/ca82c499086ca8c76eccd076c45c79f1/transformed/jetified-savedstate-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.savedstate:savedstate:1.1.0] /Users/huangwei021230/.gradle/caches/transforms-3/ca82c499086ca8c76eccd076c45c79f1/transformed/jetified-savedstate-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] /Users/huangwei021230/.gradle/caches/transforms-3/c6cc80c8cc199cb7eedf3392bb5c0012/transformed/lifecycle-runtime-2.3.1/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] /Users/huangwei021230/.gradle/caches/transforms-3/c6cc80c8cc199cb7eedf3392bb5c0012/transformed/lifecycle-runtime-2.3.1/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] /Users/huangwei021230/.gradle/caches/transforms-3/0949c221fc83af881beb5b9e7fcd8d16/transformed/lifecycle-viewmodel-2.3.1/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] /Users/huangwei021230/.gradle/caches/transforms-3/0949c221fc83af881beb5b9e7fcd8d16/transformed/lifecycle-viewmodel-2.3.1/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/huangwei021230/.gradle/caches/transforms-3/6a01b967462b6441753e18b345341c61/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/huangwei021230/.gradle/caches/transforms-3/6a01b967462b6441753e18b345341c61/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/huangwei021230/.gradle/caches/transforms-3/9a1822496f117405c6548e536cfef30d/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/huangwei021230/.gradle/caches/transforms-3/9a1822496f117405c6548e536cfef30d/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.tracing:tracing:1.0.0] /Users/huangwei021230/.gradle/caches/transforms-3/d2f9c4f24f168584e66326cb3ec8e629/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.tracing:tracing:1.0.0] /Users/huangwei021230/.gradle/caches/transforms-3/d2f9c4f24f168584e66326cb3ec8e629/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/huangwei021230/.gradle/caches/transforms-3/ec5f1d5454cc4d127b9dd815d2839f0b/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/huangwei021230/.gradle/caches/transforms-3/ec5f1d5454cc4d127b9dd815d2839f0b/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] /Users/huangwei021230/.gradle/caches/transforms-3/f5f1e805b23592f4b2a69f06253a9bbc/transformed/lifecycle-livedata-core-2.3.1/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] /Users/huangwei021230/.gradle/caches/transforms-3/f5f1e805b23592f4b2a69f06253a9bbc/transformed/lifecycle-livedata-core-2.3.1/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/huangwei021230/.gradle/caches/transforms-3/59e2bdde938113c9d5e68254fe77f08c/transformed/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/huangwei021230/.gradle/caches/transforms-3/59e2bdde938113c9d5e68254fe77f08c/transformed/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/huangwei021230/.gradle/caches/transforms-3/be6b588785a5165ea4ed632de2a68d98/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/huangwei021230/.gradle/caches/transforms-3/be6b588785a5165ea4ed632de2a68d98/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/huangwei021230/.gradle/caches/transforms-3/62946348cfccb4fced1aa293d3628438/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/huangwei021230/.gradle/caches/transforms-3/62946348cfccb4fced1aa293d3628438/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.print:print:1.0.0] /Users/huangwei021230/.gradle/caches/transforms-3/1cd0041b2c9323cc61e422cb320cd06c/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.print:print:1.0.0] /Users/huangwei021230/.gradle/caches/transforms-3/1cd0041b2c9323cc61e422cb320cd06c/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [com.huawei.hms:network-embedded:5.0.4.300] /Users/huangwei021230/.gradle/caches/transforms-3/b373cbb83fc8a4b03c0ff3de7b6d47ce/transformed/jetified-network-embedded-5.0.4.300/AndroidManifest.xml:8:5-10:41
-MERGED from [com.huawei.hms:network-embedded:5.0.4.300] /Users/huangwei021230/.gradle/caches/transforms-3/b373cbb83fc8a4b03c0ff3de7b6d47ce/transformed/jetified-network-embedded-5.0.4.300/AndroidManifest.xml:8:5-10:41
-MERGED from [com.huawei.hms:network-api:5.0.4.300] /Users/huangwei021230/.gradle/caches/transforms-3/9aa6a9e85ce9ebf3cc56360e714ce028/transformed/jetified-network-api-5.0.4.300/AndroidManifest.xml:9:5-12:66
-MERGED from [com.huawei.hms:network-api:5.0.4.300] /Users/huangwei021230/.gradle/caches/transforms-3/9aa6a9e85ce9ebf3cc56360e714ce028/transformed/jetified-network-api-5.0.4.300/AndroidManifest.xml:9:5-12:66
-MERGED from [com.huawei.hms:opendevice:4.0.1.301] /Users/huangwei021230/.gradle/caches/transforms-3/e6821752a67ce2719fa350d06e18636b/transformed/jetified-opendevice-4.0.1.301/AndroidManifest.xml:5:5-7:41
-MERGED from [com.huawei.hms:opendevice:4.0.1.301] /Users/huangwei021230/.gradle/caches/transforms-3/e6821752a67ce2719fa350d06e18636b/transformed/jetified-opendevice-4.0.1.301/AndroidManifest.xml:5:5-7:41
-MERGED from [com.huawei.hms:base:4.0.2.300] /Users/huangwei021230/.gradle/caches/transforms-3/dcec466431619f25de5c40040e510396/transformed/jetified-base-4.0.2.300/AndroidManifest.xml:5:5-7:41
-MERGED from [com.huawei.hms:base:4.0.2.300] /Users/huangwei021230/.gradle/caches/transforms-3/dcec466431619f25de5c40040e510396/transformed/jetified-base-4.0.2.300/AndroidManifest.xml:5:5-7:41
-MERGED from [androidx.annotation:annotation-experimental:1.0.0] /Users/huangwei021230/.gradle/caches/transforms-3/fd5fff127c38f658d240ae06bdf23304/transformed/jetified-annotation-experimental-1.0.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.annotation:annotation-experimental:1.0.0] /Users/huangwei021230/.gradle/caches/transforms-3/fd5fff127c38f658d240ae06bdf23304/transformed/jetified-annotation-experimental-1.0.0/AndroidManifest.xml:20:5-22:41
-MERGED from [com.huawei.hms:network-grs:5.0.4.300] /Users/huangwei021230/.gradle/caches/transforms-3/d0ed32225b196b712fca157122ca8f9b/transformed/jetified-network-grs-5.0.4.300/AndroidManifest.xml:7:5-9:41
-MERGED from [com.huawei.hms:network-grs:5.0.4.300] /Users/huangwei021230/.gradle/caches/transforms-3/d0ed32225b196b712fca157122ca8f9b/transformed/jetified-network-grs-5.0.4.300/AndroidManifest.xml:7:5-9:41
-MERGED from [com.huawei.hms:network-base:5.0.4.300] /Users/huangwei021230/.gradle/caches/transforms-3/9ef52fdcec9416e155ede6066b553107/transformed/jetified-network-base-5.0.4.300/AndroidManifest.xml:7:5-9:41
-MERGED from [com.huawei.hms:network-base:5.0.4.300] /Users/huangwei021230/.gradle/caches/transforms-3/9ef52fdcec9416e155ede6066b553107/transformed/jetified-network-base-5.0.4.300/AndroidManifest.xml:7:5-9:41
-MERGED from [com.huawei.android.hms:security-intent:1.1.5.306] /Users/huangwei021230/.gradle/caches/transforms-3/561fbb61583e058be12c2b80433bd984/transformed/jetified-security-intent-1.1.5.306/AndroidManifest.xml:7:5-43
-MERGED from [com.huawei.android.hms:security-intent:1.1.5.306] /Users/huangwei021230/.gradle/caches/transforms-3/561fbb61583e058be12c2b80433bd984/transformed/jetified-security-intent-1.1.5.306/AndroidManifest.xml:7:5-43
-MERGED from [com.huawei.android.hms:security-ssl:1.1.5.306] /Users/huangwei021230/.gradle/caches/transforms-3/04b7218ca0c596777ac30559dd8fe1b7/transformed/jetified-security-ssl-1.1.5.306/AndroidManifest.xml:7:5-43
-MERGED from [com.huawei.android.hms:security-ssl:1.1.5.306] /Users/huangwei021230/.gradle/caches/transforms-3/04b7218ca0c596777ac30559dd8fe1b7/transformed/jetified-security-ssl-1.1.5.306/AndroidManifest.xml:7:5-43
-MERGED from [com.huawei.android.hms:security-encrypt:1.1.5.306] /Users/huangwei021230/.gradle/caches/transforms-3/8826781ed1d6cbc4ebffc3e8198deafa/transformed/jetified-security-encrypt-1.1.5.306/AndroidManifest.xml:7:5-9:41
-MERGED from [com.huawei.android.hms:security-encrypt:1.1.5.306] /Users/huangwei021230/.gradle/caches/transforms-3/8826781ed1d6cbc4ebffc3e8198deafa/transformed/jetified-security-encrypt-1.1.5.306/AndroidManifest.xml:7:5-9:41
-MERGED from [com.huawei.agconnect:agconnect-core:1.0.0.300] /Users/huangwei021230/.gradle/caches/transforms-3/5da72b6fe9fd3645190e59856ba6e378/transformed/jetified-agconnect-core-1.0.0.300/AndroidManifest.xml:5:5-7:41
-MERGED from [com.huawei.agconnect:agconnect-core:1.0.0.300] /Users/huangwei021230/.gradle/caches/transforms-3/5da72b6fe9fd3645190e59856ba6e378/transformed/jetified-agconnect-core-1.0.0.300/AndroidManifest.xml:5:5-7:41
-MERGED from [com.huawei.hmf:tasks:1.3.3.300] /Users/huangwei021230/.gradle/caches/transforms-3/73bca1086f554f055822dbd4620cfef4/transformed/jetified-tasks-1.3.3.300/AndroidManifest.xml:6:5-8:41
-MERGED from [com.huawei.hmf:tasks:1.3.3.300] /Users/huangwei021230/.gradle/caches/transforms-3/73bca1086f554f055822dbd4620cfef4/transformed/jetified-tasks-1.3.3.300/AndroidManifest.xml:6:5-8:41
-MERGED from [com.huawei.hms:update:2.0.6.300] /Users/huangwei021230/.gradle/caches/transforms-3/6e6a96461d162ab1e15199292c463b44/transformed/jetified-update-2.0.6.300/AndroidManifest.xml:7:5-9:41
-MERGED from [com.huawei.hms:update:2.0.6.300] /Users/huangwei021230/.gradle/caches/transforms-3/6e6a96461d162ab1e15199292c463b44/transformed/jetified-update-2.0.6.300/AndroidManifest.xml:7:5-9:41
-MERGED from [com.huawei.hms:network-framework-compat:5.0.4.300] /Users/huangwei021230/.gradle/caches/transforms-3/120dfd388432fe7b0e8d3e31b250c527/transformed/jetified-network-framework-compat-5.0.4.300/AndroidManifest.xml:7:5-9:41
-MERGED from [com.huawei.hms:network-framework-compat:5.0.4.300] /Users/huangwei021230/.gradle/caches/transforms-3/120dfd388432fe7b0e8d3e31b250c527/transformed/jetified-network-framework-compat-5.0.4.300/AndroidManifest.xml:7:5-9:41
-MERGED from [com.huawei.hms:network-common:5.0.4.300] /Users/huangwei021230/.gradle/caches/transforms-3/adf1673fb797a11ed4993ec58b20a6f6/transformed/jetified-network-common-5.0.4.300/AndroidManifest.xml:7:5-9:41
-MERGED from [com.huawei.hms:network-common:5.0.4.300] /Users/huangwei021230/.gradle/caches/transforms-3/adf1673fb797a11ed4993ec58b20a6f6/transformed/jetified-network-common-5.0.4.300/AndroidManifest.xml:7:5-9:41
-MERGED from [com.huawei.hms:dynamic-api:1.0.17.300] /Users/huangwei021230/.gradle/caches/transforms-3/b77597fcb7911bca8d9ec7c0690720f6/transformed/jetified-dynamic-api-1.0.17.300/AndroidManifest.xml:7:5-9:41
-MERGED from [com.huawei.hms:dynamic-api:1.0.17.300] /Users/huangwei021230/.gradle/caches/transforms-3/b77597fcb7911bca8d9ec7c0690720f6/transformed/jetified-dynamic-api-1.0.17.300/AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] /Users/huangwei021230/.gradle/caches/transforms-3/7218209edb2854e348cfb30a13d2ce09/transformed/recyclerview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] /Users/huangwei021230/.gradle/caches/transforms-3/7218209edb2854e348cfb30a13d2ce09/transformed/recyclerview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v13:1.0.0] /Users/huangwei021230/.gradle/caches/transforms-3/d6960366c3cc8233ed76ca4ff8e6c2df/transformed/legacy-support-v13-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v13:1.0.0] /Users/huangwei021230/.gradle/caches/transforms-3/d6960366c3cc8233ed76ca4ff8e6c2df/transformed/legacy-support-v13-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/huangwei021230/.gradle/caches/transforms-3/4d27896560ca11a0ef99e4d2ec1de865/transformed/legacy-support-v4-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/huangwei021230/.gradle/caches/transforms-3/4d27896560ca11a0ef99e4d2ec1de865/transformed/legacy-support-v4-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.huawei.agconnect:agconnect-cloud-database:1.9.1.301] /Users/huangwei021230/.gradle/caches/transforms-3/9c83a0a6de0bdb6c9fac0e39b6853d66/transformed/jetified-agconnect-cloud-database-1.9.1.301/AndroidManifest.xml:6:5-8:41
+MERGED from [com.huawei.agconnect:agconnect-cloud-database:1.9.1.301] /Users/huangwei021230/.gradle/caches/transforms-3/9c83a0a6de0bdb6c9fac0e39b6853d66/transformed/jetified-agconnect-cloud-database-1.9.1.301/AndroidManifest.xml:6:5-8:41
+MERGED from [com.huawei.agconnect:agconnect-auth:1.9.1.301] /Users/huangwei021230/.gradle/caches/transforms-3/efe45eb0955feebd9a998e5af6952cb4/transformed/jetified-agconnect-auth-1.9.1.301/AndroidManifest.xml:6:5-8:41
+MERGED from [com.huawei.agconnect:agconnect-auth:1.9.1.301] /Users/huangwei021230/.gradle/caches/transforms-3/efe45eb0955feebd9a998e5af6952cb4/transformed/jetified-agconnect-auth-1.9.1.301/AndroidManifest.xml:6:5-8:41
+MERGED from [com.huawei.hms:hwid:4.0.1.300] /Users/huangwei021230/.gradle/caches/transforms-3/847e79bcee885c37fe7bc34fdc900bf8/transformed/jetified-hwid-4.0.1.300/AndroidManifest.xml:5:5-7:41
+MERGED from [com.huawei.hms:hwid:4.0.1.300] /Users/huangwei021230/.gradle/caches/transforms-3/847e79bcee885c37fe7bc34fdc900bf8/transformed/jetified-hwid-4.0.1.300/AndroidManifest.xml:5:5-7:41
+MERGED from [com.huawei.hms:push:4.0.3.300] /Users/huangwei021230/.gradle/caches/transforms-3/c50e2cbdffdee8454c20621d520b1133/transformed/jetified-push-4.0.3.300/AndroidManifest.xml:5:5-7:41
+MERGED from [com.huawei.hms:push:4.0.3.300] /Users/huangwei021230/.gradle/caches/transforms-3/c50e2cbdffdee8454c20621d520b1133/transformed/jetified-push-4.0.3.300/AndroidManifest.xml:5:5-7:41
+MERGED from [com.huawei.hms:opendevice:4.0.1.301] /Users/huangwei021230/.gradle/caches/transforms-3/df9cc4d1296ba0b1c83ab745fc70cd10/transformed/jetified-opendevice-4.0.1.301/AndroidManifest.xml:5:5-7:41
+MERGED from [com.huawei.hms:opendevice:4.0.1.301] /Users/huangwei021230/.gradle/caches/transforms-3/df9cc4d1296ba0b1c83ab745fc70cd10/transformed/jetified-opendevice-4.0.1.301/AndroidManifest.xml:5:5-7:41
+MERGED from [com.huawei.hms:base:4.0.2.300] /Users/huangwei021230/.gradle/caches/transforms-3/a0797ecb4575c1dbb684bfb19ae9ea0c/transformed/jetified-base-4.0.2.300/AndroidManifest.xml:5:5-7:41
+MERGED from [com.huawei.hms:base:4.0.2.300] /Users/huangwei021230/.gradle/caches/transforms-3/a0797ecb4575c1dbb684bfb19ae9ea0c/transformed/jetified-base-4.0.2.300/AndroidManifest.xml:5:5-7:41
+MERGED from [com.huawei.agconnect:agconnect-credential:1.9.1.301] /Users/huangwei021230/.gradle/caches/transforms-3/c8c6cefc3720a3aa66d8d7e6a3f6b16a/transformed/jetified-agconnect-credential-1.9.1.301/AndroidManifest.xml:7:5-9:41
+MERGED from [com.huawei.agconnect:agconnect-credential:1.9.1.301] /Users/huangwei021230/.gradle/caches/transforms-3/c8c6cefc3720a3aa66d8d7e6a3f6b16a/transformed/jetified-agconnect-credential-1.9.1.301/AndroidManifest.xml:7:5-9:41
+MERGED from [com.huawei.agconnect:agconnect-core:1.9.1.301] /Users/huangwei021230/.gradle/caches/transforms-3/7805fb3c7154fc9d73d692bf4d8ed5e7/transformed/jetified-agconnect-core-1.9.1.301/AndroidManifest.xml:6:5-8:41
+MERGED from [com.huawei.agconnect:agconnect-core:1.9.1.301] /Users/huangwei021230/.gradle/caches/transforms-3/7805fb3c7154fc9d73d692bf4d8ed5e7/transformed/jetified-agconnect-core-1.9.1.301/AndroidManifest.xml:6:5-8:41
+MERGED from [com.huawei.hms:drive:5.2.0.300] /Users/huangwei021230/.gradle/caches/transforms-3/3f008d4d7fe57c75c015d6932529eeff/transformed/jetified-drive-5.2.0.300/AndroidManifest.xml:7:5-9:41
+MERGED from [com.huawei.hms:drive:5.2.0.300] /Users/huangwei021230/.gradle/caches/transforms-3/3f008d4d7fe57c75c015d6932529eeff/transformed/jetified-drive-5.2.0.300/AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.2] /Users/huangwei021230/.gradle/caches/transforms-3/414034373bbac582985153cf37cc0d21/transformed/constraintlayout-2.1.2/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.2] /Users/huangwei021230/.gradle/caches/transforms-3/414034373bbac582985153cf37cc0d21/transformed/constraintlayout-2.1.2/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.appcompat:appcompat:1.3.1] /Users/huangwei021230/.gradle/caches/transforms-3/b2466c451b84e4ba1e784dd23f0177a3/transformed/appcompat-1.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.3.1] /Users/huangwei021230/.gradle/caches/transforms-3/b2466c451b84e4ba1e784dd23f0177a3/transformed/appcompat-1.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/huangwei021230/.gradle/caches/transforms-3/22c56f475a8b9a50dc1ca60992c9e21d/transformed/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/huangwei021230/.gradle/caches/transforms-3/22c56f475a8b9a50dc1ca60992c9e21d/transformed/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] /Users/huangwei021230/.gradle/caches/transforms-3/a2eaa6bd027777f05e5ccaadc0948682/transformed/media-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] /Users/huangwei021230/.gradle/caches/transforms-3/a2eaa6bd027777f05e5ccaadc0948682/transformed/media-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/huangwei021230/.gradle/caches/transforms-3/b209ba09f228c7887740f3c69957b8ec/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/huangwei021230/.gradle/caches/transforms-3/b209ba09f228c7887740f3c69957b8ec/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.3.6] /Users/huangwei021230/.gradle/caches/transforms-3/d82146f4b15220e475a958382bfcea1a/transformed/fragment-1.3.6/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.3.6] /Users/huangwei021230/.gradle/caches/transforms-3/d82146f4b15220e475a958382bfcea1a/transformed/fragment-1.3.6/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.2.4] /Users/huangwei021230/.gradle/caches/transforms-3/b15f3985356e20b3bf0078bcaf01c642/transformed/jetified-activity-1.2.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.2.4] /Users/huangwei021230/.gradle/caches/transforms-3/b15f3985356e20b3bf0078bcaf01c642/transformed/jetified-activity-1.2.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.3.1] /Users/huangwei021230/.gradle/caches/transforms-3/c4c98f7a4510142a5b18e24530785a9b/transformed/jetified-appcompat-resources-1.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.3.1] /Users/huangwei021230/.gradle/caches/transforms-3/c4c98f7a4510142a5b18e24530785a9b/transformed/jetified-appcompat-resources-1.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/huangwei021230/.gradle/caches/transforms-3/0934e5bfd114429c35e8d8be7f2430e3/transformed/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/huangwei021230/.gradle/caches/transforms-3/0934e5bfd114429c35e8d8be7f2430e3/transformed/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/huangwei021230/.gradle/caches/transforms-3/711c0486c0414937e1c5e5ee51b5b2b7/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/huangwei021230/.gradle/caches/transforms-3/711c0486c0414937e1c5e5ee51b5b2b7/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/huangwei021230/.gradle/caches/transforms-3/c653f1451b5dbb1f5f991f0e1a4da65a/transformed/coordinatorlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/huangwei021230/.gradle/caches/transforms-3/c653f1451b5dbb1f5f991f0e1a4da65a/transformed/coordinatorlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/huangwei021230/.gradle/caches/transforms-3/33c703b49b813c48c52bbf2b6991be0d/transformed/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/huangwei021230/.gradle/caches/transforms-3/33c703b49b813c48c52bbf2b6991be0d/transformed/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/huangwei021230/.gradle/caches/transforms-3/4ff802dcb35906f8866e4c98617002a9/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/huangwei021230/.gradle/caches/transforms-3/4ff802dcb35906f8866e4c98617002a9/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/huangwei021230/.gradle/caches/transforms-3/326d4e69d465ce048ccfb378537c961d/transformed/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/huangwei021230/.gradle/caches/transforms-3/326d4e69d465ce048ccfb378537c961d/transformed/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/huangwei021230/.gradle/caches/transforms-3/c0a54eb772dd669c0b717ad6ebb2de3d/transformed/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/huangwei021230/.gradle/caches/transforms-3/c0a54eb772dd669c0b717ad6ebb2de3d/transformed/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/huangwei021230/.gradle/caches/transforms-3/872b44b60555be47db08f18f1038f766/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/huangwei021230/.gradle/caches/transforms-3/872b44b60555be47db08f18f1038f766/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/huangwei021230/.gradle/caches/transforms-3/5cd39d1e50f2af087ddb849f985c9358/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/huangwei021230/.gradle/caches/transforms-3/5cd39d1e50f2af087ddb849f985c9358/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/huangwei021230/.gradle/caches/transforms-3/07b69de1651a29c0a7d02df83eeefb2d/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/huangwei021230/.gradle/caches/transforms-3/07b69de1651a29c0a7d02df83eeefb2d/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.5.0] /Users/huangwei021230/.gradle/caches/transforms-3/c5eb8a1b91ac7cf618524e01e5773028/transformed/core-1.5.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.5.0] /Users/huangwei021230/.gradle/caches/transforms-3/c5eb8a1b91ac7cf618524e01e5773028/transformed/core-1.5.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/huangwei021230/.gradle/caches/transforms-3/98c9e6e03d6dfec40b9c6f9807e54f42/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/huangwei021230/.gradle/caches/transforms-3/98c9e6e03d6dfec40b9c6f9807e54f42/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] /Users/huangwei021230/.gradle/caches/transforms-3/489d035b01f39ae713d469c870ec8403/transformed/jetified-lifecycle-viewmodel-savedstate-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] /Users/huangwei021230/.gradle/caches/transforms-3/489d035b01f39ae713d469c870ec8403/transformed/jetified-lifecycle-viewmodel-savedstate-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.1.0] /Users/huangwei021230/.gradle/caches/transforms-3/919a375dbbbae6d9603a39f6fb60ae74/transformed/jetified-savedstate-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.1.0] /Users/huangwei021230/.gradle/caches/transforms-3/919a375dbbbae6d9603a39f6fb60ae74/transformed/jetified-savedstate-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] /Users/huangwei021230/.gradle/caches/transforms-3/ef34b9b659f239f6ed1365fae75adf54/transformed/lifecycle-runtime-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] /Users/huangwei021230/.gradle/caches/transforms-3/ef34b9b659f239f6ed1365fae75adf54/transformed/lifecycle-runtime-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] /Users/huangwei021230/.gradle/caches/transforms-3/0141a8990d4cb049d0b974559efc01f1/transformed/lifecycle-viewmodel-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] /Users/huangwei021230/.gradle/caches/transforms-3/0141a8990d4cb049d0b974559efc01f1/transformed/lifecycle-viewmodel-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/huangwei021230/.gradle/caches/transforms-3/4f2bc5b56fe035e99d068479f9433dcf/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/huangwei021230/.gradle/caches/transforms-3/4f2bc5b56fe035e99d068479f9433dcf/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/huangwei021230/.gradle/caches/transforms-3/27eb0c942f0f32829c6ceb6569205e0d/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/huangwei021230/.gradle/caches/transforms-3/27eb0c942f0f32829c6ceb6569205e0d/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/huangwei021230/.gradle/caches/transforms-3/1d18cc190aca3db5ac56969eae874e1e/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/huangwei021230/.gradle/caches/transforms-3/1d18cc190aca3db5ac56969eae874e1e/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/huangwei021230/.gradle/caches/transforms-3/d58387f397efa7b0effdb59d90a37de3/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/huangwei021230/.gradle/caches/transforms-3/d58387f397efa7b0effdb59d90a37de3/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.huawei.hms:network-embedded:5.0.4.300] /Users/huangwei021230/.gradle/caches/transforms-3/b2ae2b4b9e21b44fa23b57a2a06b864d/transformed/jetified-network-embedded-5.0.4.300/AndroidManifest.xml:8:5-10:41
+MERGED from [com.huawei.hms:network-embedded:5.0.4.300] /Users/huangwei021230/.gradle/caches/transforms-3/b2ae2b4b9e21b44fa23b57a2a06b864d/transformed/jetified-network-embedded-5.0.4.300/AndroidManifest.xml:8:5-10:41
+MERGED from [com.huawei.hms:network-api:5.0.4.300] /Users/huangwei021230/.gradle/caches/transforms-3/d560ec5c70d83e319fc919778eaf98dc/transformed/jetified-network-api-5.0.4.300/AndroidManifest.xml:9:5-12:66
+MERGED from [com.huawei.hms:network-api:5.0.4.300] /Users/huangwei021230/.gradle/caches/transforms-3/d560ec5c70d83e319fc919778eaf98dc/transformed/jetified-network-api-5.0.4.300/AndroidManifest.xml:9:5-12:66
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/huangwei021230/.gradle/caches/transforms-3/0c785517747410e921df37b72eb766a1/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/huangwei021230/.gradle/caches/transforms-3/0c785517747410e921df37b72eb766a1/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/huangwei021230/.gradle/caches/transforms-3/bd6e2ecb3ba6f233f601c5f32a25ec57/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/huangwei021230/.gradle/caches/transforms-3/bd6e2ecb3ba6f233f601c5f32a25ec57/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/huangwei021230/.gradle/caches/transforms-3/87738e45033b5ec59d0158d30c059826/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/huangwei021230/.gradle/caches/transforms-3/87738e45033b5ec59d0158d30c059826/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] /Users/huangwei021230/.gradle/caches/transforms-3/07bc18cc635160a856d2b008752da9f5/transformed/lifecycle-livedata-core-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] /Users/huangwei021230/.gradle/caches/transforms-3/07bc18cc635160a856d2b008752da9f5/transformed/lifecycle-livedata-core-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/huangwei021230/.gradle/caches/transforms-3/cd7b577502cdd0fd304ae37814ed8cb6/transformed/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/huangwei021230/.gradle/caches/transforms-3/cd7b577502cdd0fd304ae37814ed8cb6/transformed/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.huawei.agconnect:agconnect-https:1.9.1.301] /Users/huangwei021230/.gradle/caches/transforms-3/80d7189591defec35be5234fb914e4df/transformed/jetified-agconnect-https-1.9.1.301/AndroidManifest.xml:7:5-9:41
+MERGED from [com.huawei.agconnect:agconnect-https:1.9.1.301] /Users/huangwei021230/.gradle/caches/transforms-3/80d7189591defec35be5234fb914e4df/transformed/jetified-agconnect-https-1.9.1.301/AndroidManifest.xml:7:5-9:41
+MERGED from [com.huawei.agconnect:agconnect-api-core:1.9.1.301] /Users/huangwei021230/.gradle/caches/transforms-3/979be059cccb4be1271ac0f4e3a893d1/transformed/jetified-agconnect-api-core-1.9.1.301/AndroidManifest.xml:7:5-9:41
+MERGED from [com.huawei.agconnect:agconnect-api-core:1.9.1.301] /Users/huangwei021230/.gradle/caches/transforms-3/979be059cccb4be1271ac0f4e3a893d1/transformed/jetified-agconnect-api-core-1.9.1.301/AndroidManifest.xml:7:5-9:41
+MERGED from [com.huawei.agconnect:datastore-core:1.9.1.301] /Users/huangwei021230/.gradle/caches/transforms-3/7b2602cd58857bc0858ec3a29a2b9d10/transformed/jetified-datastore-core-1.9.1.301/AndroidManifest.xml:6:5-8:41
+MERGED from [com.huawei.agconnect:datastore-core:1.9.1.301] /Users/huangwei021230/.gradle/caches/transforms-3/7b2602cd58857bc0858ec3a29a2b9d10/transformed/jetified-datastore-core-1.9.1.301/AndroidManifest.xml:6:5-8:41
+MERGED from [com.huawei.hms:network-grs:5.0.4.300] /Users/huangwei021230/.gradle/caches/transforms-3/da8503e9052208868f083ee8f11beaec/transformed/jetified-network-grs-5.0.4.300/AndroidManifest.xml:7:5-9:41
+MERGED from [com.huawei.hms:network-grs:5.0.4.300] /Users/huangwei021230/.gradle/caches/transforms-3/da8503e9052208868f083ee8f11beaec/transformed/jetified-network-grs-5.0.4.300/AndroidManifest.xml:7:5-9:41
+MERGED from [com.huawei.hms:network-base:5.0.4.300] /Users/huangwei021230/.gradle/caches/transforms-3/588f2f57d00026696b25a56ee29c29d2/transformed/jetified-network-base-5.0.4.300/AndroidManifest.xml:7:5-9:41
+MERGED from [com.huawei.hms:network-base:5.0.4.300] /Users/huangwei021230/.gradle/caches/transforms-3/588f2f57d00026696b25a56ee29c29d2/transformed/jetified-network-base-5.0.4.300/AndroidManifest.xml:7:5-9:41
+MERGED from [com.huawei.android.hms:security-intent:1.1.5.306] /Users/huangwei021230/.gradle/caches/transforms-3/84a07c9621f11879ca34c44544736d26/transformed/jetified-security-intent-1.1.5.306/AndroidManifest.xml:7:5-43
+MERGED from [com.huawei.android.hms:security-intent:1.1.5.306] /Users/huangwei021230/.gradle/caches/transforms-3/84a07c9621f11879ca34c44544736d26/transformed/jetified-security-intent-1.1.5.306/AndroidManifest.xml:7:5-43
+MERGED from [com.huawei.android.hms:security-ssl:1.2.0.306] /Users/huangwei021230/.gradle/caches/transforms-3/1cb47a4cc687c1f470c6355d975157ac/transformed/jetified-security-ssl-1.2.0.306/AndroidManifest.xml:7:5-43
+MERGED from [com.huawei.android.hms:security-ssl:1.2.0.306] /Users/huangwei021230/.gradle/caches/transforms-3/1cb47a4cc687c1f470c6355d975157ac/transformed/jetified-security-ssl-1.2.0.306/AndroidManifest.xml:7:5-43
+MERGED from [com.huawei.android.hms:security-encrypt:1.2.0.306] /Users/huangwei021230/.gradle/caches/transforms-3/406111e0c7f03319f8b8b9181b25ea65/transformed/jetified-security-encrypt-1.2.0.306/AndroidManifest.xml:7:5-9:41
+MERGED from [com.huawei.android.hms:security-encrypt:1.2.0.306] /Users/huangwei021230/.gradle/caches/transforms-3/406111e0c7f03319f8b8b9181b25ea65/transformed/jetified-security-encrypt-1.2.0.306/AndroidManifest.xml:7:5-9:41
+MERGED from [com.huawei.hms:update:2.0.6.300] /Users/huangwei021230/.gradle/caches/transforms-3/5261facd26240cee9789971c8764902c/transformed/jetified-update-2.0.6.300/AndroidManifest.xml:7:5-9:41
+MERGED from [com.huawei.hms:update:2.0.6.300] /Users/huangwei021230/.gradle/caches/transforms-3/5261facd26240cee9789971c8764902c/transformed/jetified-update-2.0.6.300/AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.annotation:annotation-experimental:1.0.0] /Users/huangwei021230/.gradle/caches/transforms-3/996931f2c82a1fb1fc26347f17913d00/transformed/jetified-annotation-experimental-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.0.0] /Users/huangwei021230/.gradle/caches/transforms-3/996931f2c82a1fb1fc26347f17913d00/transformed/jetified-annotation-experimental-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.huawei.android.hms:security-base:1.2.0.306] /Users/huangwei021230/.gradle/caches/transforms-3/809e7795b8166eeeaf23211199fcbb45/transformed/jetified-security-base-1.2.0.306/AndroidManifest.xml:7:5-43
+MERGED from [com.huawei.android.hms:security-base:1.2.0.306] /Users/huangwei021230/.gradle/caches/transforms-3/809e7795b8166eeeaf23211199fcbb45/transformed/jetified-security-base-1.2.0.306/AndroidManifest.xml:7:5-43
+MERGED from [com.huawei.hms:network-framework-compat:5.0.4.300] /Users/huangwei021230/.gradle/caches/transforms-3/c0af8924908d3a6f3449d8d75c001a4a/transformed/jetified-network-framework-compat-5.0.4.300/AndroidManifest.xml:7:5-9:41
+MERGED from [com.huawei.hms:network-framework-compat:5.0.4.300] /Users/huangwei021230/.gradle/caches/transforms-3/c0af8924908d3a6f3449d8d75c001a4a/transformed/jetified-network-framework-compat-5.0.4.300/AndroidManifest.xml:7:5-9:41
+MERGED from [com.huawei.hms:network-common:5.0.4.300] /Users/huangwei021230/.gradle/caches/transforms-3/f91ba8e7bb80b2658fcf6d99ae06fece/transformed/jetified-network-common-5.0.4.300/AndroidManifest.xml:7:5-9:41
+MERGED from [com.huawei.hms:network-common:5.0.4.300] /Users/huangwei021230/.gradle/caches/transforms-3/f91ba8e7bb80b2658fcf6d99ae06fece/transformed/jetified-network-common-5.0.4.300/AndroidManifest.xml:7:5-9:41
+MERGED from [com.huawei.hms:dynamic-api:1.0.17.300] /Users/huangwei021230/.gradle/caches/transforms-3/f1e48c6d13f7c825419a6432ced4988a/transformed/jetified-dynamic-api-1.0.17.300/AndroidManifest.xml:7:5-9:41
+MERGED from [com.huawei.hms:dynamic-api:1.0.17.300] /Users/huangwei021230/.gradle/caches/transforms-3/f1e48c6d13f7c825419a6432ced4988a/transformed/jetified-dynamic-api-1.0.17.300/AndroidManifest.xml:7:5-9:41
 INJECTED from /Users/huangwei021230/code/ipads/HMS-core-Cloud/client/hms-drive-clientdemo/app/src/main/AndroidManifest.xml
 INJECTED from /Users/huangwei021230/code/ipads/HMS-core-Cloud/client/hms-drive-clientdemo/app/src/main/AndroidManifest.xml
 	tools:overrideLibrary
-		ADDED from [com.huawei.hms:network-api:5.0.4.300] /Users/huangwei021230/.gradle/caches/transforms-3/9aa6a9e85ce9ebf3cc56360e714ce028/transformed/jetified-network-api-5.0.4.300/AndroidManifest.xml:12:9-63
+		ADDED from [com.huawei.hms:network-api:5.0.4.300] /Users/huangwei021230/.gradle/caches/transforms-3/d560ec5c70d83e319fc919778eaf98dc/transformed/jetified-network-api-5.0.4.300/AndroidManifest.xml:12:9-63
 	android:targetSdkVersion
 		INJECTED from /Users/huangwei021230/code/ipads/HMS-core-Cloud/client/hms-drive-clientdemo/app/src/main/AndroidManifest.xml
 		ADDED from /Users/huangwei021230/code/ipads/HMS-core-Cloud/client/hms-drive-clientdemo/app/src/main/AndroidManifest.xml
@@ -368,313 +396,335 @@ INJECTED from /Users/huangwei021230/code/ipads/HMS-core-Cloud/client/hms-drive-c
 		INJECTED from /Users/huangwei021230/code/ipads/HMS-core-Cloud/client/hms-drive-clientdemo/app/src/main/AndroidManifest.xml
 		ADDED from /Users/huangwei021230/code/ipads/HMS-core-Cloud/client/hms-drive-clientdemo/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/huangwei021230/code/ipads/HMS-core-Cloud/client/hms-drive-clientdemo/app/src/main/AndroidManifest.xml
-meta-data#com.huawei.hms.client.service.name:drive
-ADDED from [com.huawei.hms:drive:5.2.0.300] /Users/huangwei021230/.gradle/caches/transforms-3/7bf6a4f43006d5d6d37b866dd4d023d2/transformed/jetified-drive-5.2.0.300/AndroidManifest.xml:12:9-14:47
-	android:value
-		ADDED from [com.huawei.hms:drive:5.2.0.300] /Users/huangwei021230/.gradle/caches/transforms-3/7bf6a4f43006d5d6d37b866dd4d023d2/transformed/jetified-drive-5.2.0.300/AndroidManifest.xml:14:13-44
-	android:name
-		ADDED from [com.huawei.hms:drive:5.2.0.300] /Users/huangwei021230/.gradle/caches/transforms-3/7bf6a4f43006d5d6d37b866dd4d023d2/transformed/jetified-drive-5.2.0.300/AndroidManifest.xml:13:13-68
-uses-library#org.apache.http.legacy
-ADDED from [com.huawei.hms:drive:5.2.0.300] /Users/huangwei021230/.gradle/caches/transforms-3/7bf6a4f43006d5d6d37b866dd4d023d2/transformed/jetified-drive-5.2.0.300/AndroidManifest.xml:16:9-18:40
-MERGED from [com.huawei.android.hms:security-ssl:1.1.5.306] /Users/huangwei021230/.gradle/caches/transforms-3/04b7218ca0c596777ac30559dd8fe1b7/transformed/jetified-security-ssl-1.1.5.306/AndroidManifest.xml:10:9-12:40
-MERGED from [com.huawei.android.hms:security-ssl:1.1.5.306] /Users/huangwei021230/.gradle/caches/transforms-3/04b7218ca0c596777ac30559dd8fe1b7/transformed/jetified-security-ssl-1.1.5.306/AndroidManifest.xml:10:9-12:40
-	android:required
-		ADDED from [com.huawei.hms:drive:5.2.0.300] /Users/huangwei021230/.gradle/caches/transforms-3/7bf6a4f43006d5d6d37b866dd4d023d2/transformed/jetified-drive-5.2.0.300/AndroidManifest.xml:18:13-37
-	android:name
-		ADDED from [com.huawei.hms:drive:5.2.0.300] /Users/huangwei021230/.gradle/caches/transforms-3/7bf6a4f43006d5d6d37b866dd4d023d2/transformed/jetified-drive-5.2.0.300/AndroidManifest.xml:17:13-50
-activity#com.huawei.hms.hwid.internal.ui.activity.HwIdSignInHubActivity
-ADDED from [com.huawei.hms:hwid:4.0.1.300] /Users/huangwei021230/.gradle/caches/transforms-3/35f1cfe872d0d009e37773798c158cc1/transformed/jetified-hwid-4.0.1.300/AndroidManifest.xml:10:9-15:20
-	android:excludeFromRecents
-		ADDED from [com.huawei.hms:hwid:4.0.1.300] /Users/huangwei021230/.gradle/caches/transforms-3/35f1cfe872d0d009e37773798c158cc1/transformed/jetified-hwid-4.0.1.300/AndroidManifest.xml:12:13-46
-	android:exported
-		ADDED from [com.huawei.hms:hwid:4.0.1.300] /Users/huangwei021230/.gradle/caches/transforms-3/35f1cfe872d0d009e37773798c158cc1/transformed/jetified-hwid-4.0.1.300/AndroidManifest.xml:13:13-37
-	android:theme
-		ADDED from [com.huawei.hms:hwid:4.0.1.300] /Users/huangwei021230/.gradle/caches/transforms-3/35f1cfe872d0d009e37773798c158cc1/transformed/jetified-hwid-4.0.1.300/AndroidManifest.xml:14:13-72
-	android:name
-		ADDED from [com.huawei.hms:hwid:4.0.1.300] /Users/huangwei021230/.gradle/caches/transforms-3/35f1cfe872d0d009e37773798c158cc1/transformed/jetified-hwid-4.0.1.300/AndroidManifest.xml:11:13-90
-meta-data#com.huawei.hms.client.service.name:hwid
-ADDED from [com.huawei.hms:hwid:4.0.1.300] /Users/huangwei021230/.gradle/caches/transforms-3/35f1cfe872d0d009e37773798c158cc1/transformed/jetified-hwid-4.0.1.300/AndroidManifest.xml:17:9-19:46
-	android:value
-		ADDED from [com.huawei.hms:hwid:4.0.1.300] /Users/huangwei021230/.gradle/caches/transforms-3/35f1cfe872d0d009e37773798c158cc1/transformed/jetified-hwid-4.0.1.300/AndroidManifest.xml:19:13-43
-	android:name
-		ADDED from [com.huawei.hms:hwid:4.0.1.300] /Users/huangwei021230/.gradle/caches/transforms-3/35f1cfe872d0d009e37773798c158cc1/transformed/jetified-hwid-4.0.1.300/AndroidManifest.xml:18:13-67
-meta-data#com.huawei.hms.min_api_level:hwid:hwid
-ADDED from [com.huawei.hms:hwid:4.0.1.300] /Users/huangwei021230/.gradle/caches/transforms-3/35f1cfe872d0d009e37773798c158cc1/transformed/jetified-hwid-4.0.1.300/AndroidManifest.xml:20:9-22:33
-	android:value
-		ADDED from [com.huawei.hms:hwid:4.0.1.300] /Users/huangwei021230/.gradle/caches/transforms-3/35f1cfe872d0d009e37773798c158cc1/transformed/jetified-hwid-4.0.1.300/AndroidManifest.xml:22:13-30
-	android:name
-		ADDED from [com.huawei.hms:hwid:4.0.1.300] /Users/huangwei021230/.gradle/caches/transforms-3/35f1cfe872d0d009e37773798c158cc1/transformed/jetified-hwid-4.0.1.300/AndroidManifest.xml:21:13-66
-permission#${applicationId}.permission.PROCESS_PUSH_MSG
-ADDED from [com.huawei.hms:push:4.0.3.300] /Users/huangwei021230/.gradle/caches/transforms-3/b9d2f295d6c789339d36e62fe840c85d/transformed/jetified-push-4.0.3.300/AndroidManifest.xml:10:5-12:55
-	android:protectionLevel
-		ADDED from [com.huawei.hms:push:4.0.3.300] /Users/huangwei021230/.gradle/caches/transforms-3/b9d2f295d6c789339d36e62fe840c85d/transformed/jetified-push-4.0.3.300/AndroidManifest.xml:12:9-52
-	android:name
-		ADDED from [com.huawei.hms:push:4.0.3.300] /Users/huangwei021230/.gradle/caches/transforms-3/b9d2f295d6c789339d36e62fe840c85d/transformed/jetified-push-4.0.3.300/AndroidManifest.xml:11:9-68
-permission#boogiepop.memo.permission.PROCESS_PUSH_MSG
-ADDED from [com.huawei.hms:push:4.0.3.300] /Users/huangwei021230/.gradle/caches/transforms-3/b9d2f295d6c789339d36e62fe840c85d/transformed/jetified-push-4.0.3.300/AndroidManifest.xml:10:5-12:55
-	android:protectionLevel
-		ADDED from [com.huawei.hms:push:4.0.3.300] /Users/huangwei021230/.gradle/caches/transforms-3/b9d2f295d6c789339d36e62fe840c85d/transformed/jetified-push-4.0.3.300/AndroidManifest.xml:12:9-52
-	android:name
-		ADDED from [com.huawei.hms:push:4.0.3.300] /Users/huangwei021230/.gradle/caches/transforms-3/b9d2f295d6c789339d36e62fe840c85d/transformed/jetified-push-4.0.3.300/AndroidManifest.xml:11:9-68
-permission#${applicationId}.permission.PUSH_PROVIDER
-ADDED from [com.huawei.hms:push:4.0.3.300] /Users/huangwei021230/.gradle/caches/transforms-3/b9d2f295d6c789339d36e62fe840c85d/transformed/jetified-push-4.0.3.300/AndroidManifest.xml:13:5-15:55
-	android:protectionLevel
-		ADDED from [com.huawei.hms:push:4.0.3.300] /Users/huangwei021230/.gradle/caches/transforms-3/b9d2f295d6c789339d36e62fe840c85d/transformed/jetified-push-4.0.3.300/AndroidManifest.xml:15:9-52
-	android:name
-		ADDED from [com.huawei.hms:push:4.0.3.300] /Users/huangwei021230/.gradle/caches/transforms-3/b9d2f295d6c789339d36e62fe840c85d/transformed/jetified-push-4.0.3.300/AndroidManifest.xml:14:9-65
-permission#boogiepop.memo.permission.PUSH_PROVIDER
-ADDED from [com.huawei.hms:push:4.0.3.300] /Users/huangwei021230/.gradle/caches/transforms-3/b9d2f295d6c789339d36e62fe840c85d/transformed/jetified-push-4.0.3.300/AndroidManifest.xml:13:5-15:55
-	android:protectionLevel
-		ADDED from [com.huawei.hms:push:4.0.3.300] /Users/huangwei021230/.gradle/caches/transforms-3/b9d2f295d6c789339d36e62fe840c85d/transformed/jetified-push-4.0.3.300/AndroidManifest.xml:15:9-52
-	android:name
-		ADDED from [com.huawei.hms:push:4.0.3.300] /Users/huangwei021230/.gradle/caches/transforms-3/b9d2f295d6c789339d36e62fe840c85d/transformed/jetified-push-4.0.3.300/AndroidManifest.xml:14:9-65
-permission#${applicationId}.permission.PUSH_WRITE_PROVIDER
-ADDED from [com.huawei.hms:push:4.0.3.300] /Users/huangwei021230/.gradle/caches/transforms-3/b9d2f295d6c789339d36e62fe840c85d/transformed/jetified-push-4.0.3.300/AndroidManifest.xml:16:5-18:55
-	android:protectionLevel
-		ADDED from [com.huawei.hms:push:4.0.3.300] /Users/huangwei021230/.gradle/caches/transforms-3/b9d2f295d6c789339d36e62fe840c85d/transformed/jetified-push-4.0.3.300/AndroidManifest.xml:18:9-52
-	android:name
-		ADDED from [com.huawei.hms:push:4.0.3.300] /Users/huangwei021230/.gradle/caches/transforms-3/b9d2f295d6c789339d36e62fe840c85d/transformed/jetified-push-4.0.3.300/AndroidManifest.xml:17:9-71
-permission#boogiepop.memo.permission.PUSH_WRITE_PROVIDER
-ADDED from [com.huawei.hms:push:4.0.3.300] /Users/huangwei021230/.gradle/caches/transforms-3/b9d2f295d6c789339d36e62fe840c85d/transformed/jetified-push-4.0.3.300/AndroidManifest.xml:16:5-18:55
-	android:protectionLevel
-		ADDED from [com.huawei.hms:push:4.0.3.300] /Users/huangwei021230/.gradle/caches/transforms-3/b9d2f295d6c789339d36e62fe840c85d/transformed/jetified-push-4.0.3.300/AndroidManifest.xml:18:9-52
-	android:name
-		ADDED from [com.huawei.hms:push:4.0.3.300] /Users/huangwei021230/.gradle/caches/transforms-3/b9d2f295d6c789339d36e62fe840c85d/transformed/jetified-push-4.0.3.300/AndroidManifest.xml:17:9-71
-uses-permission#${applicationId}.permission.PROCESS_PUSH_MSG
-ADDED from [com.huawei.hms:push:4.0.3.300] /Users/huangwei021230/.gradle/caches/transforms-3/b9d2f295d6c789339d36e62fe840c85d/transformed/jetified-push-4.0.3.300/AndroidManifest.xml:20:5-84
-	android:name
-		ADDED from [com.huawei.hms:push:4.0.3.300] /Users/huangwei021230/.gradle/caches/transforms-3/b9d2f295d6c789339d36e62fe840c85d/transformed/jetified-push-4.0.3.300/AndroidManifest.xml:20:22-81
-uses-permission#boogiepop.memo.permission.PROCESS_PUSH_MSG
-ADDED from [com.huawei.hms:push:4.0.3.300] /Users/huangwei021230/.gradle/caches/transforms-3/b9d2f295d6c789339d36e62fe840c85d/transformed/jetified-push-4.0.3.300/AndroidManifest.xml:20:5-84
-	android:name
-		ADDED from [com.huawei.hms:push:4.0.3.300] /Users/huangwei021230/.gradle/caches/transforms-3/b9d2f295d6c789339d36e62fe840c85d/transformed/jetified-push-4.0.3.300/AndroidManifest.xml:20:22-81
-uses-permission#${applicationId}.permission.PUSH_PROVIDER
-ADDED from [com.huawei.hms:push:4.0.3.300] /Users/huangwei021230/.gradle/caches/transforms-3/b9d2f295d6c789339d36e62fe840c85d/transformed/jetified-push-4.0.3.300/AndroidManifest.xml:21:5-81
-	android:name
-		ADDED from [com.huawei.hms:push:4.0.3.300] /Users/huangwei021230/.gradle/caches/transforms-3/b9d2f295d6c789339d36e62fe840c85d/transformed/jetified-push-4.0.3.300/AndroidManifest.xml:21:22-78
-uses-permission#boogiepop.memo.permission.PUSH_PROVIDER
-ADDED from [com.huawei.hms:push:4.0.3.300] /Users/huangwei021230/.gradle/caches/transforms-3/b9d2f295d6c789339d36e62fe840c85d/transformed/jetified-push-4.0.3.300/AndroidManifest.xml:21:5-81
-	android:name
-		ADDED from [com.huawei.hms:push:4.0.3.300] /Users/huangwei021230/.gradle/caches/transforms-3/b9d2f295d6c789339d36e62fe840c85d/transformed/jetified-push-4.0.3.300/AndroidManifest.xml:21:22-78
-intent-filter#action:name:com.huawei.intent.action.PUSH+action:name:com.huawei.intent.action.PUSH_DELAY_NOTIFY
-ADDED from [com.huawei.hms:push:4.0.3.300] /Users/huangwei021230/.gradle/caches/transforms-3/b9d2f295d6c789339d36e62fe840c85d/transformed/jetified-push-4.0.3.300/AndroidManifest.xml:28:13-34:29
-action#com.huawei.intent.action.PUSH_DELAY_NOTIFY
-ADDED from [com.huawei.hms:push:4.0.3.300] /Users/huangwei021230/.gradle/caches/transforms-3/b9d2f295d6c789339d36e62fe840c85d/transformed/jetified-push-4.0.3.300/AndroidManifest.xml:31:17-85
-	android:name
-		ADDED from [com.huawei.hms:push:4.0.3.300] /Users/huangwei021230/.gradle/caches/transforms-3/b9d2f295d6c789339d36e62fe840c85d/transformed/jetified-push-4.0.3.300/AndroidManifest.xml:31:25-82
-action#com.huawei.intent.action.PUSH
-ADDED from [com.huawei.hms:push:4.0.3.300] /Users/huangwei021230/.gradle/caches/transforms-3/b9d2f295d6c789339d36e62fe840c85d/transformed/jetified-push-4.0.3.300/AndroidManifest.xml:33:17-72
-	android:name
-		ADDED from [com.huawei.hms:push:4.0.3.300] /Users/huangwei021230/.gradle/caches/transforms-3/b9d2f295d6c789339d36e62fe840c85d/transformed/jetified-push-4.0.3.300/AndroidManifest.xml:33:25-69
-intent-filter#action:name:com.huawei.android.push.intent.RECEIVE+action:name:com.huawei.android.push.intent.REGISTRATION
-ADDED from [com.huawei.hms:push:4.0.3.300] /Users/huangwei021230/.gradle/caches/transforms-3/b9d2f295d6c789339d36e62fe840c85d/transformed/jetified-push-4.0.3.300/AndroidManifest.xml:40:13-46:29
-action#com.huawei.android.push.intent.REGISTRATION
-ADDED from [com.huawei.hms:push:4.0.3.300] /Users/huangwei021230/.gradle/caches/transforms-3/b9d2f295d6c789339d36e62fe840c85d/transformed/jetified-push-4.0.3.300/AndroidManifest.xml:43:17-86
-	android:name
-		ADDED from [com.huawei.hms:push:4.0.3.300] /Users/huangwei021230/.gradle/caches/transforms-3/b9d2f295d6c789339d36e62fe840c85d/transformed/jetified-push-4.0.3.300/AndroidManifest.xml:43:25-83
-action#com.huawei.android.push.intent.RECEIVE
-ADDED from [com.huawei.hms:push:4.0.3.300] /Users/huangwei021230/.gradle/caches/transforms-3/b9d2f295d6c789339d36e62fe840c85d/transformed/jetified-push-4.0.3.300/AndroidManifest.xml:45:17-81
-	android:name
-		ADDED from [com.huawei.hms:push:4.0.3.300] /Users/huangwei021230/.gradle/caches/transforms-3/b9d2f295d6c789339d36e62fe840c85d/transformed/jetified-push-4.0.3.300/AndroidManifest.xml:45:25-78
-service#com.huawei.hms.support.api.push.service.HmsMsgService
-ADDED from [com.huawei.hms:push:4.0.3.300] /Users/huangwei021230/.gradle/caches/transforms-3/b9d2f295d6c789339d36e62fe840c85d/transformed/jetified-push-4.0.3.300/AndroidManifest.xml:50:9-60:19
-	android:process
-		ADDED from [com.huawei.hms:push:4.0.3.300] /Users/huangwei021230/.gradle/caches/transforms-3/b9d2f295d6c789339d36e62fe840c85d/transformed/jetified-push-4.0.3.300/AndroidManifest.xml:55:13-43
-	android:enabled
-		ADDED from [com.huawei.hms:push:4.0.3.300] /Users/huangwei021230/.gradle/caches/transforms-3/b9d2f295d6c789339d36e62fe840c85d/transformed/jetified-push-4.0.3.300/AndroidManifest.xml:53:13-35
-	android:exported
-		ADDED from [com.huawei.hms:push:4.0.3.300] /Users/huangwei021230/.gradle/caches/transforms-3/b9d2f295d6c789339d36e62fe840c85d/transformed/jetified-push-4.0.3.300/AndroidManifest.xml:54:13-36
-	android:directBootAware
-		ADDED from [com.huawei.hms:push:4.0.3.300] /Users/huangwei021230/.gradle/caches/transforms-3/b9d2f295d6c789339d36e62fe840c85d/transformed/jetified-push-4.0.3.300/AndroidManifest.xml:52:13-43
-	android:name
-		ADDED from [com.huawei.hms:push:4.0.3.300] /Users/huangwei021230/.gradle/caches/transforms-3/b9d2f295d6c789339d36e62fe840c85d/transformed/jetified-push-4.0.3.300/AndroidManifest.xml:51:13-81
-intent-filter#action:name:com.huawei.push.msg.NOTIFY_MSG+action:name:com.huawei.push.msg.PASSBY_MSG
-ADDED from [com.huawei.hms:push:4.0.3.300] /Users/huangwei021230/.gradle/caches/transforms-3/b9d2f295d6c789339d36e62fe840c85d/transformed/jetified-push-4.0.3.300/AndroidManifest.xml:56:13-59:29
-action#com.huawei.push.msg.NOTIFY_MSG
-ADDED from [com.huawei.hms:push:4.0.3.300] /Users/huangwei021230/.gradle/caches/transforms-3/b9d2f295d6c789339d36e62fe840c85d/transformed/jetified-push-4.0.3.300/AndroidManifest.xml:57:17-73
-	android:name
-		ADDED from [com.huawei.hms:push:4.0.3.300] /Users/huangwei021230/.gradle/caches/transforms-3/b9d2f295d6c789339d36e62fe840c85d/transformed/jetified-push-4.0.3.300/AndroidManifest.xml:57:25-70
-action#com.huawei.push.msg.PASSBY_MSG
-ADDED from [com.huawei.hms:push:4.0.3.300] /Users/huangwei021230/.gradle/caches/transforms-3/b9d2f295d6c789339d36e62fe840c85d/transformed/jetified-push-4.0.3.300/AndroidManifest.xml:58:17-73
-	android:name
-		ADDED from [com.huawei.hms:push:4.0.3.300] /Users/huangwei021230/.gradle/caches/transforms-3/b9d2f295d6c789339d36e62fe840c85d/transformed/jetified-push-4.0.3.300/AndroidManifest.xml:58:25-70
-provider#com.huawei.hms.support.api.push.PushProvider
-ADDED from [com.huawei.hms:push:4.0.3.300] /Users/huangwei021230/.gradle/caches/transforms-3/b9d2f295d6c789339d36e62fe840c85d/transformed/jetified-push-4.0.3.300/AndroidManifest.xml:62:9-68:89
-	android:readPermission
-		ADDED from [com.huawei.hms:push:4.0.3.300] /Users/huangwei021230/.gradle/caches/transforms-3/b9d2f295d6c789339d36e62fe840c85d/transformed/jetified-push-4.0.3.300/AndroidManifest.xml:67:13-79
-	android:authorities
-		ADDED from [com.huawei.hms:push:4.0.3.300] /Users/huangwei021230/.gradle/caches/transforms-3/b9d2f295d6c789339d36e62fe840c85d/transformed/jetified-push-4.0.3.300/AndroidManifest.xml:64:13-72
-	android:exported
-		ADDED from [com.huawei.hms:push:4.0.3.300] /Users/huangwei021230/.gradle/caches/transforms-3/b9d2f295d6c789339d36e62fe840c85d/transformed/jetified-push-4.0.3.300/AndroidManifest.xml:65:13-36
-	android:permission
-		ADDED from [com.huawei.hms:push:4.0.3.300] /Users/huangwei021230/.gradle/caches/transforms-3/b9d2f295d6c789339d36e62fe840c85d/transformed/jetified-push-4.0.3.300/AndroidManifest.xml:66:13-75
-	android:writePermission
-		ADDED from [com.huawei.hms:push:4.0.3.300] /Users/huangwei021230/.gradle/caches/transforms-3/b9d2f295d6c789339d36e62fe840c85d/transformed/jetified-push-4.0.3.300/AndroidManifest.xml:68:13-86
-	android:name
-		ADDED from [com.huawei.hms:push:4.0.3.300] /Users/huangwei021230/.gradle/caches/transforms-3/b9d2f295d6c789339d36e62fe840c85d/transformed/jetified-push-4.0.3.300/AndroidManifest.xml:63:13-72
-meta-data#com.huawei.hms.client.service.name:push
-ADDED from [com.huawei.hms:push:4.0.3.300] /Users/huangwei021230/.gradle/caches/transforms-3/b9d2f295d6c789339d36e62fe840c85d/transformed/jetified-push-4.0.3.300/AndroidManifest.xml:70:9-72:46
-	android:value
-		ADDED from [com.huawei.hms:push:4.0.3.300] /Users/huangwei021230/.gradle/caches/transforms-3/b9d2f295d6c789339d36e62fe840c85d/transformed/jetified-push-4.0.3.300/AndroidManifest.xml:72:13-43
-	android:name
-		ADDED from [com.huawei.hms:push:4.0.3.300] /Users/huangwei021230/.gradle/caches/transforms-3/b9d2f295d6c789339d36e62fe840c85d/transformed/jetified-push-4.0.3.300/AndroidManifest.xml:71:13-67
-meta-data#com.huawei.hms.min_api_level:push:push
-ADDED from [com.huawei.hms:push:4.0.3.300] /Users/huangwei021230/.gradle/caches/transforms-3/b9d2f295d6c789339d36e62fe840c85d/transformed/jetified-push-4.0.3.300/AndroidManifest.xml:73:9-75:33
-	android:value
-		ADDED from [com.huawei.hms:push:4.0.3.300] /Users/huangwei021230/.gradle/caches/transforms-3/b9d2f295d6c789339d36e62fe840c85d/transformed/jetified-push-4.0.3.300/AndroidManifest.xml:75:13-30
-	android:name
-		ADDED from [com.huawei.hms:push:4.0.3.300] /Users/huangwei021230/.gradle/caches/transforms-3/b9d2f295d6c789339d36e62fe840c85d/transformed/jetified-push-4.0.3.300/AndroidManifest.xml:74:13-66
-meta-data#networkservice_ai
-ADDED from [com.huawei.hms:network-embedded:5.0.4.300] /Users/huangwei021230/.gradle/caches/transforms-3/b373cbb83fc8a4b03c0ff3de7b6d47ce/transformed/jetified-network-embedded-5.0.4.300/AndroidManifest.xml:17:9-19:73
-	android:value
-		ADDED from [com.huawei.hms:network-embedded:5.0.4.300] /Users/huangwei021230/.gradle/caches/transforms-3/b373cbb83fc8a4b03c0ff3de7b6d47ce/transformed/jetified-network-embedded-5.0.4.300/AndroidManifest.xml:19:13-70
-	android:name
-		ADDED from [com.huawei.hms:network-embedded:5.0.4.300] /Users/huangwei021230/.gradle/caches/transforms-3/b373cbb83fc8a4b03c0ff3de7b6d47ce/transformed/jetified-network-embedded-5.0.4.300/AndroidManifest.xml:18:13-45
-meta-data#networkservice_config
-ADDED from [com.huawei.hms:network-embedded:5.0.4.300] /Users/huangwei021230/.gradle/caches/transforms-3/b373cbb83fc8a4b03c0ff3de7b6d47ce/transformed/jetified-network-embedded-5.0.4.300/AndroidManifest.xml:21:9-23:77
-	android:value
-		ADDED from [com.huawei.hms:network-embedded:5.0.4.300] /Users/huangwei021230/.gradle/caches/transforms-3/b373cbb83fc8a4b03c0ff3de7b6d47ce/transformed/jetified-network-embedded-5.0.4.300/AndroidManifest.xml:23:13-74
-	android:name
-		ADDED from [com.huawei.hms:network-embedded:5.0.4.300] /Users/huangwei021230/.gradle/caches/transforms-3/b373cbb83fc8a4b03c0ff3de7b6d47ce/transformed/jetified-network-embedded-5.0.4.300/AndroidManifest.xml:22:13-49
-meta-data#networkservice_dns
-ADDED from [com.huawei.hms:network-embedded:5.0.4.300] /Users/huangwei021230/.gradle/caches/transforms-3/b373cbb83fc8a4b03c0ff3de7b6d47ce/transformed/jetified-network-embedded-5.0.4.300/AndroidManifest.xml:24:9-26:69
-	android:value
-		ADDED from [com.huawei.hms:network-embedded:5.0.4.300] /Users/huangwei021230/.gradle/caches/transforms-3/b373cbb83fc8a4b03c0ff3de7b6d47ce/transformed/jetified-network-embedded-5.0.4.300/AndroidManifest.xml:26:13-66
-	android:name
-		ADDED from [com.huawei.hms:network-embedded:5.0.4.300] /Users/huangwei021230/.gradle/caches/transforms-3/b373cbb83fc8a4b03c0ff3de7b6d47ce/transformed/jetified-network-embedded-5.0.4.300/AndroidManifest.xml:25:13-46
-meta-data#com.huawei.hms.client.service.name:network-api
-ADDED from [com.huawei.hms:network-api:5.0.4.300] /Users/huangwei021230/.gradle/caches/transforms-3/9aa6a9e85ce9ebf3cc56360e714ce028/transformed/jetified-network-api-5.0.4.300/AndroidManifest.xml:17:9-19:53
-	android:value
-		ADDED from [com.huawei.hms:network-api:5.0.4.300] /Users/huangwei021230/.gradle/caches/transforms-3/9aa6a9e85ce9ebf3cc56360e714ce028/transformed/jetified-network-api-5.0.4.300/AndroidManifest.xml:19:13-50
-	android:name
-		ADDED from [com.huawei.hms:network-api:5.0.4.300] /Users/huangwei021230/.gradle/caches/transforms-3/9aa6a9e85ce9ebf3cc56360e714ce028/transformed/jetified-network-api-5.0.4.300/AndroidManifest.xml:18:13-74
-meta-data#com.huawei.hms.min_api_level:network-api:huawei_module_networkkit
-ADDED from [com.huawei.hms:network-api:5.0.4.300] /Users/huangwei021230/.gradle/caches/transforms-3/9aa6a9e85ce9ebf3cc56360e714ce028/transformed/jetified-network-api-5.0.4.300/AndroidManifest.xml:22:9-24:33
-	android:value
-		ADDED from [com.huawei.hms:network-api:5.0.4.300] /Users/huangwei021230/.gradle/caches/transforms-3/9aa6a9e85ce9ebf3cc56360e714ce028/transformed/jetified-network-api-5.0.4.300/AndroidManifest.xml:24:13-30
-	android:name
-		ADDED from [com.huawei.hms:network-api:5.0.4.300] /Users/huangwei021230/.gradle/caches/transforms-3/9aa6a9e85ce9ebf3cc56360e714ce028/transformed/jetified-network-api-5.0.4.300/AndroidManifest.xml:23:13-93
-provider#com.huawei.hms.aaid.InitProvider
-ADDED from [com.huawei.hms:opendevice:4.0.1.301] /Users/huangwei021230/.gradle/caches/transforms-3/e6821752a67ce2719fa350d06e18636b/transformed/jetified-opendevice-4.0.1.301/AndroidManifest.xml:10:9-13:40
-	android:authorities
-		ADDED from [com.huawei.hms:opendevice:4.0.1.301] /Users/huangwei021230/.gradle/caches/transforms-3/e6821752a67ce2719fa350d06e18636b/transformed/jetified-opendevice-4.0.1.301/AndroidManifest.xml:12:13-68
-	android:exported
-		ADDED from [com.huawei.hms:opendevice:4.0.1.301] /Users/huangwei021230/.gradle/caches/transforms-3/e6821752a67ce2719fa350d06e18636b/transformed/jetified-opendevice-4.0.1.301/AndroidManifest.xml:13:13-37
-	android:name
-		ADDED from [com.huawei.hms:opendevice:4.0.1.301] /Users/huangwei021230/.gradle/caches/transforms-3/e6821752a67ce2719fa350d06e18636b/transformed/jetified-opendevice-4.0.1.301/AndroidManifest.xml:11:13-60
-meta-data#com.huawei.hms.client.service.name:opendevice
-ADDED from [com.huawei.hms:opendevice:4.0.1.301] /Users/huangwei021230/.gradle/caches/transforms-3/e6821752a67ce2719fa350d06e18636b/transformed/jetified-opendevice-4.0.1.301/AndroidManifest.xml:15:9-17:52
-	android:value
-		ADDED from [com.huawei.hms:opendevice:4.0.1.301] /Users/huangwei021230/.gradle/caches/transforms-3/e6821752a67ce2719fa350d06e18636b/transformed/jetified-opendevice-4.0.1.301/AndroidManifest.xml:17:13-49
-	android:name
-		ADDED from [com.huawei.hms:opendevice:4.0.1.301] /Users/huangwei021230/.gradle/caches/transforms-3/e6821752a67ce2719fa350d06e18636b/transformed/jetified-opendevice-4.0.1.301/AndroidManifest.xml:16:13-73
-meta-data#com.huawei.hms.min_api_level:opendevice:push
-ADDED from [com.huawei.hms:opendevice:4.0.1.301] /Users/huangwei021230/.gradle/caches/transforms-3/e6821752a67ce2719fa350d06e18636b/transformed/jetified-opendevice-4.0.1.301/AndroidManifest.xml:18:9-20:33
-	android:value
-		ADDED from [com.huawei.hms:opendevice:4.0.1.301] /Users/huangwei021230/.gradle/caches/transforms-3/e6821752a67ce2719fa350d06e18636b/transformed/jetified-opendevice-4.0.1.301/AndroidManifest.xml:20:13-30
-	android:name
-		ADDED from [com.huawei.hms:opendevice:4.0.1.301] /Users/huangwei021230/.gradle/caches/transforms-3/e6821752a67ce2719fa350d06e18636b/transformed/jetified-opendevice-4.0.1.301/AndroidManifest.xml:19:13-72
-uses-permission#com.huawei.appmarket.service.commondata.permission.GET_COMMON_DATA
-ADDED from [com.huawei.hms:base:4.0.2.300] /Users/huangwei021230/.gradle/caches/transforms-3/dcec466431619f25de5c40040e510396/transformed/jetified-base-4.0.2.300/AndroidManifest.xml:18:5-106
-MERGED from [com.huawei.hms:update:2.0.6.300] /Users/huangwei021230/.gradle/caches/transforms-3/6e6a96461d162ab1e15199292c463b44/transformed/jetified-update-2.0.6.300/AndroidManifest.xml:18:5-106
-MERGED from [com.huawei.hms:update:2.0.6.300] /Users/huangwei021230/.gradle/caches/transforms-3/6e6a96461d162ab1e15199292c463b44/transformed/jetified-update-2.0.6.300/AndroidManifest.xml:18:5-106
-	android:name
-		ADDED from [com.huawei.hms:base:4.0.2.300] /Users/huangwei021230/.gradle/caches/transforms-3/dcec466431619f25de5c40040e510396/transformed/jetified-base-4.0.2.300/AndroidManifest.xml:18:22-103
-meta-data#com.huawei.hms.client.service.name:base
-ADDED from [com.huawei.hms:base:4.0.2.300] /Users/huangwei021230/.gradle/caches/transforms-3/dcec466431619f25de5c40040e510396/transformed/jetified-base-4.0.2.300/AndroidManifest.xml:26:9-28:46
-	android:value
-		ADDED from [com.huawei.hms:base:4.0.2.300] /Users/huangwei021230/.gradle/caches/transforms-3/dcec466431619f25de5c40040e510396/transformed/jetified-base-4.0.2.300/AndroidManifest.xml:28:13-43
-	android:name
-		ADDED from [com.huawei.hms:base:4.0.2.300] /Users/huangwei021230/.gradle/caches/transforms-3/dcec466431619f25de5c40040e510396/transformed/jetified-base-4.0.2.300/AndroidManifest.xml:27:13-67
-meta-data#com.huawei.hms.min_api_level:base:hmscore
-ADDED from [com.huawei.hms:base:4.0.2.300] /Users/huangwei021230/.gradle/caches/transforms-3/dcec466431619f25de5c40040e510396/transformed/jetified-base-4.0.2.300/AndroidManifest.xml:31:9-33:33
-	android:value
-		ADDED from [com.huawei.hms:base:4.0.2.300] /Users/huangwei021230/.gradle/caches/transforms-3/dcec466431619f25de5c40040e510396/transformed/jetified-base-4.0.2.300/AndroidManifest.xml:33:13-30
-	android:name
-		ADDED from [com.huawei.hms:base:4.0.2.300] /Users/huangwei021230/.gradle/caches/transforms-3/dcec466431619f25de5c40040e510396/transformed/jetified-base-4.0.2.300/AndroidManifest.xml:32:13-69
-activity#com.huawei.hms.activity.BridgeActivity
-ADDED from [com.huawei.hms:base:4.0.2.300] /Users/huangwei021230/.gradle/caches/transforms-3/dcec466431619f25de5c40040e510396/transformed/jetified-base-4.0.2.300/AndroidManifest.xml:35:9-45:20
-	android:excludeFromRecents
-		ADDED from [com.huawei.hms:base:4.0.2.300] /Users/huangwei021230/.gradle/caches/transforms-3/dcec466431619f25de5c40040e510396/transformed/jetified-base-4.0.2.300/AndroidManifest.xml:38:13-46
-	android:hardwareAccelerated
-		ADDED from [com.huawei.hms:base:4.0.2.300] /Users/huangwei021230/.gradle/caches/transforms-3/dcec466431619f25de5c40040e510396/transformed/jetified-base-4.0.2.300/AndroidManifest.xml:40:13-47
-	android:exported
-		ADDED from [com.huawei.hms:base:4.0.2.300] /Users/huangwei021230/.gradle/caches/transforms-3/dcec466431619f25de5c40040e510396/transformed/jetified-base-4.0.2.300/AndroidManifest.xml:39:13-37
-	android:configChanges
-		ADDED from [com.huawei.hms:base:4.0.2.300] /Users/huangwei021230/.gradle/caches/transforms-3/dcec466431619f25de5c40040e510396/transformed/jetified-base-4.0.2.300/AndroidManifest.xml:37:13-124
-	android:theme
-		ADDED from [com.huawei.hms:base:4.0.2.300] /Users/huangwei021230/.gradle/caches/transforms-3/dcec466431619f25de5c40040e510396/transformed/jetified-base-4.0.2.300/AndroidManifest.xml:41:13-61
-	android:name
-		ADDED from [com.huawei.hms:base:4.0.2.300] /Users/huangwei021230/.gradle/caches/transforms-3/dcec466431619f25de5c40040e510396/transformed/jetified-base-4.0.2.300/AndroidManifest.xml:36:13-66
-activity#com.huawei.hms.activity.EnableServiceActivity
-ADDED from [com.huawei.hms:base:4.0.2.300] /Users/huangwei021230/.gradle/caches/transforms-3/dcec466431619f25de5c40040e510396/transformed/jetified-base-4.0.2.300/AndroidManifest.xml:46:9-49:20
-	android:configChanges
-		ADDED from [com.huawei.hms:base:4.0.2.300] /Users/huangwei021230/.gradle/caches/transforms-3/dcec466431619f25de5c40040e510396/transformed/jetified-base-4.0.2.300/AndroidManifest.xml:48:13-106
-	android:name
-		ADDED from [com.huawei.hms:base:4.0.2.300] /Users/huangwei021230/.gradle/caches/transforms-3/dcec466431619f25de5c40040e510396/transformed/jetified-base-4.0.2.300/AndroidManifest.xml:47:13-73
-provider#com.huawei.hms.update.provider.UpdateProvider
-ADDED from [com.huawei.hms:base:4.0.2.300] /Users/huangwei021230/.gradle/caches/transforms-3/dcec466431619f25de5c40040e510396/transformed/jetified-base-4.0.2.300/AndroidManifest.xml:51:9-56:20
-	android:grantUriPermissions
-		ADDED from [com.huawei.hms:base:4.0.2.300] /Users/huangwei021230/.gradle/caches/transforms-3/dcec466431619f25de5c40040e510396/transformed/jetified-base-4.0.2.300/AndroidManifest.xml:55:13-47
-	android:authorities
-		ADDED from [com.huawei.hms:base:4.0.2.300] /Users/huangwei021230/.gradle/caches/transforms-3/dcec466431619f25de5c40040e510396/transformed/jetified-base-4.0.2.300/AndroidManifest.xml:53:13-71
-	android:exported
-		ADDED from [com.huawei.hms:base:4.0.2.300] /Users/huangwei021230/.gradle/caches/transforms-3/dcec466431619f25de5c40040e510396/transformed/jetified-base-4.0.2.300/AndroidManifest.xml:54:13-37
-	android:name
-		ADDED from [com.huawei.hms:base:4.0.2.300] /Users/huangwei021230/.gradle/caches/transforms-3/dcec466431619f25de5c40040e510396/transformed/jetified-base-4.0.2.300/AndroidManifest.xml:52:13-73
-provider#com.huawei.agconnect.core.provider.AGConnectInitializeProvider
-ADDED from [com.huawei.agconnect:agconnect-core:1.0.0.300] /Users/huangwei021230/.gradle/caches/transforms-3/5da72b6fe9fd3645190e59856ba6e378/transformed/jetified-agconnect-core-1.0.0.300/AndroidManifest.xml:10:9-13:40
-	android:authorities
-		ADDED from [com.huawei.agconnect:agconnect-core:1.0.0.300] /Users/huangwei021230/.gradle/caches/transforms-3/5da72b6fe9fd3645190e59856ba6e378/transformed/jetified-agconnect-core-1.0.0.300/AndroidManifest.xml:12:13-73
-	android:exported
-		ADDED from [com.huawei.agconnect:agconnect-core:1.0.0.300] /Users/huangwei021230/.gradle/caches/transforms-3/5da72b6fe9fd3645190e59856ba6e378/transformed/jetified-agconnect-core-1.0.0.300/AndroidManifest.xml:13:13-37
-	android:name
-		ADDED from [com.huawei.agconnect:agconnect-core:1.0.0.300] /Users/huangwei021230/.gradle/caches/transforms-3/5da72b6fe9fd3645190e59856ba6e378/transformed/jetified-agconnect-core-1.0.0.300/AndroidManifest.xml:11:13-90
 service#com.huawei.agconnect.core.ServiceDiscovery
-ADDED from [com.huawei.agconnect:agconnect-core:1.0.0.300] /Users/huangwei021230/.gradle/caches/transforms-3/5da72b6fe9fd3645190e59856ba6e378/transformed/jetified-agconnect-core-1.0.0.300/AndroidManifest.xml:15:9-17:40
+ADDED from [com.huawei.agconnect:agconnect-auth:1.9.1.301] /Users/huangwei021230/.gradle/caches/transforms-3/efe45eb0955feebd9a998e5af6952cb4/transformed/jetified-agconnect-auth-1.9.1.301/AndroidManifest.xml:11:9-17:19
+MERGED from [com.huawei.agconnect:agconnect-credential:1.9.1.301] /Users/huangwei021230/.gradle/caches/transforms-3/c8c6cefc3720a3aa66d8d7e6a3f6b16a/transformed/jetified-agconnect-credential-1.9.1.301/AndroidManifest.xml:14:9-20:19
+MERGED from [com.huawei.agconnect:agconnect-credential:1.9.1.301] /Users/huangwei021230/.gradle/caches/transforms-3/c8c6cefc3720a3aa66d8d7e6a3f6b16a/transformed/jetified-agconnect-credential-1.9.1.301/AndroidManifest.xml:14:9-20:19
+MERGED from [com.huawei.agconnect:agconnect-core:1.9.1.301] /Users/huangwei021230/.gradle/caches/transforms-3/7805fb3c7154fc9d73d692bf4d8ed5e7/transformed/jetified-agconnect-core-1.9.1.301/AndroidManifest.xml:16:9-18:40
+MERGED from [com.huawei.agconnect:agconnect-core:1.9.1.301] /Users/huangwei021230/.gradle/caches/transforms-3/7805fb3c7154fc9d73d692bf4d8ed5e7/transformed/jetified-agconnect-core-1.9.1.301/AndroidManifest.xml:16:9-18:40
+MERGED from [com.huawei.agconnect:agconnect-api-core:1.9.1.301] /Users/huangwei021230/.gradle/caches/transforms-3/979be059cccb4be1271ac0f4e3a893d1/transformed/jetified-agconnect-api-core-1.9.1.301/AndroidManifest.xml:12:9-18:19
+MERGED from [com.huawei.agconnect:agconnect-api-core:1.9.1.301] /Users/huangwei021230/.gradle/caches/transforms-3/979be059cccb4be1271ac0f4e3a893d1/transformed/jetified-agconnect-api-core-1.9.1.301/AndroidManifest.xml:12:9-18:19
 	android:exported
-		ADDED from [com.huawei.agconnect:agconnect-core:1.0.0.300] /Users/huangwei021230/.gradle/caches/transforms-3/5da72b6fe9fd3645190e59856ba6e378/transformed/jetified-agconnect-core-1.0.0.300/AndroidManifest.xml:17:13-37
+		ADDED from [com.huawei.agconnect:agconnect-auth:1.9.1.301] /Users/huangwei021230/.gradle/caches/transforms-3/efe45eb0955feebd9a998e5af6952cb4/transformed/jetified-agconnect-auth-1.9.1.301/AndroidManifest.xml:13:13-37
 	android:name
-		ADDED from [com.huawei.agconnect:agconnect-core:1.0.0.300] /Users/huangwei021230/.gradle/caches/transforms-3/5da72b6fe9fd3645190e59856ba6e378/transformed/jetified-agconnect-core-1.0.0.300/AndroidManifest.xml:16:13-70
+		ADDED from [com.huawei.agconnect:agconnect-auth:1.9.1.301] /Users/huangwei021230/.gradle/caches/transforms-3/efe45eb0955feebd9a998e5af6952cb4/transformed/jetified-agconnect-auth-1.9.1.301/AndroidManifest.xml:12:13-70
+meta-data#com.huawei.agconnect.auth.AuthServiceRegistrar
+ADDED from [com.huawei.agconnect:agconnect-auth:1.9.1.301] /Users/huangwei021230/.gradle/caches/transforms-3/efe45eb0955feebd9a998e5af6952cb4/transformed/jetified-agconnect-auth-1.9.1.301/AndroidManifest.xml:14:13-16:78
+	android:value
+		ADDED from [com.huawei.agconnect:agconnect-auth:1.9.1.301] /Users/huangwei021230/.gradle/caches/transforms-3/efe45eb0955feebd9a998e5af6952cb4/transformed/jetified-agconnect-auth-1.9.1.301/AndroidManifest.xml:16:17-75
+	android:name
+		ADDED from [com.huawei.agconnect:agconnect-auth:1.9.1.301] /Users/huangwei021230/.gradle/caches/transforms-3/efe45eb0955feebd9a998e5af6952cb4/transformed/jetified-agconnect-auth-1.9.1.301/AndroidManifest.xml:15:17-78
+activity#com.huawei.hms.hwid.internal.ui.activity.HwIdSignInHubActivity
+ADDED from [com.huawei.hms:hwid:4.0.1.300] /Users/huangwei021230/.gradle/caches/transforms-3/847e79bcee885c37fe7bc34fdc900bf8/transformed/jetified-hwid-4.0.1.300/AndroidManifest.xml:10:9-15:20
+	android:excludeFromRecents
+		ADDED from [com.huawei.hms:hwid:4.0.1.300] /Users/huangwei021230/.gradle/caches/transforms-3/847e79bcee885c37fe7bc34fdc900bf8/transformed/jetified-hwid-4.0.1.300/AndroidManifest.xml:12:13-46
+	android:exported
+		ADDED from [com.huawei.hms:hwid:4.0.1.300] /Users/huangwei021230/.gradle/caches/transforms-3/847e79bcee885c37fe7bc34fdc900bf8/transformed/jetified-hwid-4.0.1.300/AndroidManifest.xml:13:13-37
+	android:theme
+		ADDED from [com.huawei.hms:hwid:4.0.1.300] /Users/huangwei021230/.gradle/caches/transforms-3/847e79bcee885c37fe7bc34fdc900bf8/transformed/jetified-hwid-4.0.1.300/AndroidManifest.xml:14:13-72
+	android:name
+		ADDED from [com.huawei.hms:hwid:4.0.1.300] /Users/huangwei021230/.gradle/caches/transforms-3/847e79bcee885c37fe7bc34fdc900bf8/transformed/jetified-hwid-4.0.1.300/AndroidManifest.xml:11:13-90
+meta-data#com.huawei.hms.client.service.name:hwid
+ADDED from [com.huawei.hms:hwid:4.0.1.300] /Users/huangwei021230/.gradle/caches/transforms-3/847e79bcee885c37fe7bc34fdc900bf8/transformed/jetified-hwid-4.0.1.300/AndroidManifest.xml:17:9-19:46
+	android:value
+		ADDED from [com.huawei.hms:hwid:4.0.1.300] /Users/huangwei021230/.gradle/caches/transforms-3/847e79bcee885c37fe7bc34fdc900bf8/transformed/jetified-hwid-4.0.1.300/AndroidManifest.xml:19:13-43
+	android:name
+		ADDED from [com.huawei.hms:hwid:4.0.1.300] /Users/huangwei021230/.gradle/caches/transforms-3/847e79bcee885c37fe7bc34fdc900bf8/transformed/jetified-hwid-4.0.1.300/AndroidManifest.xml:18:13-67
+meta-data#com.huawei.hms.min_api_level:hwid:hwid
+ADDED from [com.huawei.hms:hwid:4.0.1.300] /Users/huangwei021230/.gradle/caches/transforms-3/847e79bcee885c37fe7bc34fdc900bf8/transformed/jetified-hwid-4.0.1.300/AndroidManifest.xml:20:9-22:33
+	android:value
+		ADDED from [com.huawei.hms:hwid:4.0.1.300] /Users/huangwei021230/.gradle/caches/transforms-3/847e79bcee885c37fe7bc34fdc900bf8/transformed/jetified-hwid-4.0.1.300/AndroidManifest.xml:22:13-30
+	android:name
+		ADDED from [com.huawei.hms:hwid:4.0.1.300] /Users/huangwei021230/.gradle/caches/transforms-3/847e79bcee885c37fe7bc34fdc900bf8/transformed/jetified-hwid-4.0.1.300/AndroidManifest.xml:21:13-66
+permission#${applicationId}.permission.PROCESS_PUSH_MSG
+ADDED from [com.huawei.hms:push:4.0.3.300] /Users/huangwei021230/.gradle/caches/transforms-3/c50e2cbdffdee8454c20621d520b1133/transformed/jetified-push-4.0.3.300/AndroidManifest.xml:10:5-12:55
+	android:protectionLevel
+		ADDED from [com.huawei.hms:push:4.0.3.300] /Users/huangwei021230/.gradle/caches/transforms-3/c50e2cbdffdee8454c20621d520b1133/transformed/jetified-push-4.0.3.300/AndroidManifest.xml:12:9-52
+	android:name
+		ADDED from [com.huawei.hms:push:4.0.3.300] /Users/huangwei021230/.gradle/caches/transforms-3/c50e2cbdffdee8454c20621d520b1133/transformed/jetified-push-4.0.3.300/AndroidManifest.xml:11:9-68
+permission#boogiepop.memo.permission.PROCESS_PUSH_MSG
+ADDED from [com.huawei.hms:push:4.0.3.300] /Users/huangwei021230/.gradle/caches/transforms-3/c50e2cbdffdee8454c20621d520b1133/transformed/jetified-push-4.0.3.300/AndroidManifest.xml:10:5-12:55
+	android:protectionLevel
+		ADDED from [com.huawei.hms:push:4.0.3.300] /Users/huangwei021230/.gradle/caches/transforms-3/c50e2cbdffdee8454c20621d520b1133/transformed/jetified-push-4.0.3.300/AndroidManifest.xml:12:9-52
+	android:name
+		ADDED from [com.huawei.hms:push:4.0.3.300] /Users/huangwei021230/.gradle/caches/transforms-3/c50e2cbdffdee8454c20621d520b1133/transformed/jetified-push-4.0.3.300/AndroidManifest.xml:11:9-68
+permission#${applicationId}.permission.PUSH_PROVIDER
+ADDED from [com.huawei.hms:push:4.0.3.300] /Users/huangwei021230/.gradle/caches/transforms-3/c50e2cbdffdee8454c20621d520b1133/transformed/jetified-push-4.0.3.300/AndroidManifest.xml:13:5-15:55
+	android:protectionLevel
+		ADDED from [com.huawei.hms:push:4.0.3.300] /Users/huangwei021230/.gradle/caches/transforms-3/c50e2cbdffdee8454c20621d520b1133/transformed/jetified-push-4.0.3.300/AndroidManifest.xml:15:9-52
+	android:name
+		ADDED from [com.huawei.hms:push:4.0.3.300] /Users/huangwei021230/.gradle/caches/transforms-3/c50e2cbdffdee8454c20621d520b1133/transformed/jetified-push-4.0.3.300/AndroidManifest.xml:14:9-65
+permission#boogiepop.memo.permission.PUSH_PROVIDER
+ADDED from [com.huawei.hms:push:4.0.3.300] /Users/huangwei021230/.gradle/caches/transforms-3/c50e2cbdffdee8454c20621d520b1133/transformed/jetified-push-4.0.3.300/AndroidManifest.xml:13:5-15:55
+	android:protectionLevel
+		ADDED from [com.huawei.hms:push:4.0.3.300] /Users/huangwei021230/.gradle/caches/transforms-3/c50e2cbdffdee8454c20621d520b1133/transformed/jetified-push-4.0.3.300/AndroidManifest.xml:15:9-52
+	android:name
+		ADDED from [com.huawei.hms:push:4.0.3.300] /Users/huangwei021230/.gradle/caches/transforms-3/c50e2cbdffdee8454c20621d520b1133/transformed/jetified-push-4.0.3.300/AndroidManifest.xml:14:9-65
+permission#${applicationId}.permission.PUSH_WRITE_PROVIDER
+ADDED from [com.huawei.hms:push:4.0.3.300] /Users/huangwei021230/.gradle/caches/transforms-3/c50e2cbdffdee8454c20621d520b1133/transformed/jetified-push-4.0.3.300/AndroidManifest.xml:16:5-18:55
+	android:protectionLevel
+		ADDED from [com.huawei.hms:push:4.0.3.300] /Users/huangwei021230/.gradle/caches/transforms-3/c50e2cbdffdee8454c20621d520b1133/transformed/jetified-push-4.0.3.300/AndroidManifest.xml:18:9-52
+	android:name
+		ADDED from [com.huawei.hms:push:4.0.3.300] /Users/huangwei021230/.gradle/caches/transforms-3/c50e2cbdffdee8454c20621d520b1133/transformed/jetified-push-4.0.3.300/AndroidManifest.xml:17:9-71
+permission#boogiepop.memo.permission.PUSH_WRITE_PROVIDER
+ADDED from [com.huawei.hms:push:4.0.3.300] /Users/huangwei021230/.gradle/caches/transforms-3/c50e2cbdffdee8454c20621d520b1133/transformed/jetified-push-4.0.3.300/AndroidManifest.xml:16:5-18:55
+	android:protectionLevel
+		ADDED from [com.huawei.hms:push:4.0.3.300] /Users/huangwei021230/.gradle/caches/transforms-3/c50e2cbdffdee8454c20621d520b1133/transformed/jetified-push-4.0.3.300/AndroidManifest.xml:18:9-52
+	android:name
+		ADDED from [com.huawei.hms:push:4.0.3.300] /Users/huangwei021230/.gradle/caches/transforms-3/c50e2cbdffdee8454c20621d520b1133/transformed/jetified-push-4.0.3.300/AndroidManifest.xml:17:9-71
+uses-permission#${applicationId}.permission.PROCESS_PUSH_MSG
+ADDED from [com.huawei.hms:push:4.0.3.300] /Users/huangwei021230/.gradle/caches/transforms-3/c50e2cbdffdee8454c20621d520b1133/transformed/jetified-push-4.0.3.300/AndroidManifest.xml:20:5-84
+	android:name
+		ADDED from [com.huawei.hms:push:4.0.3.300] /Users/huangwei021230/.gradle/caches/transforms-3/c50e2cbdffdee8454c20621d520b1133/transformed/jetified-push-4.0.3.300/AndroidManifest.xml:20:22-81
+uses-permission#boogiepop.memo.permission.PROCESS_PUSH_MSG
+ADDED from [com.huawei.hms:push:4.0.3.300] /Users/huangwei021230/.gradle/caches/transforms-3/c50e2cbdffdee8454c20621d520b1133/transformed/jetified-push-4.0.3.300/AndroidManifest.xml:20:5-84
+	android:name
+		ADDED from [com.huawei.hms:push:4.0.3.300] /Users/huangwei021230/.gradle/caches/transforms-3/c50e2cbdffdee8454c20621d520b1133/transformed/jetified-push-4.0.3.300/AndroidManifest.xml:20:22-81
+uses-permission#${applicationId}.permission.PUSH_PROVIDER
+ADDED from [com.huawei.hms:push:4.0.3.300] /Users/huangwei021230/.gradle/caches/transforms-3/c50e2cbdffdee8454c20621d520b1133/transformed/jetified-push-4.0.3.300/AndroidManifest.xml:21:5-81
+	android:name
+		ADDED from [com.huawei.hms:push:4.0.3.300] /Users/huangwei021230/.gradle/caches/transforms-3/c50e2cbdffdee8454c20621d520b1133/transformed/jetified-push-4.0.3.300/AndroidManifest.xml:21:22-78
+uses-permission#boogiepop.memo.permission.PUSH_PROVIDER
+ADDED from [com.huawei.hms:push:4.0.3.300] /Users/huangwei021230/.gradle/caches/transforms-3/c50e2cbdffdee8454c20621d520b1133/transformed/jetified-push-4.0.3.300/AndroidManifest.xml:21:5-81
+	android:name
+		ADDED from [com.huawei.hms:push:4.0.3.300] /Users/huangwei021230/.gradle/caches/transforms-3/c50e2cbdffdee8454c20621d520b1133/transformed/jetified-push-4.0.3.300/AndroidManifest.xml:21:22-78
+intent-filter#action:name:com.huawei.intent.action.PUSH+action:name:com.huawei.intent.action.PUSH_DELAY_NOTIFY
+ADDED from [com.huawei.hms:push:4.0.3.300] /Users/huangwei021230/.gradle/caches/transforms-3/c50e2cbdffdee8454c20621d520b1133/transformed/jetified-push-4.0.3.300/AndroidManifest.xml:28:13-34:29
+action#com.huawei.intent.action.PUSH_DELAY_NOTIFY
+ADDED from [com.huawei.hms:push:4.0.3.300] /Users/huangwei021230/.gradle/caches/transforms-3/c50e2cbdffdee8454c20621d520b1133/transformed/jetified-push-4.0.3.300/AndroidManifest.xml:31:17-85
+	android:name
+		ADDED from [com.huawei.hms:push:4.0.3.300] /Users/huangwei021230/.gradle/caches/transforms-3/c50e2cbdffdee8454c20621d520b1133/transformed/jetified-push-4.0.3.300/AndroidManifest.xml:31:25-82
+action#com.huawei.intent.action.PUSH
+ADDED from [com.huawei.hms:push:4.0.3.300] /Users/huangwei021230/.gradle/caches/transforms-3/c50e2cbdffdee8454c20621d520b1133/transformed/jetified-push-4.0.3.300/AndroidManifest.xml:33:17-72
+	android:name
+		ADDED from [com.huawei.hms:push:4.0.3.300] /Users/huangwei021230/.gradle/caches/transforms-3/c50e2cbdffdee8454c20621d520b1133/transformed/jetified-push-4.0.3.300/AndroidManifest.xml:33:25-69
+intent-filter#action:name:com.huawei.android.push.intent.RECEIVE+action:name:com.huawei.android.push.intent.REGISTRATION
+ADDED from [com.huawei.hms:push:4.0.3.300] /Users/huangwei021230/.gradle/caches/transforms-3/c50e2cbdffdee8454c20621d520b1133/transformed/jetified-push-4.0.3.300/AndroidManifest.xml:40:13-46:29
+action#com.huawei.android.push.intent.REGISTRATION
+ADDED from [com.huawei.hms:push:4.0.3.300] /Users/huangwei021230/.gradle/caches/transforms-3/c50e2cbdffdee8454c20621d520b1133/transformed/jetified-push-4.0.3.300/AndroidManifest.xml:43:17-86
+	android:name
+		ADDED from [com.huawei.hms:push:4.0.3.300] /Users/huangwei021230/.gradle/caches/transforms-3/c50e2cbdffdee8454c20621d520b1133/transformed/jetified-push-4.0.3.300/AndroidManifest.xml:43:25-83
+action#com.huawei.android.push.intent.RECEIVE
+ADDED from [com.huawei.hms:push:4.0.3.300] /Users/huangwei021230/.gradle/caches/transforms-3/c50e2cbdffdee8454c20621d520b1133/transformed/jetified-push-4.0.3.300/AndroidManifest.xml:45:17-81
+	android:name
+		ADDED from [com.huawei.hms:push:4.0.3.300] /Users/huangwei021230/.gradle/caches/transforms-3/c50e2cbdffdee8454c20621d520b1133/transformed/jetified-push-4.0.3.300/AndroidManifest.xml:45:25-78
+service#com.huawei.hms.support.api.push.service.HmsMsgService
+ADDED from [com.huawei.hms:push:4.0.3.300] /Users/huangwei021230/.gradle/caches/transforms-3/c50e2cbdffdee8454c20621d520b1133/transformed/jetified-push-4.0.3.300/AndroidManifest.xml:50:9-60:19
+	android:process
+		ADDED from [com.huawei.hms:push:4.0.3.300] /Users/huangwei021230/.gradle/caches/transforms-3/c50e2cbdffdee8454c20621d520b1133/transformed/jetified-push-4.0.3.300/AndroidManifest.xml:55:13-43
+	android:enabled
+		ADDED from [com.huawei.hms:push:4.0.3.300] /Users/huangwei021230/.gradle/caches/transforms-3/c50e2cbdffdee8454c20621d520b1133/transformed/jetified-push-4.0.3.300/AndroidManifest.xml:53:13-35
+	android:exported
+		ADDED from [com.huawei.hms:push:4.0.3.300] /Users/huangwei021230/.gradle/caches/transforms-3/c50e2cbdffdee8454c20621d520b1133/transformed/jetified-push-4.0.3.300/AndroidManifest.xml:54:13-36
+	android:directBootAware
+		ADDED from [com.huawei.hms:push:4.0.3.300] /Users/huangwei021230/.gradle/caches/transforms-3/c50e2cbdffdee8454c20621d520b1133/transformed/jetified-push-4.0.3.300/AndroidManifest.xml:52:13-43
+	android:name
+		ADDED from [com.huawei.hms:push:4.0.3.300] /Users/huangwei021230/.gradle/caches/transforms-3/c50e2cbdffdee8454c20621d520b1133/transformed/jetified-push-4.0.3.300/AndroidManifest.xml:51:13-81
+intent-filter#action:name:com.huawei.push.msg.NOTIFY_MSG+action:name:com.huawei.push.msg.PASSBY_MSG
+ADDED from [com.huawei.hms:push:4.0.3.300] /Users/huangwei021230/.gradle/caches/transforms-3/c50e2cbdffdee8454c20621d520b1133/transformed/jetified-push-4.0.3.300/AndroidManifest.xml:56:13-59:29
+action#com.huawei.push.msg.NOTIFY_MSG
+ADDED from [com.huawei.hms:push:4.0.3.300] /Users/huangwei021230/.gradle/caches/transforms-3/c50e2cbdffdee8454c20621d520b1133/transformed/jetified-push-4.0.3.300/AndroidManifest.xml:57:17-73
+	android:name
+		ADDED from [com.huawei.hms:push:4.0.3.300] /Users/huangwei021230/.gradle/caches/transforms-3/c50e2cbdffdee8454c20621d520b1133/transformed/jetified-push-4.0.3.300/AndroidManifest.xml:57:25-70
+action#com.huawei.push.msg.PASSBY_MSG
+ADDED from [com.huawei.hms:push:4.0.3.300] /Users/huangwei021230/.gradle/caches/transforms-3/c50e2cbdffdee8454c20621d520b1133/transformed/jetified-push-4.0.3.300/AndroidManifest.xml:58:17-73
+	android:name
+		ADDED from [com.huawei.hms:push:4.0.3.300] /Users/huangwei021230/.gradle/caches/transforms-3/c50e2cbdffdee8454c20621d520b1133/transformed/jetified-push-4.0.3.300/AndroidManifest.xml:58:25-70
+provider#com.huawei.hms.support.api.push.PushProvider
+ADDED from [com.huawei.hms:push:4.0.3.300] /Users/huangwei021230/.gradle/caches/transforms-3/c50e2cbdffdee8454c20621d520b1133/transformed/jetified-push-4.0.3.300/AndroidManifest.xml:62:9-68:89
+	android:readPermission
+		ADDED from [com.huawei.hms:push:4.0.3.300] /Users/huangwei021230/.gradle/caches/transforms-3/c50e2cbdffdee8454c20621d520b1133/transformed/jetified-push-4.0.3.300/AndroidManifest.xml:67:13-79
+	android:authorities
+		ADDED from [com.huawei.hms:push:4.0.3.300] /Users/huangwei021230/.gradle/caches/transforms-3/c50e2cbdffdee8454c20621d520b1133/transformed/jetified-push-4.0.3.300/AndroidManifest.xml:64:13-72
+	android:exported
+		ADDED from [com.huawei.hms:push:4.0.3.300] /Users/huangwei021230/.gradle/caches/transforms-3/c50e2cbdffdee8454c20621d520b1133/transformed/jetified-push-4.0.3.300/AndroidManifest.xml:65:13-36
+	android:permission
+		ADDED from [com.huawei.hms:push:4.0.3.300] /Users/huangwei021230/.gradle/caches/transforms-3/c50e2cbdffdee8454c20621d520b1133/transformed/jetified-push-4.0.3.300/AndroidManifest.xml:66:13-75
+	android:writePermission
+		ADDED from [com.huawei.hms:push:4.0.3.300] /Users/huangwei021230/.gradle/caches/transforms-3/c50e2cbdffdee8454c20621d520b1133/transformed/jetified-push-4.0.3.300/AndroidManifest.xml:68:13-86
+	android:name
+		ADDED from [com.huawei.hms:push:4.0.3.300] /Users/huangwei021230/.gradle/caches/transforms-3/c50e2cbdffdee8454c20621d520b1133/transformed/jetified-push-4.0.3.300/AndroidManifest.xml:63:13-72
+meta-data#com.huawei.hms.client.service.name:push
+ADDED from [com.huawei.hms:push:4.0.3.300] /Users/huangwei021230/.gradle/caches/transforms-3/c50e2cbdffdee8454c20621d520b1133/transformed/jetified-push-4.0.3.300/AndroidManifest.xml:70:9-72:46
+	android:value
+		ADDED from [com.huawei.hms:push:4.0.3.300] /Users/huangwei021230/.gradle/caches/transforms-3/c50e2cbdffdee8454c20621d520b1133/transformed/jetified-push-4.0.3.300/AndroidManifest.xml:72:13-43
+	android:name
+		ADDED from [com.huawei.hms:push:4.0.3.300] /Users/huangwei021230/.gradle/caches/transforms-3/c50e2cbdffdee8454c20621d520b1133/transformed/jetified-push-4.0.3.300/AndroidManifest.xml:71:13-67
+meta-data#com.huawei.hms.min_api_level:push:push
+ADDED from [com.huawei.hms:push:4.0.3.300] /Users/huangwei021230/.gradle/caches/transforms-3/c50e2cbdffdee8454c20621d520b1133/transformed/jetified-push-4.0.3.300/AndroidManifest.xml:73:9-75:33
+	android:value
+		ADDED from [com.huawei.hms:push:4.0.3.300] /Users/huangwei021230/.gradle/caches/transforms-3/c50e2cbdffdee8454c20621d520b1133/transformed/jetified-push-4.0.3.300/AndroidManifest.xml:75:13-30
+	android:name
+		ADDED from [com.huawei.hms:push:4.0.3.300] /Users/huangwei021230/.gradle/caches/transforms-3/c50e2cbdffdee8454c20621d520b1133/transformed/jetified-push-4.0.3.300/AndroidManifest.xml:74:13-66
+provider#com.huawei.hms.aaid.InitProvider
+ADDED from [com.huawei.hms:opendevice:4.0.1.301] /Users/huangwei021230/.gradle/caches/transforms-3/df9cc4d1296ba0b1c83ab745fc70cd10/transformed/jetified-opendevice-4.0.1.301/AndroidManifest.xml:10:9-13:40
+	android:authorities
+		ADDED from [com.huawei.hms:opendevice:4.0.1.301] /Users/huangwei021230/.gradle/caches/transforms-3/df9cc4d1296ba0b1c83ab745fc70cd10/transformed/jetified-opendevice-4.0.1.301/AndroidManifest.xml:12:13-68
+	android:exported
+		ADDED from [com.huawei.hms:opendevice:4.0.1.301] /Users/huangwei021230/.gradle/caches/transforms-3/df9cc4d1296ba0b1c83ab745fc70cd10/transformed/jetified-opendevice-4.0.1.301/AndroidManifest.xml:13:13-37
+	android:name
+		ADDED from [com.huawei.hms:opendevice:4.0.1.301] /Users/huangwei021230/.gradle/caches/transforms-3/df9cc4d1296ba0b1c83ab745fc70cd10/transformed/jetified-opendevice-4.0.1.301/AndroidManifest.xml:11:13-60
+meta-data#com.huawei.hms.client.service.name:opendevice
+ADDED from [com.huawei.hms:opendevice:4.0.1.301] /Users/huangwei021230/.gradle/caches/transforms-3/df9cc4d1296ba0b1c83ab745fc70cd10/transformed/jetified-opendevice-4.0.1.301/AndroidManifest.xml:15:9-17:52
+	android:value
+		ADDED from [com.huawei.hms:opendevice:4.0.1.301] /Users/huangwei021230/.gradle/caches/transforms-3/df9cc4d1296ba0b1c83ab745fc70cd10/transformed/jetified-opendevice-4.0.1.301/AndroidManifest.xml:17:13-49
+	android:name
+		ADDED from [com.huawei.hms:opendevice:4.0.1.301] /Users/huangwei021230/.gradle/caches/transforms-3/df9cc4d1296ba0b1c83ab745fc70cd10/transformed/jetified-opendevice-4.0.1.301/AndroidManifest.xml:16:13-73
+meta-data#com.huawei.hms.min_api_level:opendevice:push
+ADDED from [com.huawei.hms:opendevice:4.0.1.301] /Users/huangwei021230/.gradle/caches/transforms-3/df9cc4d1296ba0b1c83ab745fc70cd10/transformed/jetified-opendevice-4.0.1.301/AndroidManifest.xml:18:9-20:33
+	android:value
+		ADDED from [com.huawei.hms:opendevice:4.0.1.301] /Users/huangwei021230/.gradle/caches/transforms-3/df9cc4d1296ba0b1c83ab745fc70cd10/transformed/jetified-opendevice-4.0.1.301/AndroidManifest.xml:20:13-30
+	android:name
+		ADDED from [com.huawei.hms:opendevice:4.0.1.301] /Users/huangwei021230/.gradle/caches/transforms-3/df9cc4d1296ba0b1c83ab745fc70cd10/transformed/jetified-opendevice-4.0.1.301/AndroidManifest.xml:19:13-72
+uses-permission#com.huawei.appmarket.service.commondata.permission.GET_COMMON_DATA
+ADDED from [com.huawei.hms:base:4.0.2.300] /Users/huangwei021230/.gradle/caches/transforms-3/a0797ecb4575c1dbb684bfb19ae9ea0c/transformed/jetified-base-4.0.2.300/AndroidManifest.xml:18:5-106
+MERGED from [com.huawei.hms:update:2.0.6.300] /Users/huangwei021230/.gradle/caches/transforms-3/5261facd26240cee9789971c8764902c/transformed/jetified-update-2.0.6.300/AndroidManifest.xml:18:5-106
+MERGED from [com.huawei.hms:update:2.0.6.300] /Users/huangwei021230/.gradle/caches/transforms-3/5261facd26240cee9789971c8764902c/transformed/jetified-update-2.0.6.300/AndroidManifest.xml:18:5-106
+	android:name
+		ADDED from [com.huawei.hms:base:4.0.2.300] /Users/huangwei021230/.gradle/caches/transforms-3/a0797ecb4575c1dbb684bfb19ae9ea0c/transformed/jetified-base-4.0.2.300/AndroidManifest.xml:18:22-103
+meta-data#com.huawei.hms.client.service.name:base
+ADDED from [com.huawei.hms:base:4.0.2.300] /Users/huangwei021230/.gradle/caches/transforms-3/a0797ecb4575c1dbb684bfb19ae9ea0c/transformed/jetified-base-4.0.2.300/AndroidManifest.xml:26:9-28:46
+	android:value
+		ADDED from [com.huawei.hms:base:4.0.2.300] /Users/huangwei021230/.gradle/caches/transforms-3/a0797ecb4575c1dbb684bfb19ae9ea0c/transformed/jetified-base-4.0.2.300/AndroidManifest.xml:28:13-43
+	android:name
+		ADDED from [com.huawei.hms:base:4.0.2.300] /Users/huangwei021230/.gradle/caches/transforms-3/a0797ecb4575c1dbb684bfb19ae9ea0c/transformed/jetified-base-4.0.2.300/AndroidManifest.xml:27:13-67
+meta-data#com.huawei.hms.min_api_level:base:hmscore
+ADDED from [com.huawei.hms:base:4.0.2.300] /Users/huangwei021230/.gradle/caches/transforms-3/a0797ecb4575c1dbb684bfb19ae9ea0c/transformed/jetified-base-4.0.2.300/AndroidManifest.xml:31:9-33:33
+	android:value
+		ADDED from [com.huawei.hms:base:4.0.2.300] /Users/huangwei021230/.gradle/caches/transforms-3/a0797ecb4575c1dbb684bfb19ae9ea0c/transformed/jetified-base-4.0.2.300/AndroidManifest.xml:33:13-30
+	android:name
+		ADDED from [com.huawei.hms:base:4.0.2.300] /Users/huangwei021230/.gradle/caches/transforms-3/a0797ecb4575c1dbb684bfb19ae9ea0c/transformed/jetified-base-4.0.2.300/AndroidManifest.xml:32:13-69
+activity#com.huawei.hms.activity.BridgeActivity
+ADDED from [com.huawei.hms:base:4.0.2.300] /Users/huangwei021230/.gradle/caches/transforms-3/a0797ecb4575c1dbb684bfb19ae9ea0c/transformed/jetified-base-4.0.2.300/AndroidManifest.xml:35:9-45:20
+	android:excludeFromRecents
+		ADDED from [com.huawei.hms:base:4.0.2.300] /Users/huangwei021230/.gradle/caches/transforms-3/a0797ecb4575c1dbb684bfb19ae9ea0c/transformed/jetified-base-4.0.2.300/AndroidManifest.xml:38:13-46
+	android:hardwareAccelerated
+		ADDED from [com.huawei.hms:base:4.0.2.300] /Users/huangwei021230/.gradle/caches/transforms-3/a0797ecb4575c1dbb684bfb19ae9ea0c/transformed/jetified-base-4.0.2.300/AndroidManifest.xml:40:13-47
+	android:exported
+		ADDED from [com.huawei.hms:base:4.0.2.300] /Users/huangwei021230/.gradle/caches/transforms-3/a0797ecb4575c1dbb684bfb19ae9ea0c/transformed/jetified-base-4.0.2.300/AndroidManifest.xml:39:13-37
+	android:configChanges
+		ADDED from [com.huawei.hms:base:4.0.2.300] /Users/huangwei021230/.gradle/caches/transforms-3/a0797ecb4575c1dbb684bfb19ae9ea0c/transformed/jetified-base-4.0.2.300/AndroidManifest.xml:37:13-124
+	android:theme
+		ADDED from [com.huawei.hms:base:4.0.2.300] /Users/huangwei021230/.gradle/caches/transforms-3/a0797ecb4575c1dbb684bfb19ae9ea0c/transformed/jetified-base-4.0.2.300/AndroidManifest.xml:41:13-61
+	android:name
+		ADDED from [com.huawei.hms:base:4.0.2.300] /Users/huangwei021230/.gradle/caches/transforms-3/a0797ecb4575c1dbb684bfb19ae9ea0c/transformed/jetified-base-4.0.2.300/AndroidManifest.xml:36:13-66
+activity#com.huawei.hms.activity.EnableServiceActivity
+ADDED from [com.huawei.hms:base:4.0.2.300] /Users/huangwei021230/.gradle/caches/transforms-3/a0797ecb4575c1dbb684bfb19ae9ea0c/transformed/jetified-base-4.0.2.300/AndroidManifest.xml:46:9-49:20
+	android:configChanges
+		ADDED from [com.huawei.hms:base:4.0.2.300] /Users/huangwei021230/.gradle/caches/transforms-3/a0797ecb4575c1dbb684bfb19ae9ea0c/transformed/jetified-base-4.0.2.300/AndroidManifest.xml:48:13-106
+	android:name
+		ADDED from [com.huawei.hms:base:4.0.2.300] /Users/huangwei021230/.gradle/caches/transforms-3/a0797ecb4575c1dbb684bfb19ae9ea0c/transformed/jetified-base-4.0.2.300/AndroidManifest.xml:47:13-73
+provider#com.huawei.hms.update.provider.UpdateProvider
+ADDED from [com.huawei.hms:base:4.0.2.300] /Users/huangwei021230/.gradle/caches/transforms-3/a0797ecb4575c1dbb684bfb19ae9ea0c/transformed/jetified-base-4.0.2.300/AndroidManifest.xml:51:9-56:20
+	android:grantUriPermissions
+		ADDED from [com.huawei.hms:base:4.0.2.300] /Users/huangwei021230/.gradle/caches/transforms-3/a0797ecb4575c1dbb684bfb19ae9ea0c/transformed/jetified-base-4.0.2.300/AndroidManifest.xml:55:13-47
+	android:authorities
+		ADDED from [com.huawei.hms:base:4.0.2.300] /Users/huangwei021230/.gradle/caches/transforms-3/a0797ecb4575c1dbb684bfb19ae9ea0c/transformed/jetified-base-4.0.2.300/AndroidManifest.xml:53:13-71
+	android:exported
+		ADDED from [com.huawei.hms:base:4.0.2.300] /Users/huangwei021230/.gradle/caches/transforms-3/a0797ecb4575c1dbb684bfb19ae9ea0c/transformed/jetified-base-4.0.2.300/AndroidManifest.xml:54:13-37
+	android:name
+		ADDED from [com.huawei.hms:base:4.0.2.300] /Users/huangwei021230/.gradle/caches/transforms-3/a0797ecb4575c1dbb684bfb19ae9ea0c/transformed/jetified-base-4.0.2.300/AndroidManifest.xml:52:13-73
+meta-data#com.huawei.agconnect.credential.CredentialServiceRegistrar:100
+ADDED from [com.huawei.agconnect:agconnect-credential:1.9.1.301] /Users/huangwei021230/.gradle/caches/transforms-3/c8c6cefc3720a3aa66d8d7e6a3f6b16a/transformed/jetified-agconnect-credential-1.9.1.301/AndroidManifest.xml:17:13-19:78
+	android:value
+		ADDED from [com.huawei.agconnect:agconnect-credential:1.9.1.301] /Users/huangwei021230/.gradle/caches/transforms-3/c8c6cefc3720a3aa66d8d7e6a3f6b16a/transformed/jetified-agconnect-credential-1.9.1.301/AndroidManifest.xml:19:17-75
+	android:name
+		ADDED from [com.huawei.agconnect:agconnect-credential:1.9.1.301] /Users/huangwei021230/.gradle/caches/transforms-3/c8c6cefc3720a3aa66d8d7e6a3f6b16a/transformed/jetified-agconnect-credential-1.9.1.301/AndroidManifest.xml:18:17-94
+provider#com.huawei.agconnect.core.provider.AGConnectInitializeProvider
+ADDED from [com.huawei.agconnect:agconnect-core:1.9.1.301] /Users/huangwei021230/.gradle/caches/transforms-3/7805fb3c7154fc9d73d692bf4d8ed5e7/transformed/jetified-agconnect-core-1.9.1.301/AndroidManifest.xml:11:9-14:40
+	android:authorities
+		ADDED from [com.huawei.agconnect:agconnect-core:1.9.1.301] /Users/huangwei021230/.gradle/caches/transforms-3/7805fb3c7154fc9d73d692bf4d8ed5e7/transformed/jetified-agconnect-core-1.9.1.301/AndroidManifest.xml:13:13-73
+	android:exported
+		ADDED from [com.huawei.agconnect:agconnect-core:1.9.1.301] /Users/huangwei021230/.gradle/caches/transforms-3/7805fb3c7154fc9d73d692bf4d8ed5e7/transformed/jetified-agconnect-core-1.9.1.301/AndroidManifest.xml:14:13-37
+	android:name
+		ADDED from [com.huawei.agconnect:agconnect-core:1.9.1.301] /Users/huangwei021230/.gradle/caches/transforms-3/7805fb3c7154fc9d73d692bf4d8ed5e7/transformed/jetified-agconnect-core-1.9.1.301/AndroidManifest.xml:12:13-90
+meta-data#com.huawei.hms.client.service.name:drive
+ADDED from [com.huawei.hms:drive:5.2.0.300] /Users/huangwei021230/.gradle/caches/transforms-3/3f008d4d7fe57c75c015d6932529eeff/transformed/jetified-drive-5.2.0.300/AndroidManifest.xml:12:9-14:47
+	android:value
+		ADDED from [com.huawei.hms:drive:5.2.0.300] /Users/huangwei021230/.gradle/caches/transforms-3/3f008d4d7fe57c75c015d6932529eeff/transformed/jetified-drive-5.2.0.300/AndroidManifest.xml:14:13-44
+	android:name
+		ADDED from [com.huawei.hms:drive:5.2.0.300] /Users/huangwei021230/.gradle/caches/transforms-3/3f008d4d7fe57c75c015d6932529eeff/transformed/jetified-drive-5.2.0.300/AndroidManifest.xml:13:13-68
+uses-library#org.apache.http.legacy
+ADDED from [com.huawei.hms:drive:5.2.0.300] /Users/huangwei021230/.gradle/caches/transforms-3/3f008d4d7fe57c75c015d6932529eeff/transformed/jetified-drive-5.2.0.300/AndroidManifest.xml:16:9-18:40
+	android:required
+		ADDED from [com.huawei.hms:drive:5.2.0.300] /Users/huangwei021230/.gradle/caches/transforms-3/3f008d4d7fe57c75c015d6932529eeff/transformed/jetified-drive-5.2.0.300/AndroidManifest.xml:18:13-37
+	android:name
+		ADDED from [com.huawei.hms:drive:5.2.0.300] /Users/huangwei021230/.gradle/caches/transforms-3/3f008d4d7fe57c75c015d6932529eeff/transformed/jetified-drive-5.2.0.300/AndroidManifest.xml:17:13-50
+meta-data#networkservice_ai
+ADDED from [com.huawei.hms:network-embedded:5.0.4.300] /Users/huangwei021230/.gradle/caches/transforms-3/b2ae2b4b9e21b44fa23b57a2a06b864d/transformed/jetified-network-embedded-5.0.4.300/AndroidManifest.xml:17:9-19:73
+	android:value
+		ADDED from [com.huawei.hms:network-embedded:5.0.4.300] /Users/huangwei021230/.gradle/caches/transforms-3/b2ae2b4b9e21b44fa23b57a2a06b864d/transformed/jetified-network-embedded-5.0.4.300/AndroidManifest.xml:19:13-70
+	android:name
+		ADDED from [com.huawei.hms:network-embedded:5.0.4.300] /Users/huangwei021230/.gradle/caches/transforms-3/b2ae2b4b9e21b44fa23b57a2a06b864d/transformed/jetified-network-embedded-5.0.4.300/AndroidManifest.xml:18:13-45
+meta-data#networkservice_config
+ADDED from [com.huawei.hms:network-embedded:5.0.4.300] /Users/huangwei021230/.gradle/caches/transforms-3/b2ae2b4b9e21b44fa23b57a2a06b864d/transformed/jetified-network-embedded-5.0.4.300/AndroidManifest.xml:21:9-23:77
+	android:value
+		ADDED from [com.huawei.hms:network-embedded:5.0.4.300] /Users/huangwei021230/.gradle/caches/transforms-3/b2ae2b4b9e21b44fa23b57a2a06b864d/transformed/jetified-network-embedded-5.0.4.300/AndroidManifest.xml:23:13-74
+	android:name
+		ADDED from [com.huawei.hms:network-embedded:5.0.4.300] /Users/huangwei021230/.gradle/caches/transforms-3/b2ae2b4b9e21b44fa23b57a2a06b864d/transformed/jetified-network-embedded-5.0.4.300/AndroidManifest.xml:22:13-49
+meta-data#networkservice_dns
+ADDED from [com.huawei.hms:network-embedded:5.0.4.300] /Users/huangwei021230/.gradle/caches/transforms-3/b2ae2b4b9e21b44fa23b57a2a06b864d/transformed/jetified-network-embedded-5.0.4.300/AndroidManifest.xml:24:9-26:69
+	android:value
+		ADDED from [com.huawei.hms:network-embedded:5.0.4.300] /Users/huangwei021230/.gradle/caches/transforms-3/b2ae2b4b9e21b44fa23b57a2a06b864d/transformed/jetified-network-embedded-5.0.4.300/AndroidManifest.xml:26:13-66
+	android:name
+		ADDED from [com.huawei.hms:network-embedded:5.0.4.300] /Users/huangwei021230/.gradle/caches/transforms-3/b2ae2b4b9e21b44fa23b57a2a06b864d/transformed/jetified-network-embedded-5.0.4.300/AndroidManifest.xml:25:13-46
+meta-data#com.huawei.hms.client.service.name:network-api
+ADDED from [com.huawei.hms:network-api:5.0.4.300] /Users/huangwei021230/.gradle/caches/transforms-3/d560ec5c70d83e319fc919778eaf98dc/transformed/jetified-network-api-5.0.4.300/AndroidManifest.xml:17:9-19:53
+	android:value
+		ADDED from [com.huawei.hms:network-api:5.0.4.300] /Users/huangwei021230/.gradle/caches/transforms-3/d560ec5c70d83e319fc919778eaf98dc/transformed/jetified-network-api-5.0.4.300/AndroidManifest.xml:19:13-50
+	android:name
+		ADDED from [com.huawei.hms:network-api:5.0.4.300] /Users/huangwei021230/.gradle/caches/transforms-3/d560ec5c70d83e319fc919778eaf98dc/transformed/jetified-network-api-5.0.4.300/AndroidManifest.xml:18:13-74
+meta-data#com.huawei.hms.min_api_level:network-api:huawei_module_networkkit
+ADDED from [com.huawei.hms:network-api:5.0.4.300] /Users/huangwei021230/.gradle/caches/transforms-3/d560ec5c70d83e319fc919778eaf98dc/transformed/jetified-network-api-5.0.4.300/AndroidManifest.xml:22:9-24:33
+	android:value
+		ADDED from [com.huawei.hms:network-api:5.0.4.300] /Users/huangwei021230/.gradle/caches/transforms-3/d560ec5c70d83e319fc919778eaf98dc/transformed/jetified-network-api-5.0.4.300/AndroidManifest.xml:24:13-30
+	android:name
+		ADDED from [com.huawei.hms:network-api:5.0.4.300] /Users/huangwei021230/.gradle/caches/transforms-3/d560ec5c70d83e319fc919778eaf98dc/transformed/jetified-network-api-5.0.4.300/AndroidManifest.xml:23:13-93
+meta-data#com.huawei.agconnect.api.ApiServiceRegistrar
+ADDED from [com.huawei.agconnect:agconnect-api-core:1.9.1.301] /Users/huangwei021230/.gradle/caches/transforms-3/979be059cccb4be1271ac0f4e3a893d1/transformed/jetified-agconnect-api-core-1.9.1.301/AndroidManifest.xml:15:13-17:78
+	android:value
+		ADDED from [com.huawei.agconnect:agconnect-api-core:1.9.1.301] /Users/huangwei021230/.gradle/caches/transforms-3/979be059cccb4be1271ac0f4e3a893d1/transformed/jetified-agconnect-api-core-1.9.1.301/AndroidManifest.xml:17:17-75
+	android:name
+		ADDED from [com.huawei.agconnect:agconnect-api-core:1.9.1.301] /Users/huangwei021230/.gradle/caches/transforms-3/979be059cccb4be1271ac0f4e3a893d1/transformed/jetified-agconnect-api-core-1.9.1.301/AndroidManifest.xml:16:17-76
 activity#com.huawei.updatesdk.service.otaupdate.AppUpdateActivity
-ADDED from [com.huawei.hms:update:2.0.6.300] /Users/huangwei021230/.gradle/caches/transforms-3/6e6a96461d162ab1e15199292c463b44/transformed/jetified-update-2.0.6.300/AndroidManifest.xml:21:9-29:20
+ADDED from [com.huawei.hms:update:2.0.6.300] /Users/huangwei021230/.gradle/caches/transforms-3/5261facd26240cee9789971c8764902c/transformed/jetified-update-2.0.6.300/AndroidManifest.xml:21:9-29:20
 	android:exported
-		ADDED from [com.huawei.hms:update:2.0.6.300] /Users/huangwei021230/.gradle/caches/transforms-3/6e6a96461d162ab1e15199292c463b44/transformed/jetified-update-2.0.6.300/AndroidManifest.xml:24:13-37
+		ADDED from [com.huawei.hms:update:2.0.6.300] /Users/huangwei021230/.gradle/caches/transforms-3/5261facd26240cee9789971c8764902c/transformed/jetified-update-2.0.6.300/AndroidManifest.xml:24:13-37
 	android:configChanges
-		ADDED from [com.huawei.hms:update:2.0.6.300] /Users/huangwei021230/.gradle/caches/transforms-3/6e6a96461d162ab1e15199292c463b44/transformed/jetified-update-2.0.6.300/AndroidManifest.xml:23:13-59
+		ADDED from [com.huawei.hms:update:2.0.6.300] /Users/huangwei021230/.gradle/caches/transforms-3/5261facd26240cee9789971c8764902c/transformed/jetified-update-2.0.6.300/AndroidManifest.xml:23:13-59
 	android:theme
-		ADDED from [com.huawei.hms:update:2.0.6.300] /Users/huangwei021230/.gradle/caches/transforms-3/6e6a96461d162ab1e15199292c463b44/transformed/jetified-update-2.0.6.300/AndroidManifest.xml:25:13-49
+		ADDED from [com.huawei.hms:update:2.0.6.300] /Users/huangwei021230/.gradle/caches/transforms-3/5261facd26240cee9789971c8764902c/transformed/jetified-update-2.0.6.300/AndroidManifest.xml:25:13-49
 	android:name
-		ADDED from [com.huawei.hms:update:2.0.6.300] /Users/huangwei021230/.gradle/caches/transforms-3/6e6a96461d162ab1e15199292c463b44/transformed/jetified-update-2.0.6.300/AndroidManifest.xml:22:13-84
+		ADDED from [com.huawei.hms:update:2.0.6.300] /Users/huangwei021230/.gradle/caches/transforms-3/5261facd26240cee9789971c8764902c/transformed/jetified-update-2.0.6.300/AndroidManifest.xml:22:13-84
 activity#com.huawei.updatesdk.support.pm.PackageInstallerActivity
-ADDED from [com.huawei.hms:update:2.0.6.300] /Users/huangwei021230/.gradle/caches/transforms-3/6e6a96461d162ab1e15199292c463b44/transformed/jetified-update-2.0.6.300/AndroidManifest.xml:30:9-38:20
+ADDED from [com.huawei.hms:update:2.0.6.300] /Users/huangwei021230/.gradle/caches/transforms-3/5261facd26240cee9789971c8764902c/transformed/jetified-update-2.0.6.300/AndroidManifest.xml:30:9-38:20
 	android:exported
-		ADDED from [com.huawei.hms:update:2.0.6.300] /Users/huangwei021230/.gradle/caches/transforms-3/6e6a96461d162ab1e15199292c463b44/transformed/jetified-update-2.0.6.300/AndroidManifest.xml:33:13-37
+		ADDED from [com.huawei.hms:update:2.0.6.300] /Users/huangwei021230/.gradle/caches/transforms-3/5261facd26240cee9789971c8764902c/transformed/jetified-update-2.0.6.300/AndroidManifest.xml:33:13-37
 	android:configChanges
-		ADDED from [com.huawei.hms:update:2.0.6.300] /Users/huangwei021230/.gradle/caches/transforms-3/6e6a96461d162ab1e15199292c463b44/transformed/jetified-update-2.0.6.300/AndroidManifest.xml:32:13-74
+		ADDED from [com.huawei.hms:update:2.0.6.300] /Users/huangwei021230/.gradle/caches/transforms-3/5261facd26240cee9789971c8764902c/transformed/jetified-update-2.0.6.300/AndroidManifest.xml:32:13-74
 	android:theme
-		ADDED from [com.huawei.hms:update:2.0.6.300] /Users/huangwei021230/.gradle/caches/transforms-3/6e6a96461d162ab1e15199292c463b44/transformed/jetified-update-2.0.6.300/AndroidManifest.xml:34:13-49
+		ADDED from [com.huawei.hms:update:2.0.6.300] /Users/huangwei021230/.gradle/caches/transforms-3/5261facd26240cee9789971c8764902c/transformed/jetified-update-2.0.6.300/AndroidManifest.xml:34:13-49
 	android:name
-		ADDED from [com.huawei.hms:update:2.0.6.300] /Users/huangwei021230/.gradle/caches/transforms-3/6e6a96461d162ab1e15199292c463b44/transformed/jetified-update-2.0.6.300/AndroidManifest.xml:31:13-84
+		ADDED from [com.huawei.hms:update:2.0.6.300] /Users/huangwei021230/.gradle/caches/transforms-3/5261facd26240cee9789971c8764902c/transformed/jetified-update-2.0.6.300/AndroidManifest.xml:31:13-84
 queries
-ADDED from [com.huawei.hms:dynamic-api:1.0.17.300] /Users/huangwei021230/.gradle/caches/transforms-3/b77597fcb7911bca8d9ec7c0690720f6/transformed/jetified-dynamic-api-1.0.17.300/AndroidManifest.xml:11:5-14:15
+ADDED from [com.huawei.hms:dynamic-api:1.0.17.300] /Users/huangwei021230/.gradle/caches/transforms-3/f1e48c6d13f7c825419a6432ced4988a/transformed/jetified-dynamic-api-1.0.17.300/AndroidManifest.xml:11:5-14:15
 package#com.huawei.hms
-ADDED from [com.huawei.hms:dynamic-api:1.0.17.300] /Users/huangwei021230/.gradle/caches/transforms-3/b77597fcb7911bca8d9ec7c0690720f6/transformed/jetified-dynamic-api-1.0.17.300/AndroidManifest.xml:12:9-50
+ADDED from [com.huawei.hms:dynamic-api:1.0.17.300] /Users/huangwei021230/.gradle/caches/transforms-3/f1e48c6d13f7c825419a6432ced4988a/transformed/jetified-dynamic-api-1.0.17.300/AndroidManifest.xml:12:9-50
 	android:name
-		ADDED from [com.huawei.hms:dynamic-api:1.0.17.300] /Users/huangwei021230/.gradle/caches/transforms-3/b77597fcb7911bca8d9ec7c0690720f6/transformed/jetified-dynamic-api-1.0.17.300/AndroidManifest.xml:12:18-47
+		ADDED from [com.huawei.hms:dynamic-api:1.0.17.300] /Users/huangwei021230/.gradle/caches/transforms-3/f1e48c6d13f7c825419a6432ced4988a/transformed/jetified-dynamic-api-1.0.17.300/AndroidManifest.xml:12:18-47
 package#com.huawei.hwid
-ADDED from [com.huawei.hms:dynamic-api:1.0.17.300] /Users/huangwei021230/.gradle/caches/transforms-3/b77597fcb7911bca8d9ec7c0690720f6/transformed/jetified-dynamic-api-1.0.17.300/AndroidManifest.xml:13:9-51
+ADDED from [com.huawei.hms:dynamic-api:1.0.17.300] /Users/huangwei021230/.gradle/caches/transforms-3/f1e48c6d13f7c825419a6432ced4988a/transformed/jetified-dynamic-api-1.0.17.300/AndroidManifest.xml:13:9-51
 	android:name
-		ADDED from [com.huawei.hms:dynamic-api:1.0.17.300] /Users/huangwei021230/.gradle/caches/transforms-3/b77597fcb7911bca8d9ec7c0690720f6/transformed/jetified-dynamic-api-1.0.17.300/AndroidManifest.xml:13:18-48
+		ADDED from [com.huawei.hms:dynamic-api:1.0.17.300] /Users/huangwei021230/.gradle/caches/transforms-3/f1e48c6d13f7c825419a6432ced4988a/transformed/jetified-dynamic-api-1.0.17.300/AndroidManifest.xml:13:18-48
 meta-data#com.huawei.hms.client.service.name:dynamic-api
-ADDED from [com.huawei.hms:dynamic-api:1.0.17.300] /Users/huangwei021230/.gradle/caches/transforms-3/b77597fcb7911bca8d9ec7c0690720f6/transformed/jetified-dynamic-api-1.0.17.300/AndroidManifest.xml:17:9-19:54
+ADDED from [com.huawei.hms:dynamic-api:1.0.17.300] /Users/huangwei021230/.gradle/caches/transforms-3/f1e48c6d13f7c825419a6432ced4988a/transformed/jetified-dynamic-api-1.0.17.300/AndroidManifest.xml:17:9-19:54
 	android:value
-		ADDED from [com.huawei.hms:dynamic-api:1.0.17.300] /Users/huangwei021230/.gradle/caches/transforms-3/b77597fcb7911bca8d9ec7c0690720f6/transformed/jetified-dynamic-api-1.0.17.300/AndroidManifest.xml:19:13-51
+		ADDED from [com.huawei.hms:dynamic-api:1.0.17.300] /Users/huangwei021230/.gradle/caches/transforms-3/f1e48c6d13f7c825419a6432ced4988a/transformed/jetified-dynamic-api-1.0.17.300/AndroidManifest.xml:19:13-51
 	android:name
-		ADDED from [com.huawei.hms:dynamic-api:1.0.17.300] /Users/huangwei021230/.gradle/caches/transforms-3/b77597fcb7911bca8d9ec7c0690720f6/transformed/jetified-dynamic-api-1.0.17.300/AndroidManifest.xml:18:13-74
+		ADDED from [com.huawei.hms:dynamic-api:1.0.17.300] /Users/huangwei021230/.gradle/caches/transforms-3/f1e48c6d13f7c825419a6432ced4988a/transformed/jetified-dynamic-api-1.0.17.300/AndroidManifest.xml:18:13-74
 meta-data#com.huawei.hms.min_api_level:dynamic-api:huawei_module_dynamicloader
-ADDED from [com.huawei.hms:dynamic-api:1.0.17.300] /Users/huangwei021230/.gradle/caches/transforms-3/b77597fcb7911bca8d9ec7c0690720f6/transformed/jetified-dynamic-api-1.0.17.300/AndroidManifest.xml:20:9-22:33
+ADDED from [com.huawei.hms:dynamic-api:1.0.17.300] /Users/huangwei021230/.gradle/caches/transforms-3/f1e48c6d13f7c825419a6432ced4988a/transformed/jetified-dynamic-api-1.0.17.300/AndroidManifest.xml:20:9-22:33
 	android:value
-		ADDED from [com.huawei.hms:dynamic-api:1.0.17.300] /Users/huangwei021230/.gradle/caches/transforms-3/b77597fcb7911bca8d9ec7c0690720f6/transformed/jetified-dynamic-api-1.0.17.300/AndroidManifest.xml:22:13-30
+		ADDED from [com.huawei.hms:dynamic-api:1.0.17.300] /Users/huangwei021230/.gradle/caches/transforms-3/f1e48c6d13f7c825419a6432ced4988a/transformed/jetified-dynamic-api-1.0.17.300/AndroidManifest.xml:22:13-30
 	android:name
-		ADDED from [com.huawei.hms:dynamic-api:1.0.17.300] /Users/huangwei021230/.gradle/caches/transforms-3/b77597fcb7911bca8d9ec7c0690720f6/transformed/jetified-dynamic-api-1.0.17.300/AndroidManifest.xml:21:13-96
+		ADDED from [com.huawei.hms:dynamic-api:1.0.17.300] /Users/huangwei021230/.gradle/caches/transforms-3/f1e48c6d13f7c825419a6432ced4988a/transformed/jetified-dynamic-api-1.0.17.300/AndroidManifest.xml:21:13-96

@@ -14,10 +14,8 @@
     <uses-permission android:name="android.permission.WRITE_SECURE_SETTINGS" />
     <uses-permission android:name="android.permission.WRITE_MEDIA_STORAGE" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-
-    <!-- for HMS SDK upgrade -->
     <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES" />
-    <!-- 注意这里.permission.PASSBY_MSG是自身app的包名 + .permission.PROCESS_PUSH_MSG -->
+
     <permission
         android:name="boogiepop.memo.permission.PROCESS_PUSH_MSG"
         android:protectionLevel="signatureOrSystem" />
@@ -26,9 +24,10 @@
         android:protectionLevel="signatureOrSystem" />
     <permission
         android:name="boogiepop.memo.permission.PUSH_WRITE_PROVIDER"
-        android:protectionLevel="signatureOrSystem" /> <!-- 注意这里.permission.PASSBY_MSG是自身app的包名 + .permission.PROCESS_PUSH_MSG -->
+        android:protectionLevel="signatureOrSystem" />
+
     <uses-permission android:name="boogiepop.memo.permission.PROCESS_PUSH_MSG" />
-    <uses-permission android:name="boogiepop.memo.permission.PUSH_PROVIDER" /> <!-- 应用市场9.0版本必须使用该权限获取用户的服务地 -->
+    <uses-permission android:name="boogiepop.memo.permission.PUSH_PROVIDER" />
     <uses-permission android:name="com.huawei.appmarket.service.commondata.permission.GET_COMMON_DATA" />
 
     <queries>
@@ -54,8 +53,7 @@
 
         <activity
             android:name="com.huawei.cloud.drive.MainActivity"
-            android:screenOrientation="portrait" >
-        </activity>
+            android:screenOrientation="portrait" />
         <activity
             android:name="com.huawei.cloud.drive.SplashActivity"
             android:exported="true"
@@ -76,13 +74,8 @@
             android:directBootAware="true"
             android:exported="true"
             android:permission="boogiepop.memo.permission.PROCESS_PUSH_MSG" >
-
-            <!-- 其他属性 -->
             <intent-filter>
-
-                <!-- 必须, 用于接收通知栏消息点击事件 -->
                 <action android:name="com.huawei.intent.action.PUSH_DELAY_NOTIFY" />
-                <!-- 可选，兼容老的华为手机 -->
                 <action android:name="com.huawei.intent.action.PUSH" />
             </intent-filter>
         </receiver>
@@ -91,13 +84,8 @@
             android:directBootAware="true"
             android:exported="true"
             android:permission="boogiepop.memo.permission.PROCESS_PUSH_MSG" >
-
-            <!-- 其他属性 -->
             <intent-filter>
-
-                <!-- 必须,用于接收token -->
                 <action android:name="com.huawei.android.push.intent.REGISTRATION" />
-                <!-- 必须, 用于接收消息 -->
                 <action android:name="com.huawei.android.push.intent.RECEIVE" />
             </intent-filter>
         </receiver>
@@ -112,27 +100,33 @@
                 android:value="@style/Theme.AppCompat.NoActionBar" />
         </activity>
 
-        <meta-data
-            android:name="com.huawei.hms.client.service.name:drive"
-            android:value="drive:5.2.0.300" />
-
-        <uses-library
-            android:name="org.apache.http.legacy"
-            android:required="false" />
+        <service
+            android:name="com.huawei.agconnect.core.ServiceDiscovery"
+            android:exported="false" >
+            <meta-data
+                android:name="com.huawei.agconnect.auth.AuthServiceRegistrar"
+                android:value="com.huawei.agconnect.core.ServiceRegistrar" />
+            <meta-data
+                android:name="com.huawei.agconnect.credential.CredentialServiceRegistrar:100"
+                android:value="com.huawei.agconnect.core.ServiceRegistrar" />
+            <meta-data
+                android:name="com.huawei.agconnect.api.ApiServiceRegistrar"
+                android:value="com.huawei.agconnect.core.ServiceRegistrar" />
+        </service>
 
         <activity
             android:name="com.huawei.hms.hwid.internal.ui.activity.HwIdSignInHubActivity"
             android:excludeFromRecents="true"
             android:exported="false"
-            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
-        </activity>
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
 
         <meta-data
             android:name="com.huawei.hms.client.service.name:hwid"
             android:value="hwid:4.0.1.300" />
         <meta-data
             android:name="com.huawei.hms.min_api_level:hwid:hwid"
-            android:value="1" /> <!-- 非华为手机通知栏和透传消息的接收服务定义 -->
+            android:value="1" />
+
         <service
             android:name="com.huawei.hms.support.api.push.service.HmsMsgService"
             android:directBootAware="true"
@@ -158,22 +152,7 @@
             android:value="push:4.0.3.300" />
         <meta-data
             android:name="com.huawei.hms.min_api_level:push:push"
-            android:value="1" /> <!-- 服务meta-data配置 -->
-        <meta-data
-            android:name="networkservice_ai"
-            android:value="com.huawei.hms.network.ai.AIPolicyService" /> <!-- 服务meta-data配置 -->
-        <meta-data
-            android:name="networkservice_config"
-            android:value="com.huawei.hms.network.conf.api.ConfigService" /> <!-- 服务meta-data配置 -->
-        <meta-data
-            android:name="networkservice_dns"
-            android:value="com.huawei.hms.network.dns.DNSService" /> <!-- 声明kit sdk服务名和版本号apiLevel -->
-        <meta-data
-            android:name="com.huawei.hms.client.service.name:network-api"
-            android:value="network-api:5.0.4.300" /> <!-- 声明kit sdk所依赖的最小kit apk的apiLevel，最小为2 -->
-        <meta-data
-            android:name="com.huawei.hms.min_api_level:network-api:huawei_module_networkkit"
-            android:value="6" />
+            android:value="1" />
 
         <provider
             android:name="com.huawei.hms.aaid.InitProvider"
@@ -186,13 +165,9 @@
         <meta-data
             android:name="com.huawei.hms.min_api_level:opendevice:push"
             android:value="1" />
-        <!--
-        为后续统计第三方app集成了哪些Kit，因此需要Kit在自己的AndroidManifest.xml文件中定义业务标签元数据，
-        流水线打包时会替换成HMSVER对应的版本号，不要手动修改
-        -->
         <meta-data
             android:name="com.huawei.hms.client.service.name:base"
-            android:value="base:4.0.2.300" /> <!-- SDK依赖的HMSCore的最低api level元数据 -->
+            android:value="base:4.0.2.300" />
         <meta-data
             android:name="com.huawei.hms.min_api_level:base:hmscore"
             android:value="1" />
@@ -210,23 +185,41 @@
         </activity>
         <activity
             android:name="com.huawei.hms.activity.EnableServiceActivity"
-            android:configChanges="orientation|keyboardHidden|screenSize|smallestScreenSize|screenLayout" >
-        </activity>
+            android:configChanges="orientation|keyboardHidden|screenSize|smallestScreenSize|screenLayout" />
 
         <provider
             android:name="com.huawei.hms.update.provider.UpdateProvider"
             android:authorities="boogiepop.memo.hms.update.provider"
             android:exported="false"
-            android:grantUriPermissions="true" >
-        </provider>
+            android:grantUriPermissions="true" />
         <provider
             android:name="com.huawei.agconnect.core.provider.AGConnectInitializeProvider"
             android:authorities="boogiepop.memo.AGCInitializeProvider"
             android:exported="false" />
 
-        <service
-            android:name="com.huawei.agconnect.core.ServiceDiscovery"
-            android:exported="false" />
+        <meta-data
+            android:name="com.huawei.hms.client.service.name:drive"
+            android:value="drive:5.2.0.300" />
+
+        <uses-library
+            android:name="org.apache.http.legacy"
+            android:required="false" />
+
+        <meta-data
+            android:name="networkservice_ai"
+            android:value="com.huawei.hms.network.ai.AIPolicyService" />
+        <meta-data
+            android:name="networkservice_config"
+            android:value="com.huawei.hms.network.conf.api.ConfigService" />
+        <meta-data
+            android:name="networkservice_dns"
+            android:value="com.huawei.hms.network.dns.DNSService" />
+        <meta-data
+            android:name="com.huawei.hms.client.service.name:network-api"
+            android:value="network-api:5.0.4.300" />
+        <meta-data
+            android:name="com.huawei.hms.min_api_level:network-api:huawei_module_networkkit"
+            android:value="6" />
 
         <activity
             android:name="com.huawei.updatesdk.service.otaupdate.AppUpdateActivity"
@@ -253,6 +246,9 @@
         <meta-data
             android:name="com.huawei.hms.min_api_level:dynamic-api:huawei_module_dynamicloader"
             android:value="6" />
+        <meta-data
+            android:name="com.huawei.hms.client.appid"
+            android:value="appid=109711073" />
     </application>
 
 </manifest>

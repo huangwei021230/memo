@@ -112,13 +112,19 @@
                 android:value="@style/Theme.AppCompat.NoActionBar" />
         </activity>
 
-        <meta-data
-            android:name="com.huawei.hms.client.service.name:drive"
-            android:value="drive:5.2.0.300" />
-
-        <uses-library
-            android:name="org.apache.http.legacy"
-            android:required="false" />
+        <service
+            android:name="com.huawei.agconnect.core.ServiceDiscovery"
+            android:exported="false" >
+            <meta-data
+                android:name="com.huawei.agconnect.auth.AuthServiceRegistrar"
+                android:value="com.huawei.agconnect.core.ServiceRegistrar" />
+            <meta-data
+                android:name="com.huawei.agconnect.credential.CredentialServiceRegistrar:100"
+                android:value="com.huawei.agconnect.core.ServiceRegistrar" />
+            <meta-data
+                android:name="com.huawei.agconnect.api.ApiServiceRegistrar"
+                android:value="com.huawei.agconnect.core.ServiceRegistrar" />
+        </service>
 
         <activity
             android:name="com.huawei.hms.hwid.internal.ui.activity.HwIdSignInHubActivity"
@@ -158,22 +164,7 @@
             android:value="push:4.0.3.300" />
         <meta-data
             android:name="com.huawei.hms.min_api_level:push:push"
-            android:value="1" /> <!-- 服务meta-data配置 -->
-        <meta-data
-            android:name="networkservice_ai"
-            android:value="com.huawei.hms.network.ai.AIPolicyService" /> <!-- 服务meta-data配置 -->
-        <meta-data
-            android:name="networkservice_config"
-            android:value="com.huawei.hms.network.conf.api.ConfigService" /> <!-- 服务meta-data配置 -->
-        <meta-data
-            android:name="networkservice_dns"
-            android:value="com.huawei.hms.network.dns.DNSService" /> <!-- 声明kit sdk服务名和版本号apiLevel -->
-        <meta-data
-            android:name="com.huawei.hms.client.service.name:network-api"
-            android:value="network-api:5.0.4.300" /> <!-- 声明kit sdk所依赖的最小kit apk的apiLevel，最小为2 -->
-        <meta-data
-            android:name="com.huawei.hms.min_api_level:network-api:huawei_module_networkkit"
-            android:value="6" />
+            android:value="1" />
 
         <provider
             android:name="com.huawei.hms.aaid.InitProvider"
@@ -224,9 +215,28 @@
             android:authorities="boogiepop.memo.AGCInitializeProvider"
             android:exported="false" />
 
-        <service
-            android:name="com.huawei.agconnect.core.ServiceDiscovery"
-            android:exported="false" />
+        <meta-data
+            android:name="com.huawei.hms.client.service.name:drive"
+            android:value="drive:5.2.0.300" />
+
+        <uses-library
+            android:name="org.apache.http.legacy"
+            android:required="false" /> <!-- 服务meta-data配置 -->
+        <meta-data
+            android:name="networkservice_ai"
+            android:value="com.huawei.hms.network.ai.AIPolicyService" /> <!-- 服务meta-data配置 -->
+        <meta-data
+            android:name="networkservice_config"
+            android:value="com.huawei.hms.network.conf.api.ConfigService" /> <!-- 服务meta-data配置 -->
+        <meta-data
+            android:name="networkservice_dns"
+            android:value="com.huawei.hms.network.dns.DNSService" /> <!-- 声明kit sdk服务名和版本号apiLevel -->
+        <meta-data
+            android:name="com.huawei.hms.client.service.name:network-api"
+            android:value="network-api:5.0.4.300" /> <!-- 声明kit sdk所依赖的最小kit apk的apiLevel，最小为2 -->
+        <meta-data
+            android:name="com.huawei.hms.min_api_level:network-api:huawei_module_networkkit"
+            android:value="6" />
 
         <activity
             android:name="com.huawei.updatesdk.service.otaupdate.AppUpdateActivity"

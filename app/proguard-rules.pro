@@ -33,3 +33,4 @@
 -keep class com.huawei.cloud.client.** {*;}
 -keep class com.huawei.cloud.base.json.JsonError{*;}
 -keep class com.huawei.cloud.base.json.JsonErrorContainer{*;}
+-keep class com.huawei.agconnect.**{*;}

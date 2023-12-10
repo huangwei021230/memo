@@ -19,6 +19,7 @@ package com.huawei.cloud.drive;
 import android.app.Application;
 
 import com.huawei.cloud.drive.common.ContextHolder;
+import com.huawei.cloud.drive.hms.CloudDBManager;
 import com.huawei.cloud.drive.hms.CredentialManager;
 
 /**
@@ -31,5 +32,6 @@ public class MainApplication extends Application {
         // Clean up the cache before the process starts.
         CredentialManager.getInstance().exit(this.getApplicationContext());
         ContextHolder.init(this.getApplicationContext());
+        CloudDBManager.initAGConnectCloudDB(this);
     }
 }

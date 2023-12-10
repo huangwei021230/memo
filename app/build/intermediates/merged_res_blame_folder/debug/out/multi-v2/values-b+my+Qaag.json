@@ -1,27 +1,20 @@
 {
     "logs": [
         {
-            "outputFile": "boogiepop.memo.app-mergeDebugResources-21:/values-b+my+Qaag/values-b+my+Qaag.xml",
+            "outputFile": "boogiepop.memo.app-mergeDebugResources-22:/values-b+my+Qaag/values-b+my+Qaag.xml",
             "map": [
                 {
-                    "source": "/Users/huangwei021230/.gradle/caches/transforms-3/35f1cfe872d0d009e37773798c158cc1/transformed/jetified-hwid-4.0.1.300/res/values-b+my+Qaag/values-b+my+Qaag.xml",
+                    "source": "/Users/huangwei021230/.gradle/caches/transforms-3/a0797ecb4575c1dbb684bfb19ae9ea0c/transformed/jetified-base-4.0.2.300/res/values-b+my+Qaag/values-b+my+Qaag.xml",
                     "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "105",
-                        "endOffsets": "156"
-                    },
-                    "to": {
-                        "startLines": "26",
-                        "startColumns": "4",
-                        "startOffsets": "2834",
-                        "endColumns": "105",
-                        "endOffsets": "2935"
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,121,215,558,626,746,854,948,1018,1170,1290,1416,1555,1642,1735,1814,1883,2043,2118,2189,2264,2453,2604,2734",
+                        "endColumns": "65,93,342,67,119,107,93,69,151,119,125,138,86,92,78,68,159,74,70,74,188,150,129,99",
+                        "endOffsets": "116,210,553,621,741,849,943,1013,1165,1285,1411,1550,1637,1730,1809,1878,2038,2113,2184,2259,2448,2599,2729,2829"
                     }
                 },
                 {
-                    "source": "/Users/huangwei021230/.gradle/caches/transforms-3/6e6a96461d162ab1e15199292c463b44/transformed/jetified-update-2.0.6.300/res/values-b+my+Qaag/values-b+my+Qaag.xml",
+                    "source": "/Users/huangwei021230/.gradle/caches/transforms-3/5261facd26240cee9789971c8764902c/transformed/jetified-update-2.0.6.300/res/values-b+my+Qaag/values-b+my+Qaag.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -38,13 +31,20 @@
                     }
                 },
                 {
-                    "source": "/Users/huangwei021230/.gradle/caches/transforms-3/dcec466431619f25de5c40040e510396/transformed/jetified-base-4.0.2.300/res/values-b+my+Qaag/values-b+my+Qaag.xml",
+                    "source": "/Users/huangwei021230/.gradle/caches/transforms-3/847e79bcee885c37fe7bc34fdc900bf8/transformed/jetified-hwid-4.0.1.300/res/values-b+my+Qaag/values-b+my+Qaag.xml",
                     "from": {
-                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,121,215,558,626,746,854,948,1018,1170,1290,1416,1555,1642,1735,1814,1883,2043,2118,2189,2264,2453,2604,2734",
-                        "endColumns": "65,93,342,67,119,107,93,69,151,119,125,138,86,92,78,68,159,74,70,74,188,150,129,99",
-                        "endOffsets": "116,210,553,621,741,849,943,1013,1165,1285,1411,1550,1637,1730,1809,1878,2038,2113,2184,2259,2448,2599,2729,2829"
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "105",
+                        "endOffsets": "156"
+                    },
+                    "to": {
+                        "startLines": "26",
+                        "startColumns": "4",
+                        "startOffsets": "2834",
+                        "endColumns": "105",
+                        "endOffsets": "2935"
                     }
                 }
             ]
