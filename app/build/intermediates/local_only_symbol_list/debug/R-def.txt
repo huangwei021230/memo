@@ -165,7 +165,6 @@ id save_button
 id splash_info
 id title_edit_text
 id title_text_view
-id toolbar
 id welcome_image
 layout activity_main
 layout activity_memo_detail
